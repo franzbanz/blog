@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">  
+    <head>
+        <title>Page title</title>
+        <link rel="stylesheet" href="/style.css">
+        {% if includesMath %}
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script>
+        MathJax = {
+            tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+          };
+        </script>
+        {% endif %}
+    </head>
+    <body>
+        <a href="/">Franz Banz</a>
+        {{ content }}
+    </body>
+</html>
