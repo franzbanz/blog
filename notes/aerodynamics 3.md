@@ -1,6 +1,7 @@
 ---
-title: thermodynamics 3
-date: 2025-03-02
+course: aerodynamics
+type: lecture
+date: 2025-02-02 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true

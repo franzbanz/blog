@@ -1,14 +1,25 @@
 ﻿---
 layout: base
 ---
+<h1>
+    notes done during the last seven days
+</h1>
 <ol class="notes-list">
+    
+    {% assign one_week_ago = 'now' | date: "%s" | minus: 604800 %}
     {% assign sorted_notes = collections.notes | sort: 'date' | reverse %}
+    {% assign grouped_notes = "" %}
+
     {% for note in sorted_notes %}
-    <li>
-        <p>
-            <span class="notes-date">{{ note.data.date | date: "%B %d, %Y" }}</span>
-        <a href="{{ note.url }}">{{ note.data.title }}</a>
-        </p>
-    </li>
+        {% assign note_date = note.data.date | date: "%s" %}
+        {% if note_date >= one_week_ago %}
+            <li>
+                <p>
+                    <span style="text-transform: lowercase;" class="notes-date">{{ note.data.date | date: "%B %d, %Y" }}</span>
+                    <span class = "notes-type">{{ note.data.type }}</span>
+                    <a href="{{ note.url }}">{{ note.data.course }}</a>
+                </p>
+            </li>
+        {% endif %}
     {% endfor %}
 </ol>

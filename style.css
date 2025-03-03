@@ -23,6 +23,22 @@ body {
     padding: 30px;
   }
 
+footer {
+  display: block;
+  padding-top: 50px;
+  text-align: right;
+  color: var(--color3);
+}
+
+footer p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links a {
+  margin-left: 10px;
+}
+
 nav {
     display: flex;
     background-color: var(--color1);
@@ -56,6 +72,10 @@ nav {
   display: block;
 }
 
+h1 {
+  padding: 10px 20px;
+}
+
 ol {
     display: block;
     list-style-type: decimal;
@@ -76,6 +96,11 @@ ol {
   width: 200px;
 }
 
+.notes-type {
+  display: inline-block;
+  width: 150px;
+}
+
 a:link {
     text-decoration: none;
     color: var(--textcolor);
@@ -92,3 +117,7 @@ a:active {
     text-decoration: underline;
     color: var(--textcolor);
   }
+
+@media (max-width: 600px){
+
+}
