@@ -13,12 +13,16 @@
         {% endif %}
     </head>
     <body>
-        <a style="font-size: 35px; font-family: Helvetica; font-weight: bold;" href="/">franzkoehler.com </a>
-        <ul>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="contact.asp">Lectures</a></li>
-            <li><a href="about.asp">About</a></li>
-        </ul>
+        <nav>
+            <div class="logo">
+                <a href="/">franzkoehler.com</a>
+            </div>
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/notes">Notes</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
         {{ content }}
     </body>
 </html>

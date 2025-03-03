@@ -1,14 +1,13 @@
 ﻿---
 layout: base
 ---
-
-<ol>
+<ol class="notes-list">
     {% assign sorted_notes = collections.notes | sort: 'date' | reverse %}
     {% for note in sorted_notes %}
     <li>
-        <p>{{ note.data.date | date: "%B %d, %Y" }}
+        <p>
+            <span class="notes-date">{{ note.data.date | date: "%B %d, %Y" }}</span>
         <a href="{{ note.url }}">{{ note.data.title }}</a>
-        <br>
         </p>
     </li>
     {% endfor %}

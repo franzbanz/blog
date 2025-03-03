@@ -1,6 +1,6 @@
 ---
 title: thermodynamics 4
-date: 2025-03-02
+date: 2025-03-03
 tags: notes
 layout: note
 includesMath: true
