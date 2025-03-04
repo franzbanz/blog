@@ -11,22 +11,26 @@
           };
         </script>
         {% endif %}
-        <nav>
-            <div class="logo">
-                <a href="/">franzkoehler.com</a>
-            </div>
-            <ul class="navbar">
-                <li><a href="/all-notes">notes</a></li>
-                <li><a href="/archive">archive</a></li>
-                <li><a href="/about">about</a></li>
-            </ul>
-        </nav>
     </head>
     <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="/">franzkoehler.com</a>
+                </div>
+                <ul class="navbar">
+                    <li><a href="/all-notes">notes</a></li>
+                    <li><a href="/archive">archive</a></li>
+                    <li><a href="/about">about</a></li>
+                </ul>
+            </nav>
+        </header>
         {{ content }}
         <footer>
             <p>
-                <span class="name">Franz Koehler</span>
+                <span class="name">
+                    Franz Koehler
+                </span>
                 <span class="links">
                     <a href="https://github.com/franzbanz">github</a>
                     <!-- <a href="https://linkedin.com/in/franzkoehler">linkedin</a> -->
