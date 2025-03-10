@@ -1,4 +1,4 @@
 export default function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("style.css");
-    eleventyConfig.addPassthroughCopy("pdfs")
+    eleventyConfig.addPassthroughCopy("src/style.css");
+    eleventyConfig.addPassthroughCopy("src/pdfs")
   };

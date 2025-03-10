@@ -2,7 +2,7 @@
 <html lang="en">  
     <head>
         <title>franzkoehler.com</title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/src/style.css">
         {% if includesMath %}
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script>
@@ -15,27 +15,20 @@
     <body>
         <header>
             <nav>
-                <div class="logo">
-                    <a href="/">franzkoehler.com</a>
-                </div>
-                <ul class="navbar">
-                    <li><a href="/all-notes">notes</a></li>
-                    <li><a href="/archive">archive</a></li>
-                    <li><a href="/about">about</a></li>
+                <ul class="nav">
+                    <li class="nav"><a style="text-align: left;" href="/">franzkoehler.com</a></li>
+                    <li class="nav"><a style="text-align: right;" href="https://github.com/franzbanz">github</a></li>
+                    <!-- <li class="nav"><a href="/src/all-notes">notes</a></li>
+                    <li class="nav"><a href="/src/archive">archive</a></li>
+                    <li class="nav"><a href="/src/about">about</a></li> -->
                 </ul>
             </nav>
         </header>
         {{ content }}
         <footer>
-            <p>
-                <span class="name">
-                    Franz Koehler
-                </span>
-                <span class="links">
-                    <a href="https://github.com/franzbanz">github</a>
-                    <!-- <a href="https://linkedin.com/in/franzkoehler">linkedin</a> -->
-                </span>
-            </p>
-        </footer>
+            <!-- <div class="name" style="text-align: left;"> Franz Koehler </div>
+            <a class="socials" style="text-align: right;" href="https://github.com/franzbanz">github</a> -->
+            <!-- <a class="socials" href="https://linkedin.com/in/franzkoehler">linkedin</a> -->
+            </footer>
     </body>
 </html>

@@ -1,25 +1,53 @@
 ﻿---
 layout: base
 ---
-<h1>
-    notes done during the last seven days
-</h1>
-<ol class="notes-list">
+<div>
+    <section class="lecture-notes">
+        <h2>Mitschriften</h2>
+        {% assign sorted_notes = collections.notes | sort: 'date' | reverse %}
+        {% assign grouped_notes = sorted_notes | group_by: 'data.course' %}
+        {% for group in grouped_notes %}
+            <h3>{{ group.name }}</h3>
+            <ol>
+                {% for note in group.items %}
+                    <li>
+                        <span class="notes-type" style="display:inline-block; width: 100px;">{{ note.data.type }}</span>
+                        <a href="{{ note.url }}">{{ note.data.date | date: "%B %d, %Y" }}</a>
+                    </li>
+                {% endfor %}
+            </ol>
+        {% endfor %}
+    </section>
     
-    {% assign one_week_ago = 'now' | date: "%s" | minus: 604800 %}
-    {% assign sorted_notes = collections.notes | sort: 'date' | reverse %}
-    {% assign grouped_notes = "" %}
 
-    {% for note in sorted_notes %}
-        {% assign note_date = note.data.date | date: "%s" %}
-        {% if note_date >= one_week_ago %}
-            <li>
-                <p>
-                    <span style="text-transform: lowercase;" class="notes-date">{{ note.data.date | date: "%B %d, %Y" }}</span>
-                    <span class = "notes-type">{{ note.data.type }}</span>
-                    <a href="{{ note.url }}">{{ note.data.course }}</a>
-                </p>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ol>
+    <section class="exams">
+        <h2>Prüfungsvorbereitung</h2>
+        <p>
+            <ol class="archive-list">
+                <li><a target="_blank" href="/src/pdfs/HM3.pdf">höhere mathematik 3</a></li>
+                <li><a target="_blank" href="/src/pdfs/LFT.pdf">luftfahrttechnik</a></li>
+                <li><a target="_blank" href="/src/pdfs/SYSTEME1.pdf">luftfahrtsysteme</a></li>
+                <li><a target="_blank" href="/src/pdfs/NUMSIM.pdf">numerische simulation</a></li>
+                <li><a target="_blank" href="/src/pdfs/RAUMFAHRT.pdf">raumfahrt</a></li>
+                <li><a target="_blank" href="/src/pdfs/STATIK.pdf">statik</a></li>
+                <li><a target="_blank" href="/src/pdfs/STROEMUNG1.pdf">strömungslehre 1</a></li>
+                <li><a target="_blank" href="/src/pdfs/STROEMUNG2.pdf">strömungslehre 2</a></li>
+                <li><a target="_blank" href="/src/pdfs/THERMO.pdf">thermodynamik</a></li>
+                <li><a target="_blank" href="/src/pdfs/TM2.pdf">technische mechanik 2</a></li>
+                <li><a target="_blank" href="/src/pdfs/TM3.pdf">technische mechanik 3</a></li>
+            </ol>
+        </p>
+    </section>
+
+    <section class="about">
+        <h2>Zeugs</h2>
+        <p>
+            test test das ist eine
+            tolle sache
+            mit
+            zeilenumbbrüchen oder wie ich grade sehe gibt es doch keine Zeilenumbrüche, nur manchmal
+            aber nicht wenn ich will wobei eigentlich sieht es so doch ganz gut aus ich glaub
+            das lasse ich erstmal so
+        </p>
+    </section>
+</div>
