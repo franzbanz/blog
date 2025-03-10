@@ -11,7 +11,7 @@ layout: base
             <ol>
                 {% for note in group.items %}
                     <li>
-                        <span class="notes-type" style="display:inline-block; width: 100px;">{{ note.data.type }}</span>
+                        <span class="notes-type">{{ note.data.type }}</span>
                         <a href="{{ note.url }}">{{ note.data.date | date: "%B %d, %Y" }}</a>
                     </li>
                 {% endfor %}
