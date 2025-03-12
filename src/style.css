@@ -80,8 +80,10 @@ ol{
   margin-top: 5px;
 }
 
-p{
+section.about p{
   padding-left: 8px;
+  margin-right: 8px;
+  text-align: justify;
 }
 
 header{
