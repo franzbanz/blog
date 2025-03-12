@@ -135,6 +135,7 @@ a:visited {
   
   div{
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   section{
@@ -147,6 +148,7 @@ a:visited {
   }
   
   section.about{
+    width: 100%;
     margin-left: 0px;
     margin-top: -1px;
   }
