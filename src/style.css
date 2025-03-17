@@ -18,7 +18,7 @@ body {
 ul.nav {
   list-style-type: none;
   margin: 0;
-  padding: 0px;
+  padding: 8px;
   padding-bottom: 10px;
   padding-top: 10px;
   display: flex;
@@ -28,7 +28,6 @@ ul.nav {
 
 li.nav a {
   display: block;
-  padding: 0;
   text-align: center;
 }
 
@@ -44,7 +43,7 @@ section{
 
 section.lecture-notes{
   background-color: var(--color2);
-  margin-right: -0.5px;
+  margin-right: -1px;
 }
 
 section.exams{
@@ -53,7 +52,7 @@ section.exams{
 
 section.about{
   background-color: var(--color4);
-  margin-left: -0.5px;
+  margin-left: -1px;
 }
 
 h2{
@@ -81,12 +80,16 @@ ol{
   margin-top: 5px;
 }
 
-p{
+section.about p{
   padding-left: 8px;
+  margin-right: 8px;
+  text-align: justify;
 }
 
 header{
   font-size: 20px;
+  margin-bottom: -1px;
+  border: 1px solid var(--color1);
 }
 
 a {
@@ -106,6 +109,40 @@ a:visited {
   text-decoration: none;
 }
 
+/* note layout */
+
+div.placeholder{
+  padding-top: 40px;
+}
+
+article.note{
+  margin: auto;
+  width: 700px;
+  font-size: 19px;
+  text-align: justify;
+}
+
+article.note h1{
+  padding: 0px;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+article.note h2{
+  margin-top: 10px;
+  font-size: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 1px solid var(--color1);
+}
+
+article.note p{
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
 @media (max-width: 800px){
   div{
     flex-wrap: wrap;
@@ -118,13 +155,19 @@ a:visited {
   }
 
   section.lecture-notes{
-    margin-right: -0.5px;
+    margin-right: -1px;
   }
   
   section.about{
     width: 50%;
     margin-left: 0px;
-    margin-top: -0.5px;
+    margin-top: -1px;
+  }
+
+  /* note layout */
+
+  article.note{
+    width: 100%;
   }
 }
 
@@ -144,12 +187,18 @@ a:visited {
 
   section.lecture-notes{
     margin-right: 0px;
-    margin-bottom: -0.5px;
+    margin-bottom: -1px;
   }
   
   section.about{
     width: 100%;
     margin-left: 0px;
-    margin-top: -0.5px;
+    margin-top: -1px;
+  }
+
+  /* note layout */
+
+  article.note{
+    width: 100%;
   }
 }
