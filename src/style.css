@@ -76,8 +76,31 @@ h3{
 
 ol{
   list-style-type: none;
-  padding-left: 8px;
+  padding-left: 0px;
   margin-top: 5px;
+}
+
+ol li{
+  border: 1px solid var(--color1);
+  padding-left: 8px;
+}
+section.exams ol li{
+  margin-left: -0.5px;
+  margin-right: -0.5px;
+  display: block;
+}
+section.exams ol li:hover{
+  background-color:#eb8686;
+  cursor: pointer;
+}
+
+section.lecture-notes ol li{
+  margin-left: -0.5px;
+  display: block;
+}
+section.lecture-notes ol li:hover{
+  background-color: #e3d180;
+  cursor: pointer;
 }
 
 section.about p{

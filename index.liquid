@@ -10,9 +10,9 @@ layout: base
             <h3>{{ group.name }}</h3>
             <ol>
                 {% for note in group.items %}
-                    <li>
+                    <li onclick="location.href='{{ note.url }}';">{{ note.data.date | date: "%B %d, %Y" }}
                         <span class="notes-type">{{ note.data.type }}</span>
-                        <a href="{{ note.url }}">{{ note.data.date | date: "%B %d, %Y" }}</a>
+                        <!-- <a onclick="location.href='{{ note.url }}';">{{ note.data.date | date: "%B %d, %Y" }}</a> -->
                     </li>
                 {% endfor %}
             </ol>
@@ -22,9 +22,19 @@ layout: base
 
     <section class="exams">
         <h2>Prüfungsvorbereitung</h2>
-        <p>
-            <ol class="archive-list">
-                <li><a target="_blank" href="/src/pdfs/HM3.pdf">höhere mathematik 3</a></li>
+            <ol>
+                <li target="_blank" onclick="location.href = '/src/pdfs/HM3.pdf';">höhere mathematik 3</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/LFT.pdf';">luftfahrttechnik</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/SYSTEME1.pdf';">luftfahrtsysteme</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/NUMSIM.pdf';">numerische simulation</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/RAUMFAHRT.pdf';">raumfahrt</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/STATIK.pdf';">statik</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/STROEMUNG1.pdf';">strömungslehre 1</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/STROEMUNG2.pdf';">strömungslehre 2</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/THERMO.pdf';">thermodynamik</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/TM2.pdf';">technische mechanik 2</li>
+                <li target="_blank" onclick="location.href = '/src/pdfs/TM3.pdf';">technische mechanik 3</li>
+                <!-- <li><a target="_blank" href="/src/pdfs/HM3.pdf">höhere mathematik 3</a></li>
                 <li><a target="_blank" href="/src/pdfs/LFT.pdf">luftfahrttechnik</a></li>
                 <li><a target="_blank" href="/src/pdfs/SYSTEME1.pdf">luftfahrtsysteme</a></li>
                 <li><a target="_blank" href="/src/pdfs/NUMSIM.pdf">numerische simulation</a></li>
@@ -34,9 +44,8 @@ layout: base
                 <li><a target="_blank" href="/src/pdfs/STROEMUNG2.pdf">strömungslehre 2</a></li>
                 <li><a target="_blank" href="/src/pdfs/THERMO.pdf">thermodynamik</a></li>
                 <li><a target="_blank" href="/src/pdfs/TM2.pdf">technische mechanik 2</a></li>
-                <li><a target="_blank" href="/src/pdfs/TM3.pdf">technische mechanik 3</a></li>
+                <li><a target="_blank" href="/src/pdfs/TM3.pdf">technische mechanik 3</a></li> -->
             </ol>
-        </p>
     </section>
 
     <section class="about">

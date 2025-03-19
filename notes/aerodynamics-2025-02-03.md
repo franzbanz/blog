@@ -1,7 +1,7 @@
 ---
 course: thermo
 type: lecture
-date: 2025-02-02 # (YYYY-MM-DD)
+date: 2025-02-03 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
