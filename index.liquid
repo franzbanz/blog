@@ -1,62 +1,48 @@
 ﻿---
 layout: base
 ---
-<div>
-    <section class="lecture-notes">
-        <h2>Mitschriften</h2>
-        {% assign sorted_notes = collections.notes | sort: 'date' | reverse %}
-        {% assign grouped_notes = sorted_notes | group_by: 'data.course' %}
-        {% for group in grouped_notes %}
-            <h3>{{ group.name }}</h3>
-            <ol>
-                {% for note in group.items %}
-                    <li onclick="location.href='{{ note.url }}';">{{ note.data.date | date: "%B %d, %Y" }}
-                        <span class="notes-type">{{ note.data.type }}</span>
-                        <!-- <a onclick="location.href='{{ note.url }}';">{{ note.data.date | date: "%B %d, %Y" }}</a> -->
-                    </li>
-                {% endfor %}
-            </ol>
-        {% endfor %}
-    </section>
-    
+<section class="lecture_section">
+    <h2>Mitschriften</h2>
+    {% assign sorted_notes = collections.notes | sort: 'date' | reverse %}
+    {% assign grouped_notes = sorted_notes | group_by: 'data.course' %}
+    {% for group in grouped_notes %}
+        <h3>{{ group.name }}</h3>
+        <ol>
+            {% for note in group.items %}
+            <li class="list_item"><a href="{{ note.url }}" target="_blank">
+                <span class="note_date">{{ note.data.date | date: "%B %d, %Y" }}</span>
+                <span class="note_type">{{ note.data.type }}</span></a>
+            </li>
+            {% endfor %}
+        </ol>
+    {% endfor %}
+</section>
 
-    <section class="exams">
-        <h2>Prüfungsvorbereitung</h2>
-            <ol>
-                <li target="_blank" onclick="location.href = '/src/pdfs/HM3.pdf';">höhere mathematik 3</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/LFT.pdf';">luftfahrttechnik</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/SYSTEME1.pdf';">luftfahrtsysteme</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/NUMSIM.pdf';">numerische simulation</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/RAUMFAHRT.pdf';">raumfahrt</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/STATIK.pdf';">statik</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/STROEMUNG1.pdf';">strömungslehre 1</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/STROEMUNG2.pdf';">strömungslehre 2</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/THERMO.pdf';">thermodynamik</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/TM2.pdf';">technische mechanik 2</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/TM3.pdf';">technische mechanik 3</li>
-                <li target="_blank" onclick="location.href = '/src/pdfs/FEM.pdf';">finite elemente (vorläufige version)</li>
-                <!-- <li><a target="_blank" href="/src/pdfs/HM3.pdf">höhere mathematik 3</a></li>
-                <li><a target="_blank" href="/src/pdfs/LFT.pdf">luftfahrttechnik</a></li>
-                <li><a target="_blank" href="/src/pdfs/SYSTEME1.pdf">luftfahrtsysteme</a></li>
-                <li><a target="_blank" href="/src/pdfs/NUMSIM.pdf">numerische simulation</a></li>
-                <li><a target="_blank" href="/src/pdfs/RAUMFAHRT.pdf">raumfahrt</a></li>
-                <li><a target="_blank" href="/src/pdfs/STATIK.pdf">statik</a></li>
-                <li><a target="_blank" href="/src/pdfs/STROEMUNG1.pdf">strömungslehre 1</a></li>
-                <li><a target="_blank" href="/src/pdfs/STROEMUNG2.pdf">strömungslehre 2</a></li>
-                <li><a target="_blank" href="/src/pdfs/THERMO.pdf">thermodynamik</a></li>
-                <li><a target="_blank" href="/src/pdfs/TM2.pdf">technische mechanik 2</a></li>
-                <li><a target="_blank" href="/src/pdfs/TM3.pdf">technische mechanik 3</a></li> -->
-            </ol>
-    </section>
+<section class="exam_section">
+    <h2>Prüfungsvorbereitung</h2>
+    <ol>
+        <li class="list_item"><a href="/src/pdfs/HM3.pdf" target="_blank">Höhere Mathematik 3</a></li>
+        <li class="list_item"><a href="/src/pdfs/LFT.pdf" target="_blank">Luftfahrttechnik</a></li>
+        <li class="list_item"><a href="/src/pdfs/SYSTEME1.pdf" target="_blank">Luftfahrtsysteme</a></li>
+        <li class="list_item"><a href="/src/pdfs/NUMSIM.pdf" target="_blank">Numerische Simulation</a></li>
+        <li class="list_item"><a href="/src/pdfs/RAUMFAHRT.pdf" target="_blank">Raumfahrt</a></li>
+        <li class="list_item"><a href="/src/pdfs/STATIK.pdf" target="_blank">Statik</a></li>
+        <li class="list_item"><a href="/src/pdfs/STROEMUNG1.pdf" target="_blank">Strömungslehre 1</a></li>
+        <li class="list_item"><a href="/src/pdfs/STROEMUNG2.pdf" target="_blank">Strömungslehre 2</a></li>
+        <li class="list_item"><a href="/src/pdfs/THERMO.pdf" target="_blank">Thermodynamik</a></li>
+        <li class="list_item"><a href="/src/pdfs/TM2.pdf" target="_blank">Technische Mechanik 2</a></li>
+        <li class="list_item"><a href="/src/pdfs/TM3.pdf" target="_blank">Technische Mechanik 3</a></li>
+        <li class="list_item"><a href="/src/pdfs/FEM.pdf" target="_blank">Finite Elemente (Vorläufige Version)</a></li>
+    </ol>
+</section>
 
-    <section class="about">
-        <h2>Zeugs</h2>
-        <p>
-            test test das ist eine tolle Sache mit Zeilenumbbrüchen oder wie ich
-            grade sehe gibt es doch keine Zeilenumbrüche, nur manchmal
-            aber nicht wenn ich will wobei eigentlich sieht es so doch ganz gut aus ich glaub
-            das lasse ich erstmal so.
-            Irgendwann kommen in diesen Abschnitt coole Dinge.
-        </p>
-    </section>
-</div>
+<section class="about_section">
+    <h2>Coole Dinge</h2>
+    <p>
+        test test das ist eine tolle Sache mit Zeilenumbbrüchen oder wie ich
+        grade sehe gibt es doch keine Zeilenumbrüche, nur manchmal
+        aber nicht wenn ich will wobei eigentlich sieht es so doch ganz gut aus ich glaub
+        das lasse ich erstmal so.
+        Irgendwann kommen in diesen Abschnitt coole Dinge.
+    </p>
+</section>

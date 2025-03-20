@@ -1,35 +1,30 @@
 <!doctype html>
-<html lang="en">  
-    <head>
-        <title>franzkoehler.com</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/src/style.css">
-        {% if includesMath %}
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>franzkoehler.com</title>
+    <link rel="stylesheet" href="/src/style.css">
+    {% if includesMath %}
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
         MathJax = {
-            tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
-          };
-        </script>
-        {% endif %}
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="nav">
-                    <li class="nav"><a style="text-align: left;" href="/">franzkoehler.com</a></li>
-                    <li class="nav"><a style="text-align: right;" href="https://github.com/franzbanz">github</a></li>
-                    <!-- <li class="nav"><a href="/src/all-notes">notes</a></li>
-                    <li class="nav"><a href="/src/archive">archive</a></li>
-                    <li class="nav"><a href="/src/about">about</a></li> -->
-                </ul>
-            </nav>
-        </header>
-        {{ content }}
-        <footer>
-            <!-- <div class="name" style="text-align: left;"> Franz Koehler </div>
-            <a class="socials" style="text-align: right;" href="https://github.com/franzbanz">github</a> -->
-            <!-- <a class="socials" href="https://linkedin.com/in/franzkoehler">linkedin</a> -->
-            </footer>
-    </body>
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script>
+    {% endif %}
+</head>
+
+<header class="navbar">
+    <ul class="navbar">
+        <li><a href="/">franzkoehler.com</a></li>
+        <li><a href="https://github.com/franzbanz/blog">github</a></li>
+    </ul>
+</header>
+
+<body>
+    {{ content }}
+</body>
+
 </html>

@@ -1,227 +1,43 @@
 :root {
-  --color1: #272838;
-  --color2: #f3de8a;
-  --color3: #eb9486;
-  --color4: #7e7f9a;
-  --color5: #f9f8f8;
-}
-
-body {
-  background-color: var(--color5);
-  color: var(--color1);
-  font-family: Helvetica;
-  font-size: medium;
-  margin: 0 auto;
-  padding: 8px;
-}
-
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 8px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-li.nav a {
-  display: block;
-  text-align: center;
-}
-
-div{
-  display: flex;
-}
-
-section{
-  width: 33.3333%;
-  height: 100%;
-  border: 1px solid var(--color1);
-}
-
-section.lecture-notes{
-  background-color: var(--color2);
-  margin-right: -1px;
-}
-
-section.exams{
-  background-color: var(--color3);
-}
-
-section.about{
-  background-color: var(--color4);
-  margin-left: -1px;
-}
-
-h2{
-  padding-left: 8px;
-  font-size: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-}
-
-h3{
-  padding-left: 8px;
-  margin-bottom: 0px;
-  font-size: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-}
-
-.notes-type{
-  display:inline-block; width: 100px
-}
-
-ol{
-  list-style-type: none;
-  padding-left: 0px;
-  margin-top: 5px;
-}
-
-ol li{
-  border: 1px solid var(--color1);
-  padding-left: 8px;
-}
-section.exams ol li{
-  margin-left: -0.5px;
-  margin-right: -0.5px;
-  display: block;
-}
-section.exams ol li:hover{
-  background-color:#eb8686;
-  cursor: pointer;
-}
-
-section.lecture-notes ol li{
-  margin-left: -0.5px;
-  display: block;
-}
-section.lecture-notes ol li:hover{
-  background-color: #e3d180;
-  cursor: pointer;
-}
-
-section.about p{
-  padding-left: 8px;
-  margin-right: 8px;
-  text-align: justify;
+  --black: #272838;
+  --yellow: #f3de8a;
+  --yellow_dark: #f3c68a;
+  --red: #eb9486;
+  --red_dark: #eb8686;
+  --blue: #7e7f9a;
+  --blue_dark: #727597;
+  --white: #f9f8f8;
+  --gray: rgb(160, 156, 156);
 }
 
 header{
-  font-size: 20px;
-  margin-bottom: -1px;
-  border: 1px solid var(--color1);
-}
-
-a {
-  text-decoration: none;
-  color: var(--color1);
-}  
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-/* note layout */
-
-div.placeholder{
-  padding-top: 40px;
-}
-
-article.note{
-  margin: auto;
-  width: 700px;
-  font-size: 19px;
-  text-align: justify;
-}
-
-article.note h1{
   padding: 0px;
-  font-size: 45px;
-  margin-bottom: 0px;
+  margin: 0px;
+  width: 100%;
+  list-style-type: none;
 }
 
-article.note h2{
-  margin-top: 10px;
-  font-size: 20px;
-  padding-bottom: 40px;
-  margin-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  border-bottom: 1px solid var(--color1);
+body {
+  padding: 8px;
+  margin: 0px;
+  background-color: var(--gray);
+  font-family: Helvetica;
+  font-size: medium;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-article.note p{
-  padding-left: 0px;
-  margin-top: 0px;
+section{
 }
-
-@media (max-width: 800px){
-  div{
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-
-  section{
-    width: 50%;
-    box-sizing: border-box;
-  }
-
-  section.lecture-notes{
-    margin-right: -1px;
-  }
-  
-  section.about{
-    width: 50%;
-    margin-left: 0px;
-    margin-top: -1px;
-  }
-
-  /* note layout */
-
-  article.note{
-    width: 100%;
-  }
+.lecture_section{
+  background-color: var(--red);
+}
+.exam_section{
+  background-color: var(--yellow);
+}
+.about_section{
+  background-color: var(--blue);
 }
 
 @media (max-width: 600px){
-  /* .notes-type{
-    display:inline-block; width: 130px
-  } */
-  
-  div{
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  section{
-    width: 100%;
-  }
-
-  section.lecture-notes{
-    margin-right: 0px;
-    margin-bottom: -1px;
-  }
-  
-  section.about{
-    width: 100%;
-    margin-left: 0px;
-    margin-top: -1px;
-  }
-
-  /* note layout */
-
-  article.note{
-    width: 100%;
-  }
 }
