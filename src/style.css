@@ -7,14 +7,7 @@
   --blue: #7e7f9a;
   --blue_dark: #727597;
   --white: #f9f8f8;
-  --gray: rgb(160, 156, 156);
-}
-
-header{
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  list-style-type: none;
+  --gray: #b8b8b8;
 }
 
 body {
@@ -24,20 +17,43 @@ body {
   font-family: Helvetica;
   font-size: medium;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: auto 1fr;
+  align-items: flex-start;
+}
+
+header{
+  padding: 0px;
+  margin: 0px;
+  grid-column: 1 / -1;
 }
 
 section{
+  display: inline-block;
+  width: 100%;
 }
+
 .lecture_section{
   background-color: var(--red);
+  grid-column: span 10;
 }
 .exam_section{
   background-color: var(--yellow);
+  grid-column: span 10;
 }
 .about_section{
   background-color: var(--blue);
+  grid-column: span 10;
+}
+
+@media (max-width: 1000px){
+  .lecture_section, .exam_section, .about_section {
+    grid-column: span 15;
+  }
 }
 
 @media (max-width: 600px){
+  .lecture_section, .exam_section, .about_section {
+    grid-column: span 30;
+  }
 }
