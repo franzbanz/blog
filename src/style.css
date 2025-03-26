@@ -8,14 +8,15 @@
   --blue_dark: #727597;
   --white: #f9f8f8;
   --gray: #b8b8b8;
+  --large: 23px;
 }
 
 body {
   padding: 8px;
   margin: 0px;
+  min-width: 400px;
   background-color: var(--gray);
-  font-family: Helvetica;
-  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: auto 1fr;
@@ -23,37 +24,96 @@ body {
 }
 
 header{
-  padding: 0px;
-  margin: 0px;
-  grid-column: 1 / -1;
+  grid-column: span 30;
+  padding: 8px;
+  background-color: var(--white);
+  border: 2px var(--black) solid;
+  nav{
+    ul{
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+      display: inline;
+      font-size: var(--large);
+    }
+  }
 }
 
 section{
-  display: inline-block;
-  width: 100%;
+  padding: 0px;
+  grid-column: span 10;
+  border-bottom: 2px var(--black) solid;
+  h2{
+    margin: 0px;
+    padding: 8px;
+    font-size: inherit;
+    font-weight: inherit;
+  }h3{
+    padding: 8px;
+    margin: 0px;
+    font-size: inherit;
+    font-weight: inherit;
+    border-bottom: 2px var(--black) solid;
+    border-top: 2px var(--black) solid;
+  }ol{
+    padding-top: 4px;
+    padding-left: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }li{
+    border-top: 2px var(--black) solid;
+    padding-left: 8px;
+  }p{
+    padding: 8px;
+    margin: 0px;
+  }
+}.lecture_section{
+  background-color: var(--red);
+  border-left: 2px var(--black) solid;
+  li:hover{
+    display: block;
+    background-color: var(--red_dark);
+  }
+}.exam_section{
+  background-color: var(--yellow);
+  border-left: 2px var(--black) solid;
+  border-right: 2px var(--black) solid;
+  ol{
+    padding-top: 0px;
+  }
+  li:hover{
+    display: block;
+    background-color: var(--yellow_dark);
+  }
+}.about_section{
+  background-color: var(--blue);
+  border-right: 2px var(--black) solid;
+  p{
+    border-top: 2px var(--black) solid;
+  }
 }
 
-.lecture_section{
-  background-color: var(--red);
-  grid-column: span 10;
-}
-.exam_section{
-  background-color: var(--yellow);
-  grid-column: span 10;
-}
-.about_section{
-  background-color: var(--blue);
-  grid-column: span 10;
+a:link, a:visited, a:hover, a:active{
+  color: var(--black);
+  text-decoration: none;
 }
 
 @media (max-width: 1000px){
   .lecture_section, .exam_section, .about_section {
     grid-column: span 15;
+  }.about_section{
+    border: 2px var(--black) solid;
   }
 }
 
 @media (max-width: 600px){
   .lecture_section, .exam_section, .about_section {
     grid-column: span 30;
+  }.lecture_section{
+    border-right: 2px var(--black) solid;
   }
+  .about_section{
+    border-top: none;
+  }
+  
 }
