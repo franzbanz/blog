@@ -1,9 +1,8 @@
 ---
 layout: base
 ---
-<article class="note">
-    <h1>{{ course }} {{ type }}</h1>
-    <h2>{{ date | date: "%B %d, %Y" }}</h2>
-    <div class="placeholder"></div>
+<article class="note_content">
+    <h2 class="note_title">{{ course }} {{ type }}</h1>
+    <h3 class="note_date">{{ date | date: "%B %d, %Y" }}</h2>
     {{ content }}
 </article>

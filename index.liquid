@@ -11,8 +11,8 @@ layout: base
             {% for note in group.items %}
             <li class="list_item">
                 <a href="{{ note.url }}" target="_blank">
-                <span class="note_date">{{ note.data.date | date: "%B %d, %Y" }}</span>
-                <span class="note_type">{{ note.data.type }}</span></a>
+                <span class="list_date">{{ note.data.date | date: "%B %d, %Y" }}</span>
+                <span class="list_type">{{ note.data.type }}</span></a>
             </li>
             {% endfor %}
         </ol>
@@ -34,6 +34,40 @@ layout: base
         <li class="list_item"><a href="/src/pdfs/TM2.pdf" target="_blank">Technische Mechanik 2</a></li>
         <li class="list_item"><a href="/src/pdfs/TM3.pdf" target="_blank">Technische Mechanik 3</a></li>
         <li class="list_item"><a href="/src/pdfs/FEM.pdf" target="_blank">Finite Elemente (Vorläufige Version)</a></li>
+    </ol>
+</section>
+
+<section class="upcoming_section">
+    <h2>Anstehend</h2>
+    <ol>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 03, 2035 </span>
+            <span class="list_type"> Analytische und Numerische Methoden </span></a>
+        </li>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 05, 2035 </span>
+            <span class="list_type"> Einführung in die Verbrennung </span></a>
+        </li>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 07, 2035 </span>
+            <span class="list_type"> Flugzeugaerodynamik 1 </span></a>
+        </li>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 09, 2035 </span>
+            <span class="list_type"> Flugzeugentwurf 1 </span></a>
+        </li>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 10, 2035 </span>
+            <span class="list_type"> Mustererkennung und Bildverstehen </span></a>
+        </li>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 12, 2035 </span>
+            <span class="list_type"> Raumfahrttechnik </span></a>
+        </li>
+        <li class="list_item">
+            <a><span class="list_date"> Juli 14, 2035 </span>
+            <span class="list_type"> Turboflugtriebwerke </span></a>
+        </li>
     </ol>
 </section>
 

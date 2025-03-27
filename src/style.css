@@ -3,9 +3,11 @@
   --yellow: #f3de8a;
   --yellow_dark: #f3c68a;
   --red: #eb9486;
-  --red_dark: #eb8686;
+  --red_dark: #e48484;
   --blue: #7e7f9a;
   --blue_dark: #727597;
+  --green: #8abb6e;
+  --green_dark: #a6be86;
   --white: #f9f8f8;
   --gray: #b8b8b8;
   --large: 23px;
@@ -62,14 +64,16 @@ section{
     list-style-type: none;
   }li{
     border-top: 2px var(--black) solid;
-    padding-left: 8px;
   }a{
+    padding-left: 8px;
     display: block;
-    width: 100%;
-    height: 100%;
   }p{
     padding: 8px;
     margin: 0px;
+  }
+  .list_date{
+    display: inline-block;
+    min-width: 150px;
   }
 }.lecture_section{
   background-color: var(--red);
@@ -81,16 +85,21 @@ section{
   background-color: var(--yellow);
   border-left: 2px var(--black) solid;
   border-right: 2px var(--black) solid;
+  li:hover{
+  display: block;
+  background-color: var(--yellow_dark);
+  }ol{
+    padding-top: 0px;
+  }
+}.upcoming_section{
+  background-color: var(--green);
+  border-right: 2px var(--black) solid;
   ol{
     padding-top: 0px;
   }
-  li:hover{
-    display: block;
-    background-color: var(--yellow_dark);
-  }
 }.about_section{
   background-color: var(--blue);
-  border-right: 2px var(--black) solid;
+  border: 2px var(--black) solid;
   p{
     border-top: 2px var(--black) solid;
   }
@@ -101,32 +110,56 @@ a:link, a:visited, a:hover, a:active{
   text-decoration: none;
 }
 
-/* note layout */
+/*  note layout */
 
-div.placeholder{
-  padding-top: 40px;
+.note_content{
+  padding: 8px;
+  grid-column: span 30;
+  margin: auto;
+  max-width: 700px;
+  min-width: 374px;
+  font-size: 19px;
+  text-align: justify;
+  background-color: var(--white);
+  border-left: 2px solid var(--black);
+  border-right: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
 }
-
-article.note{
-  
+.note_title{
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+.note_date{
+  margin-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  border-bottom: 2px solid var(--black);
 }
 
 @media (max-width: 1000px){
-  .lecture_section, .exam_section, .about_section {
+  .lecture_section, .exam_section, .about_section, .upcoming_section {
     grid-column: span 15;
+  }.exam_section{
+    border-bottom: none;
+  }.upcoming_section{
+    grid-column: 16/31;
+    border-left: 2px var(--black) solid;
+    border-top: 2px var(--black) solid;
+    border-bottom: none;
   }.about_section{
-    border: 2px var(--black) solid;
+    grid-column: 16/31;
+    border-left: 2px var(--black) solid;
+    border-top: 2px var(--black) solid;
   }
 }
 
 @media (max-width: 600px){
-  .lecture_section, .exam_section, .about_section {
+  .lecture_section, .exam_section, .about_section, .upcoming_section {
     grid-column: span 30;
   }.lecture_section{
     border-right: 2px var(--black) solid;
   }
-  .about_section{
-    border-top: none;
-  }
-  
 }
