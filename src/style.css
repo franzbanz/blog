@@ -16,7 +16,7 @@
 body {
   padding: 8px;
   margin: 0px;
-  min-width: 400px;
+  min-width: 450px;
   background-color: var(--gray);
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
@@ -102,6 +102,7 @@ section{
   border: 2px var(--black) solid;
   p{
     border-top: 2px var(--black) solid;
+    text-align: justify;
   }
 }
 
