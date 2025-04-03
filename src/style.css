@@ -62,9 +62,9 @@ section{
     padding-top: 4px;
     padding-left: 0px;
     margin: 0px;
-    list-style-type: none;
   }li{
     border-top: 2px var(--black) solid;
+    list-style-type: none;
   }a{
     padding-left: 8px;
     display: block;
@@ -118,9 +118,9 @@ a:link, a:visited, a:hover, a:active{
 
 /*  note layout */
 
-.note_content{
-  padding-left: 20%;
-  padding-right: 20%;
+article{
+  padding-left: 25%;
+  padding-right: 25%;
   grid-column: span 30;
   margin: auto;
   min-width: 374px;
@@ -129,23 +129,26 @@ a:link, a:visited, a:hover, a:active{
   border-left: 2px solid var(--black);
   border-right: 2px solid var(--black);
   border-bottom: 2px solid var(--black);
+  .note_title{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 45px;
+  }
+  .note_data{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid var(--black);
+  }
+  p{
+    margin-bottom: 0px;
+  }
 }
-.note_title{
-  padding: 0px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 45px;
-}
-.note_date{
-  margin-top: 0px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  border-bottom: 2px solid var(--black);
-}
+
 img{
   padding-top: 8px;
-  padding-bottom: 8px;
   width: 100%;
   border-top: 2px solid var(--black);
 }figcaption{

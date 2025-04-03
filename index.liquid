@@ -10,7 +10,7 @@ layout: base
         <ol>
             {% for note in group.items %}
             <li class="list_item">
-                <a href="{{ note.url }}" target="_blank">
+                <a href="{{ note.url }}">
                 <span class="list_date">{{ note.data.date | date: "%B %d, %Y" }}</span>
                 <span class="list_type">{{ note.data.type }}</span></a>
             </li>
@@ -81,5 +81,7 @@ layout: base
             das lasse ich erstmal so.
             Irgendwann kommen in diesen Abschnitt coole Dinge.
         </p>
+        <li class="list_item"><a href="/src/pdfs/BA.pdf" target="_blank">Visualization Verification of Complex Avionic
+            Models Using Computer Vision</a></li>
     </section>
 </section>

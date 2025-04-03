@@ -1,5 +1,5 @@
 ---
-course: Diverses
+course: Organisation
 type: Einführung
 by: Tim Ricken, Michael Reyle
 date: 2025-04-03 # (YYYY-MM-DD)
