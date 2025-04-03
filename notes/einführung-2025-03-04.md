@@ -8,39 +8,40 @@ layout: note
 includesMath: false
 ---
 
-Auflagenmodule nicht relevant für Studenten der Uni Stuttgart
-Eckpunkte:
-
-- 1 Semester Wahlpflichtteil
-- 3 Semester Vorlesung
-  - Dort Spezialisierungs- und Ergänzungsteil
+## Eckpunkte:
+- **1 Semester für den Wahlpflichtteil**
+- **3 Semester Vorlesungen, 1 Semester Masterarbeit**
+  - Spezialisierungs- und Ergänzungsteil
   - Weitere Spezialisierungsrichtungen
-  - Auslandsaufenthalt im Rahmen der Masterarbeit / Auslandsaufenthalt
+  - Auslandsaufenthalt im Rahmen der Masterarbeit
 
-![Makrostruktur Studiengang M.Sc. Luft- und Raumfahrttechnik](/src/bilder/makrostruktur.png)
+![Makrostruktur Studiengang M.Sc. Luft- und Raumfahrttechnik](/src/bilder/makrostruktur.png)<figcaption>Makrostruktur Studiengang M.Sc. Luft- und Raumfahrttechnik</figcaption>
 
-Spezialisierungsrichtungen für mich (jeweils 24 ects)
+## Spezialisierungsrichtungen für mich (jeweils 24 ECTS):
+- **C:** Informationstechnik in der LRT
+- **G:** Antriebs- und Energiesysteme in der LRT
 
-- C: Informationstechnik in der LRT
-- G: Antriebs- und Energiesysteme in der LRT
+## Prüfungsmodalitäten:
+- Alle Module mit **6 ECTS oder mehr** schließen mit einer **Modulabschlussprüfung (MAP)** ab – kann **nicht beliebig oft wiederholt** werden.
+- Kleinere Module mit einer **benoteten Studienleistung (BSL)** – kann **beliebig oft wiederholt** werden.
+- Bestimmte Modulkombinationen dürfen **nicht vorkommen** – **Excel Tool** zur Erstellung eines Übersichtsplans vor der Masterarbeit.
 
-Alle Module mit 6 ects oder mehr schließen mit einer Modulabschlussprüfung (MAP) ab - kann nicht beliebig oft wiederholt werden
-kleinere Module mit einer benoteten Studienleistung (BSL) - kann beliebig oft wiederholt werden
-Bestimmte Modulkombinationen dürfen nicht vorkommen - Excel Tool zur Erstellung eines Übersichtsplans vor der Masterarbeit
+## Anerkennung von Studienleistungen im Ausland:
+- **Kontakt zu fachlich zuständigem Dozenten** suchen und Einschätzung einholen.
+- Antrag an den **Prüfungsausschuss** für die Anerkennung nötig.
+- Bei Modulen mit äquivalenten Lehrveranstaltungen prüft der jeweilige Dozent die Ähnlichkeit.
+- Module ohne Entsprechung können im **Spezialisierungs- und Ergänzungsteil** angerechnet werden.
 
-Anerkennung von Studienleistungen im Ausland
+## Weitere Hinweise:
+- Keine **Geheimhaltungsfristen** mit Firmen bei Masterarbeiten, außer in besonderen Ausnahmen.
+- **Anrechnungen** zusätzlicher Studienarbeiten können mit bis zu **6 ECTS** im Ergänzungsteil angerechnet werden (Projektarbeit).
+- **Prüfungsanmeldung**: Vom **14.05.2025 bis 04.06.2025**.
 
-- Kontakt zu fachlich zuständigem Dozenten suchen und Einschätzug einholen
-- Für Anerkennung ist Antrag and Prüfungsausschuss nötig
-- Bei Modulen mit äquivalenten Lehrveranstaltungen prüft der jeweilige Dozent die Ähnlichkeit
-- Module ohne Entsprechung können im Spezialisierungs- und Ergänzungsteil angerechnet werden
+## Ansprechpartner im Studium:
+![Ansprechpersonen bei Problemen im Studium](/src/bilder/ansprechpartner.png)<figcaption>Makrostruktur Studiengang M.Sc. Luft- und Raumfahrttechnik</figcaption>
+- **Sprachkurse Anmeldung:** [sz.uni-stuttgart.de](http://sz.uni-stuttgart.de)
 
-Keine Geheimhaltungsfristen mit Firmen bei Masterarbeiten außer in besonderen Ausnahmen
-Anrechnungen zusätzlicher Studienarbeiten können mit bis zu 6 ects im Ergänzungsteil angerechnet werden (Projektarbeit)
-Prüfungsanmeldung von 14.05.2025 bis 04.06.2025
-
-Ansprechpartner im Studium
-(Bild von Email Liste aus Folien)
-Sprachkurse Anmeldung sz.uni-stuttgart.de
-
-Planungsworkshop 04.04.2025 11:00 Uhr im PWR 38.03
+## Planungsworkshop:
+- **Datum:** 04.04.2025
+- **Uhrzeit:** 11:00 Uhr
+- **Ort:** PWR 38.03
