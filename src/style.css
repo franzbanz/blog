@@ -117,10 +117,10 @@ a:link, a:visited, a:hover, a:active{
 /*  note layout */
 
 .note_content{
-  padding: 8px;
+  padding-left: 25%;
+  padding-right: 25%;
   grid-column: span 30;
   margin: auto;
-  max-width: 700px;
   min-width: 374px;
   font-size: 19px;
   text-align: justify;
@@ -142,8 +142,20 @@ a:link, a:visited, a:hover, a:active{
   font-size: 20px;
   border-bottom: 2px solid var(--black);
 }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-bottom: 2px solid var(--black);
+  border-top: 2px solid var(--black);
+}
 
 @media (max-width: 1000px){
+  .note_content{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
   .lecture_section, .exam_section{
     grid-column: span 15;
   }.exam_section{
@@ -162,6 +174,10 @@ a:link, a:visited, a:hover, a:active{
 }
 
 @media (max-width: 600px){
+  .note_content{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
   .lecture_section, .exam_section, .about_subsection, .upcoming_subsection {
     grid-column: span 30;
   }.lecture_section{

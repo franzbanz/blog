@@ -17,7 +17,8 @@ Eckpunkte:
   - Weitere Spezialisierungsrichtungen
   - Auslandsaufenthalt im Rahmen der Masterarbeit / Auslandsaufenthalt
 
-(Hier Bild von Master Makrostruktur)
+![Makrostruktur Studiengang M.Sc. Luft- und Raumfahrttechnik](/src/bilder/makrostruktur.png)
+
 Spezialisierungsrichtungen für mich (jeweils 24 ects)
 
 - C: Informationstechnik in der LRT
@@ -26,7 +27,7 @@ Spezialisierungsrichtungen für mich (jeweils 24 ects)
 Alle Module mit 6 ects oder mehr schließen mit einer Modulabschlussprüfung (MAP) ab - kann nicht beliebig oft wiederholt werden
 kleinere Module mit einer benoteten Studienleistung (BSL) - kann beliebig oft wiederholt werden
 Bestimmte Modulkombinationen dürfen nicht vorkommen - Excel Tool zur Erstellung eines Übersichtsplans vor der Masterarbeit
-(Hier Folie zum Masterarbeit Übersichtsplan)
+
 Anerkennung von Studienleistungen im Ausland
 
 - Kontakt zu fachlich zuständigem Dozenten suchen und Einschätzug einholen
