@@ -5,7 +5,7 @@
   --red: #eb9486;
   --red_dark: #e48484;
   --blue: #7e7f9a;
-  --blue_dark: #727597;
+  --blue_dark: #696d97;
   --green: #8abb6e;
   --green_dark: #a6be86;
   --white: #f9f8f8;
@@ -18,6 +18,7 @@ body {
   margin: 0px;
   min-width: 375px;
   background-color: var(--gray);
+  color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   display: grid;
@@ -88,7 +89,6 @@ section{
   border-left: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
   li:hover{
-    display: block;
     background-color: var(--yellow_dark);
   }ol{
     padding-top: 0px;
@@ -98,12 +98,15 @@ section{
   border-bottom: 2px var(--black) solid;
   ol{
     padding-top: 0px;
+  }li:hover{
   }
 }.about_subsection{
   background-color: var(--blue);
   p{
     border-top: 2px var(--black) solid;
     text-align: justify;
+  }li:hover{
+    background-color: var(--blue_dark);
   }
 }.stuff_section{
   border-bottom: 2px var(--black) solid;
