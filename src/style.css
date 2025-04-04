@@ -148,6 +148,10 @@ article{
   p{
     margin-bottom: 0px;
   }
+  a:link, a:visited, a:hover, a:active{
+    color: var(--black);
+    text-decoration: underline;
+  }
 }
 
 img{
@@ -159,9 +163,9 @@ img{
 }
 
 @media (max-width: 1000px){
-  .note_content{
-    padding-left: 8px;
-    padding-right: 8px;
+  article{
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .lecture_section, .exam_section{
     grid-column: span 15;
@@ -181,12 +185,12 @@ img{
 }
 
 @media (max-width: 600px){
-  .note_content{
-    padding-left: 8px;
-    padding-right: 8px;
+  article{
+    padding: 8px;
   }
   .lecture_section, .exam_section, .about_subsection, .upcoming_subsection {
     grid-column: span 30;
+    min-width: 390px;
   }.lecture_section{
     border-right: 2px var(--black) solid;
   }
