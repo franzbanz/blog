@@ -1,7 +1,7 @@
 ---
 course: Organisation
 type: Masterplanung
-by:
+by: 
 date: 2025-04-04 # (YYYY-MM-DD)
 tags: notes
 layout: note

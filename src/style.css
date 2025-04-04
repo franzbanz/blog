@@ -1,5 +1,5 @@
 :root {
-  --black: #272838;
+  --black: #000000;
   --yellow: #f3de8a;
   --yellow_dark: #f3c68a;
   --red: #eb9486;
@@ -10,6 +10,7 @@
   --green_dark: #a6be86;
   --white: #f9f8f8;
   --gray: #b8b8b8;
+  --gray_dark: #949494;
   --large: 23px;
 }
 
@@ -33,6 +34,7 @@ header{
   min-width: 374px;
   background-color: var(--white);
   border: 2px var(--black) solid;
+  box-shadow: 4px 4px var(--gray_dark);
   nav{
     ul{
       padding: 0px;
@@ -73,11 +75,17 @@ section{
     padding: 8px;
     margin: 0px;
   }
-  .list_date{
-    display: inline-block;
-    min-width: 150px;
-  }
-}.lecture_section{
+}
+.list_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.list_date {
+  width: 150px;
+  vertical-align: top;
+}
+.lecture_section{
+  box-shadow: 4px 4px var(--gray_dark);
   background-color: var(--red);
   border-left: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
@@ -85,6 +93,7 @@ section{
     background-color: var(--red_dark);
   }
 }.exam_section{
+  box-shadow: 4px 4px var(--gray_dark);
   background-color: var(--yellow);
   border-left: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
@@ -98,20 +107,22 @@ section{
   border-bottom: 2px var(--black) solid;
   ol{
     padding-top: 0px;
-  }li:hover{
   }
-}.about_subsection{
+}.coolstuff_subsection{
   background-color: var(--blue);
+  border-bottom: 2px var(--black) solid;
   p{
     border-top: 2px var(--black) solid;
-    text-align: justify;
   }li:hover{
     background-color: var(--blue_dark);
   }
-}.stuff_section{
+}.meta_subsection{
+  background-color: var(--gray_dark);
+}.right_section{
   border-bottom: 2px var(--black) solid;
   border-left: 2px var(--black) solid;
   border-right: 2px var(--black) solid;
+  box-shadow: 4px 4px var(--gray_dark);
 }
 
 a:link, a:visited, a:hover, a:active{
@@ -124,6 +135,7 @@ a:link, a:visited, a:hover, a:active{
 article{
   padding-left: 25%;
   padding-right: 25%;
+  padding-bottom: 80px;
   grid-column: span 30;
   margin: auto;
   min-width: 374px;
@@ -132,6 +144,7 @@ article{
   border-left: 2px solid var(--black);
   border-right: 2px solid var(--black);
   border-bottom: 2px solid var(--black);
+  box-shadow: 4px 4px var(--gray_dark);
   .note_title{
     padding: 0px;
     margin-top: 30px;
@@ -176,10 +189,10 @@ img{
     grid-column: 16/31;
     border-top: 2px var(--black) solid;
     border-bottom: none;
-  }.about_subsection{
+  }.coolstuff_subsection{
     grid-column: 16/31;
     border-top: 2px var(--black) solid;
-  }.stuff_section{
+  }.right_section{
     grid-column: span 30;
   }
 }
@@ -188,7 +201,7 @@ img{
   article{
     padding: 8px;
   }
-  .lecture_section, .exam_section, .about_subsection, .upcoming_subsection {
+  .lecture_section, .exam_section, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
     min-width: 390px;
   }.lecture_section{

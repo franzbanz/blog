@@ -11,8 +11,13 @@ layout: base
             {% for note in group.items %}
             <li class="list_item">
                 <a href="{{ note.url }}">
-                <span class="list_date">{{ note.data.date | date: "%B %d, %Y" }}</span>
-                <span class="list_type">{{ note.data.type }}</span></a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">{{ note.data.date | date: "%B %d, %Y" }}</td>
+                        <td class="list_type">{{ note.data.type }}</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             {% endfor %}
         </ol>
@@ -37,42 +42,84 @@ layout: base
     </ol>
 </section>
 
-<section class="stuff_section">
+<section class="right_section">
     <section class="upcoming_subsection">
         <h2>Anstehend</h2>
         <ol>
             <li class="list_item">
-                <a><span class="list_date"> Juli 03, 2035 </span>
-                <span class="list_type"> Analytische / Numerische Methoden </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Analytische und Numerische Methoden</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             <li class="list_item">
-                <a><span class="list_date"> Juli 05, 2035 </span>
-                <span class="list_type"> Einführung in die Verbrennung </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Einführung in die Verbrennung</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             <li class="list_item">
-                <a><span class="list_date"> Juli 07, 2035 </span>
-                <span class="list_type"> Flugzeugaerodynamik 1 </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Flugzeugaerodynamik 1</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             <li class="list_item">
-                <a><span class="list_date"> Juli 09, 2035 </span>
-                <span class="list_type"> Flugzeugentwurf 1 </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Flugzeugentwurf 1</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             <li class="list_item">
-                <a><span class="list_date"> Juli 10, 2035 </span>
-                <span class="list_type"> Mustererkennung und Bildverstehen </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Mustererkennung und Bildverstehen</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             <li class="list_item">
-                <a><span class="list_date"> Juli 12, 2035 </span>
-                <span class="list_type"> Raumfahrttechnik </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Raumfahrttechnik</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
             <li class="list_item">
-                <a><span class="list_date"> Juli 14, 2035 </span>
-                <span class="list_type"> Turboflugtriebwerke </span></a>
+                <a>
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Juli 03, 2035</td>
+                        <td class="list_type">Turboflugtriebwerke</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
         </ol>
     </section>
     
-    <section class="about_subsection">
+    <section class="coolstuff_subsection">
         <h2>Coole Dinge</h2>
         <p>
             test test das ist eine tolle Sache mit Zeilenumbbrüchen oder wie ich
@@ -80,14 +127,27 @@ layout: base
             aber nicht wenn ich will wobei eigentlich sieht es so doch ganz gut aus ich glaub
             das lasse ich erstmal so.
             Irgendwann kommen in diesen Abschnitt coole Dinge.
-            07.02.2025
         </p>
         <ol>
             <li class="list_item">
-                <a href="/src/pdfs/BA.pdf">
-                <span class="list_date">Februar 07 2025</span>
-                <span class="list_type">Visualization Verification of Complex Avionic Models Using Computer Vision</span></a>
+                <a href="/src/pdfs/BA.pdf" target="_blank">
+                    <table class="list_table">
+                        <tr>
+                        <td class="list_date">Februar 07, 2025</td>
+                        <td class="list_type">Visualization Verification of Complex Avionic Models Using Computer Vision</td>
+                        </tr>
+                    </table>
+                </a>
             </li>
+        </ol>
+    </section>
+
+    <section class="meta_subsection">
+        <h2>Meta</h2>
+        <ol style="padding: 0px;">
+            <li class="list_item"><a href="/src/impressum">Impressum</a></li>
+            <li class="list_item"><a>Erstellt {{ '' | currentDate }}</a></li>
+            <li class="list_item"><a>© 2025 – 2025 </a></li>
         </ol>
     </section>
 </section>
