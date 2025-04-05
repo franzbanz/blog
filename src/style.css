@@ -17,7 +17,7 @@
 body {
   padding: 8px;
   margin: 0px;
-  min-width: 375px;
+  min-width: 260px;
   background-color: var(--gray);
   color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
@@ -31,11 +31,13 @@ body {
 header{
   grid-column: span 30;
   padding: 8px;
-  min-width: 374px;
+  min-width: 244px;
   background-color: var(--white);
   border: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
   nav{
+    padding: 0px;
+    margin: 0px;
     ul{
       padding: 0px;
       margin: 0px;
@@ -66,6 +68,7 @@ section{
     padding-left: 0px;
     margin: 0px;
   }li{
+    word-break: break-all;
     border-top: 2px var(--black) solid;
     list-style-type: none;
   }a{
@@ -138,7 +141,7 @@ article{
   padding-bottom: 80px;
   grid-column: span 30;
   margin: auto;
-  min-width: 374px;
+  min-width: 260px;
   font-size: 19px;
   background-color: var(--white);
   border-left: 2px solid var(--black);
@@ -203,7 +206,7 @@ img{
   }
   .lecture_section, .exam_section, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
-    min-width: 390px;
+    min-width: 260px;
   }.lecture_section{
     border-right: 2px var(--black) solid;
   }
