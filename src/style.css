@@ -68,7 +68,7 @@ section{
     padding-left: 0px;
     margin: 0px;
   }li{
-    word-break: break-all;
+    word-break: normal;
     border-top: 2px var(--black) solid;
     list-style-type: none;
   }a{
