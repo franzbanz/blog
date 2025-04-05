@@ -17,7 +17,7 @@
 body {
   padding: 8px;
   margin: 0px;
-  min-width: 260px;
+  min-width: 200px;
   background-color: var(--gray);
   color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +31,7 @@ body {
 header{
   grid-column: span 30;
   padding: 8px;
-  min-width: 244px;
+  min-width: 200px;
   background-color: var(--white);
   border: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
@@ -140,8 +140,7 @@ article{
   padding-right: 25%;
   padding-bottom: 80px;
   grid-column: span 30;
-  margin: auto;
-  min-width: 260px;
+  min-width: 200px;
   font-size: 19px;
   background-color: var(--white);
   border-left: 2px solid var(--black);
@@ -152,7 +151,7 @@ article{
     padding: 0px;
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 45px;
+    font-size: 40px;
   }
   .note_data{
     margin-top: 0px;
@@ -202,12 +201,24 @@ img{
 
 @media (max-width: 600px){
   article{
-    padding: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   .lecture_section, .exam_section, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
-    min-width: 260px;
   }.lecture_section{
     border-right: 2px var(--black) solid;
   }
 }
+
+/* for narrow iphone screens */
+
+@media (max-width: 325px){
+  article .note_title{
+    font-size: 30px;
+  }
+  article h2{
+    font-size: 23px;
+  }
+}
+
