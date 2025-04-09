@@ -60,7 +60,7 @@ Nutzen von $cos^2()+sin^2() = 1$
 $$q^2 + \frac{\dot{q}}{\omega}^2 = A^2 cos(...)^2 + A^2 sin(...)^2 = A^2$$
 
 ![skizze 2](/src/bilder/strukturdynamik_skizze_2.png)
-<figcaption>$E_k = Kinetische Energie, E_p = potenzielle Energie$</figcaption>
+<figcaption>$E_k$ = Kinetische Energie, $E_p$ = potenzielle Energie</figcaption>
 
 Kinetische Energie genau unter der Parabel, Potenzielle Energie genau darüber
 Bei $q=0$ ist potenzielle Energie maximal
