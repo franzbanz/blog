@@ -6,11 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx eleventy --serve"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["franz", "koehler", "blog", "lecture", "notes", "uni", "stuttgart", "luft", "raumfahrt", "aerospace", "engineering", "university", "vorlesung", "notizen"],
+  "author": "Franz Koehler",
   "license": "ISC",
   "type": "module",
-  "description": "",
+  "description": "This is where I keep my lecture notes for my Aerospae master's degree at the University of Stuttgart",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
   },
