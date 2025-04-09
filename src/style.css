@@ -1,15 +1,21 @@
 :root {
   --black: #000000;
   --yellow: #f3de8a;
+  --yellow_light: #fcedad;
   --yellow_dark: #f3c68a;
   --red: #eb9486;
+  --red_lighter: #fa9e90;
+  --red_light: #f8a99d;
   --red_dark: #e48484;
   --blue: #7e7f9a;
+  --blue_light: #9696bc;
   --blue_dark: #696d97;
   --green: #8abb6e;
+  --green_light: #a2c092;
   --green_dark: #a6be86;
   --white: #f9f8f8;
   --gray: #b8b8b8;
+  --gray_light: #acacac;
   --gray_dark: #949494;
   --large: 23px;
 }
@@ -88,17 +94,24 @@ section{
   vertical-align: top;
 }
 .lecture_section{
+  h2{
+    background-color: var(--red_light);
+  }
+  h3{}
   box-shadow: 4px 4px var(--gray_dark);
   background-color: var(--red);
   border-left: 2px var(--black) solid;
+  border-right: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
   li:hover{
     background-color: var(--red_dark);
   }
 }.exam_section{
+  h2{
+    background-color: var(--yellow_light);
+  }
   box-shadow: 4px 4px var(--gray_dark);
   background-color: var(--yellow);
-  border-left: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
   li:hover{
     background-color: var(--yellow_dark);
@@ -106,12 +119,18 @@ section{
     padding-top: 0px;
   }
 }.upcoming_subsection{
+  h2{
+    background-color: var(--green_light);
+  }
   background-color: var(--green);
   border-bottom: 2px var(--black) solid;
   ol{
     padding-top: 0px;
   }
 }.coolstuff_subsection{
+  h2{
+    background-color: var(--blue_light);
+  }
   background-color: var(--blue);
   border-bottom: 2px var(--black) solid;
   p{
@@ -120,6 +139,9 @@ section{
     background-color: var(--blue_dark);
   }
 }.meta_subsection{
+  h2{
+    background-color: var(--gray_light);
+  }
   background-color: var(--gray_dark);
 }.right_section{
   border-bottom: 2px var(--black) solid;
