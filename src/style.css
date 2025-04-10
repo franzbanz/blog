@@ -57,6 +57,7 @@ header{
 section{
   padding: 0px;
   grid-column: span 10;
+  min-width: 216px;
   h2{
     margin: 0px;
     padding: 8px;
@@ -210,10 +211,10 @@ img{
   }
   .lecture_section, .exam_section{
     grid-column: span 15;
+    border-bottom: none;
   }.exam_section{
     border-right: 2px var(--black) solid;
-    border-left: 2px var(--black) solid;
-    border-bottom: none;
+    border-bottom: 2px var(--black) solid;
   }.upcoming_subsection{
     grid-column: 16/31;
     border-top: 2px var(--black) solid;
@@ -237,10 +238,15 @@ img{
     word-wrap: break-word !important;
     white-space: normal !important;
   }
+  
   .lecture_section, .exam_section, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
   }.lecture_section{
     border-right: 2px var(--black) solid;
+  }.exam_section{
+    border-top: 2px var(--black) solid;
+    border-bottom: none;
+    border-left: 2px var(--black) solid;
   }
 }
 
