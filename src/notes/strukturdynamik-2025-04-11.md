@@ -9,15 +9,15 @@ includesMath: true
 ---
 ## Eigendynamik von Ein-Freiheitsgradsystemen
 
-<!-- Bild von Flügel Setup Folie 32 -->
-Modellbildung (Modell ist in Klausur gegeben)
-<!-- Bild von Modell Setup Folie 33 -->
-$$M_a = c_m \frac{\rhov^2}{2} h^2 b$$
+![skizze 2](/src/bilder/strukturdynamik_skizze_3.jpeg)
+<figcaption>Modellbildung (Modell ist in Klausur gegeben)</figcaption>
+
+$$M_a = c_m \frac{\rho v^2}{2} h^2 b$$
 Drallsatz für $p$ raumfest:
 $$J^{(p)} \ddot{\varphi} = \sum M^{(p)}$$
 $$= M_a - k \varphi + m g a cos(\varphi)$$
-$$J^{(p)} \ddot{\varphi} = -k\varphi + m g a cos(\varphi) + \frac{\deltav^2}{2} h^2 b w' \varphi$$
-...
+$$J^{(p)} \ddot{\varphi} = -k\varphi + m g a cos(\varphi) + \frac{\delta^2}{2} h^2 b w' \varphi$$
+$$...$$
 
 Mit $J^{(p)}$ = Flächenträgheitsmoment um Punkt p
 Mit $M_R(\varphi)$ = Rückführendes Moment

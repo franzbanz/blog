@@ -82,6 +82,10 @@ Redundant systems challenges
 
 separating the flight control application law (IFR) and redundant computing platform (ILS)
 
+![functional degredation](/src/bilder/systemDesign_image_4.png)
+<figcaption>The flight control application (law): IFR\
+The redundant computing platform: ILS</figcaption>
+
 law: The flight control application needs to know $\phi$ only, the distributed, redundant system
 architecture is transparent to the law\
 platform: The actual function of the law is unknown to the platform management. The control function is
@@ -91,9 +95,9 @@ transparent to the platform
 
 ## Fundamentals
 
-- Signal u / y: designates the value of the signal
-- State z: designates the state of a signal
-- Status s: designates the functional status of a component, Platform management computes this value
+- Signal $u$ / $y$: designates the value of the signal
+- State $z$: designates the state of a signal
+- Status $s$: designates the functional status of a component, Platform management computes this value
 - Signal transfer value $T$: function the canges the input signals to output signals depending on the mode
 - State transfer function $Z$: function that changes the input states and platform states $z_{pf}$ to output states
-- Evaluation function $\varepsilon$: function that returns the maximum available degredation a system can perform based on the input states 
+- Evaluation function $\varepsilon$: function that returns the maximum available degredation a system can perform based on the input states

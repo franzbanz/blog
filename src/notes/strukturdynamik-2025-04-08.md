@@ -18,7 +18,7 @@ includesMath: true
 
 Einfachster Prototyp eines schwingungsfähigen Systems ist das Feder-Masse-System
 
-![skizze 1](/src/bilder/strukturdynamik_skizze_1.png)
+![skizze 1](/src/bilder/strukturdynamik_skizze_1.jpeg)
 <figcaption>Einfachster Zusammenhang zwischen Kraft und Weg ist linear</figcaption>
 
 Impulssatz: Zeitliche Änderung des Impulses = Summer aller Kräfte in dieser Raumrichtung
@@ -59,7 +59,7 @@ Nutzen von $cos^2()+sin^2() = 1$
 
 $$q^2 + \frac{\dot{q}}{\omega}^2 = A^2 cos(...)^2 + A^2 sin(...)^2 = A^2$$
 
-![skizze 2](/src/bilder/strukturdynamik_skizze_2.png)
+![skizze 2](/src/bilder/strukturdynamik_skizze_2.jpeg)
 <figcaption>$E_k$ = Kinetische Energie, $E_p$ = potenzielle Energie</figcaption>
 
 Kinetische Energie genau unter der Parabel, Potenzielle Energie genau darüber

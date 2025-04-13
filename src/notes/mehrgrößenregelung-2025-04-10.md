@@ -29,7 +29,7 @@ Prüfung:
 ### Zustandsraumdarstellung / -modell (ZRD)
 
 Beispiel für ein Eingrößensystem: Gefesselter Wagen\
-<!-- Skizze aus Vorlesung hier -->
+<!-- Skizze aus Vorlesung hier FEHLT -->
 **Impulssatz**:
 $$m \ddot{y} = f - d \dot{y} - k y$$
 bzw.
@@ -38,17 +38,17 @@ Neue Variablen: $x_1 = y, x_2 = \dot{y}, u = f$\
 $$\dot{x_1} = x_2$$
 $$\dot{x_2} = -\frac{k}{m} x_1 - \frac{d}{m} x_2 + \frac{1}{m} u$$
 Matrizen- bzw. Vektorschreibweise x = $(x_1, x_2)$
-<!-- Aus Mitschrieb übertragen -->
+<!-- Aus Mitschrieb übertragen FEHLT -->
 
 Beispiel für ein Mehrgrößensystem: Torsionsschwinger
-<!-- Skizze azs Mitschrieb -->
+<!-- Skizze azs Mitschrieb FEHLT -->
 **Drallsatz**:
 $$I \ddot{\phi_1} = c(u_1 - \phi_1) + c(\phi_2 - \phi_1)$$
 $$I \ddot{\phi_2} = c(\phi_1 - \phi_2) + c(\phi_3 - \phi_2)$$
 $$I \phi_3 = c(\phi_2 - \phi_3) + c(u_2 - \phi_3)$$
 Neue Variablen: $x_1 = \phi_1, x_2 = \dot{\phi_1}, x_3 = \phi_2, x_4 = \dot{\phi_2}, x_5 = \phi_3, x_6 = \dot{\phi_3}$\
 Ausgänge: $y_1 = \phi_1, y_2 = \phi_3, a = 2 \frac{c}{I}$
-<!-- Matrixschreibweise siehe Mitschrieb -->
+<!-- Matrixschreibweise siehe Mitschrieb FEHLT -->
 
 ### Konzepte der Zustandsraumdarstellung
 

@@ -28,25 +28,33 @@ Wiederstand wird genutzt, nicht die Auftriebskraft - weniger Effizient\
 
 ### Entwicklung der modernen Windenergienutzung
 
-**1891** von **Poul la Cour**, **Askov Dänemark**
+![1891](/src/bilder/windenergie_bild_1.png)
+<figcaption>**1891** von **Poul la Cour**, **Askov Dänemark**</figcaption>
+
 - 11 Meter Rotordurchmesser 18 KW Leistung für die Batterie
 - Schnellläufer sind besser geeignet für die Stromerzeugung
 - Anwendung moderne Aerodynamik für die Auslegung
 - Energiespeicherung mit Wasserstoff
 
-**1941** von **Palmer C. Putnam** erste Megawatt Anlage
+![1941](/src/bilder/windenergie_bild_2.png)
+<figcaption>**1941** von **Palmer C. Putnam** erste Megawatt Anlage</figcaption>
+
 - 1250 KW Nennleistung
 - Blattmaterial Stahl
 - Pitchregelung
 - Materialermüdungen noch nicht vollständig verstanden
 
-**1950er** **Ulrich Hütter** Stuttgart
+![alt text](/src/bilder/windenergie_bild_3.png)
+<figcaption>**1950er** **Ulrich Hütter** Stuttgart</figcaption>
+
 - Erste moderne Windkraftanlage
 - WE 10 Allgaier (10KW), StGW 34 (100KW)
 - Faserverbundmaterialien
 - Blattnabe Verbindung
 
-**1957** **Johannes Juul** Dänemark
+![alt text](/src/bilder/windenergie_bild_4.png)
+<figcaption>**1957** **Johannes Juul** Dänemark</figcaption>
+
 - 200KW Nennleistung
 - Aerodynamisch schlechter, aber
 - Elektrotechnisch robuster, stabil betreibbar

@@ -19,10 +19,17 @@ includesMath: true
 
 ## Weiteres
 
-- Empfehlung: Dimensional analysis for engineers ITLR
-- Vorlage für diese Vorlesung: Turbomachinery 1 / 2 (Cambridge University)
-- Anschließende Vorlesungen: Gas Turbine Performance 1 / 2
-- Übung mit Musterlösung in Ilias (Freiwillig)
+![1](/src/bilder/turboflugtriebwerke_buch_1.png)
+<figcaption>Empfehlung: Dimensional analysis for engineers ITLR</figcaption>
+
+![2](/src/bilder/turboflugtriebwerke_buch_2.png)
+<figcaption>Vorlage für diese Vorlesung: Turbomachinery 1 / 2 (Cambridge University)</figcaption>
+
+![3](/src/bilder/turboflugtriebwerke_buch_3.png)
+<figcaption>Anschließende Vorlesungen: Gas Turbine Performance 1 / 2</figcaption>
+
+![4](/src/bilder/turboflugtriebwerke_buch_4.png)
+<figcaption>Übung mit Musterlösung in Ilias (Freiwillig)</figcaption>
 
 Nach Abschluss der Veranstaltung:
 
@@ -44,17 +51,17 @@ Nach Abschluss der Veranstaltung:
 
 ### Unterschalleinlauf
 
-<!-- Bild Folie 23 -->
+<!-- Bild Folie 23 FEHLT -->
 1 - Engster Querschnitt
 Großer Nasenradius ist toleranter gegenüber wechselhafter Anströmungsrichtungen
 Diffusor nach Engstem Querschnitt zum verzögern der Anströmung auf ~Ma0.5
 Wie entwickelt sich der Druckverlust im Einlauf?
 Ähnlich Düse / Diffusor / Rohr - Druckverlust im Rohr an der Wand
-<!-- Siehe Foto von Tafel -->
+<!-- Siehe Foto von Tafel FEHLT -->
 Bodenstandfall - Starke Krümmung der Stromlinien, langer Wandkontakt führen zu Druckverlust
 Reiseflug - Geringere Krümmung, geringerer Wandkontakt
 Schnellflug - Staupunkt ist weiter nach innen gewandert
-<!-- Grafik Folie 27 -->
+<!-- Grafik Folie 27 FEHLT -->
 $P_{t12/2}$ liegt im Einlass direkt vor dem Fan
 $P_{t0}$ liegt vor dem Einlass
 Enn der Fan mehr fördert, steigt die Machzahl im Strömungskanel im Einlass und der Druckverlust steigt
