@@ -24,7 +24,7 @@ System Design 2: Lab course
 
 # Why is system development so complex?
 
-![number of aviation related fatalities](/src/bilder/systemDesign_image_1.png)
+![number of aviation related fatalities](/src/bilder/systemDesign_image_1.jpeg)
 <figcaption>Number of aviation related fatalities have drastically decreased</figcaption>
 
 - high system redundancy and safety
@@ -38,7 +38,7 @@ Pilot uses stick deflection to control vertical acceleration (load factor contro
 - stick pulled, rotates nose upwards $\phi > 0, a_z > 0$
 - stick pushed, rotates nose downwards $\phi < 0, a_z < 0$
 
-![simplex system](/src/bilder/systemDesign_image_2.png)
+![simplex system](/src/bilder/systemDesign_image_2.jpeg)
 <figcaption>Simplex system without redundant lanes etc...</figcaption>
 
 System development for load factor control and protections, e.g. stall protection limits $\alpha$\
@@ -51,7 +51,7 @@ more complex applications (laws) that require capable controllers / computers
 - extremly remote: $10^{-7}h^{-1}$
 - extremly improbable: $10^{-9}h^{-1}$
 
-![functional degredation](/src/bilder/systemDesign_image_3.png)
+![functional degredation](/src/bilder/systemDesign_image_3.jpeg)
 <figcaption>Functional degredation with multiple failures</figcaption>
 
 Degradation: Systems could degrade in function when losing certain sensors\
@@ -82,7 +82,7 @@ Redundant systems challenges
 
 separating the flight control application law (IFR) and redundant computing platform (ILS)
 
-![functional degredation](/src/bilder/systemDesign_image_4.png)
+![functional degredation](/src/bilder/systemDesign_image_4.jpeg)
 <figcaption>The flight control application (law): IFR\
 The redundant computing platform: ILS</figcaption>
 
