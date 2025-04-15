@@ -65,13 +65,15 @@ $\tilde{q} = Q e^{\lambda t}, \dot{\tilde{q}} = \lambda Q e^{\lambda t}, \ddot{\
 $\rightarrow [\lambda^2 + 2 D \omega \lambda + \omega^2] Q e^{\lambda t} = 0$
 
 nichttriviale Lösung: $[\lambda^2 + 2 D \omega \lambda + \omega^2] \overset{!}{=} 0$\
-$\lambda_{1,2} = -D \omega +- \sqrt{(D \omega)^2- \omega^2} = (-D +- \sqrt{D^2-1}) \omega$
+$\lambda_{1,2} = -D \omega \pm \sqrt{(D \omega)^2- \omega^2} = (-D \pm \sqrt{D^2-1}) \omega$
 
-Doppelte Würzen für $D^2=1 \rightarrow D = +- 1, sonst \lambda_1 \neq \lambda_2$
+Doppelte Würzen für $D^2=1 \rightarrow D = \pm 1, sonst \lambda_1 \neq \lambda_2$
 
 allgemeine lösung:
 
-$$\tilde{q} = \begin{cases} Q_1 e^{\lambda_1 t} + Q_2 e^{\lambda_2 t}, D \neq +- 1 \\ Q_1 e^{-D \omega t} + Q_2 t e^{-D \omega t}, D = +- 1$$
+$\tilde{q} = Q_1 e^{\lambda_1 t} + Q_2 e^{\lambda_2 t}$ für $D \neq \pm 1$
+
+$\tilde{q} = Q_1 e^{-D \omega t} + Q_2 t e^{-D \omega t}$ für $D = \pm 1$
 
 Der Dämpfungsgrad D ergibt sich auch der **Ursache** und der Stärke der **Einwirkung** auf die Schwingungen des betrachteten Systems
 
