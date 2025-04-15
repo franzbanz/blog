@@ -54,3 +54,30 @@ Entspricht einem Feder-Masse-System
 
 Differentialgleichung gilt für alle Ein-Freiheitsgrad-Systeme (EFS) - Standardform für EFS, frei, ungedämpft:
 $$\ddot{q} + \omega^2 q = 0$$
+
+## Standardform EFS, frei, gedämpft
+
+$$\ddot{q} + 2 D \omega \dot{q} + \omega^2 q = 0$$
+$$D, \omega \epsilon \mathbb{R}$$
+
+Ansatz:\
+$\tilde{q} = Q e^{\lambda t}, \dot{\tilde{q}} = \lambda Q e^{\lambda t}, \ddot{\tilde{q}} = \lambda^2 Q e^{\lambda t}$\
+$\rightarrow [\lambda^2 + 2 D \omega \lambda + \omega^2] Q e^{\lambda t} = 0$
+
+nichttriviale Lösung: $[\lambda^2 + 2 D \omega \lambda + \omega^2] \overset{!}{=} 0$\
+$\lambda_{1,2} = -D \omega +- \sqrt{(D \omega)^2- \omega^2} = (-D +- \sqrt{D^2-1}) \omega$
+
+Doppelte Würzen für $D^2=1 \rightarrow D = +- 1, sonst \lambda_1 \neq \lambda_2$
+
+allgemeine lösung:
+
+$$\tilde{q} = \begin{cases} Q_1 e^{\lambda_1 t} + Q_2 e^{\lambda_2 t}, D \neq +- 1 \\ Q_1 e^{-D \omega t} + Q_2 t e^{-D \omega t}, D = +- 1$$
+
+Der Dämpfungsgrad D ergibt sich auch der **Ursache** und der Stärke der **Einwirkung** auf die Schwingungen des betrachteten Systems
+
+Wie bestimmt man die statischen Gleichgewichtslagen (Ruhelagen) eines EFS
+- Extremstellen der potenziellen Energie bzw. Nullstellen der verallgemeinerten Rückführkraft
+Wie ist das Eigenverhalten für kleine Schwingungen um eine stabile Ruhelage?
+- Harmonische Schwingungen mit der Eigenfrequenz
+- Die Eigenfrequenz lässt sich aus der linearisierten Bewegungsgleichung ablesen (abhängig von Trägheuits und Steifigkeitseigenschaften)
+- Positive viskose Dämpfung bewirkt exponentielles Abklingen
