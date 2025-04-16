@@ -8,7 +8,7 @@ layout: note
 includesMath: true
 ---
 
-## Freiwillige Zusatzaufgaben
+# Freiwillige Zusatzaufgaben
 
 Jeweils 10 Punkte\
 Vierergruppen
@@ -28,7 +28,7 @@ Vierergruppen
   - Multiple choice
   - 5 bis 10 min
 
-## Einführung
+# Einführung
 
 Analytische Methoden Sinnvoll um Richtigkeit der Numerischen Lösungen zu überprüfen / abzuschätzen\
 Partielle DGL werden durch höchste Ableitung beschrieben (Erster Ordnung / Zweiter Ordnung / ...)\
@@ -36,7 +36,7 @@ Lineare DGLs: Jeder Term hat die gesuchte Funktion nur einmal\
 Nicht-lineare DGLs: gesuchte funktion taucht im Term mehrmals auf\
 Nicht Lineare DGLs: Prinzip der Superposition kann **nicht** ausgenutzt werden - Lösung muss alle Randbedingungen auf einmal erfüllen und kann nicht durch das Zusammensetzen einfacherer Sub-Probleme gefunden werden.\
 
-## Einteilung der Differentialgleichungen
+# Einteilung der Differentialgleichungen
 
 (Eine Differenzialgleichung ist also linear, wenn die Koeffizienten nur von den unabhängigen Variablen abhängen. Die Gleichung ist im anderen Fall nichtlinear. Hängen die Koeffizienten vor den höchsten Ableitungen nicht von den höchsten Ableitungen der gesuchten Funktion ab, so nennt man die Gleichung auch quasilinear.)
 
