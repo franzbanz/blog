@@ -24,7 +24,7 @@ System Design 2: Lab course
 
 # Why is system development so complex?
 
-![number of aviation related fatalities](/src/bilder/systemDesign_image_1.jpeg)
+![number of aviation related fatalities](/src/bilder/systemDesign_image_1.png)
 <figcaption>Number of aviation related fatalities have drastically decreased</figcaption>
 
 - high system redundancy and safety
@@ -44,7 +44,7 @@ Pilot uses stick deflection to control vertical acceleration (load factor contro
 System development for load factor control and protections, e.g. stall protection limits $\alpha$\
 more complex applications (laws) that require capable controllers / computers
 
-## Safety
+## Safety (for one flight hour per system)
 
 - probable: $10^{-3}h^{-1}$
 - remote: $10^{-5}h^{-1}$
