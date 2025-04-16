@@ -38,6 +38,8 @@ Nicht Lineare DGLs: Prinzip der Superposition kann **nicht** ausgenutzt werden -
 
 ## Einteilung der Differentialgleichungen
 
+(Eine Differenzialgleichung ist also linear, wenn die Koeffizienten nur von den unabhängigen Variablen abhängen. Die Gleichung ist im anderen Fall nichtlinear. Hängen die Koeffizienten vor den höchsten Ableitungen nicht von den höchsten Ableitungen der gesuchten Funktion ab, so nennt man die Gleichung auch quasilinear.)
+
 $$\delta c \frac{\partial T}{\partial t} = \lambda \frac{\partial^2 T}{\partial x^2}$$
 
 - lineare, partielle DGL
