@@ -1,7 +1,7 @@
 ---
 course: Mehrgrößenregelung
 type: Vorlesung
-by: Torbjorn Cunis
+by: Torbjørn Cunis
 date: 2025-04-10 # (YYYY-MM-DD)
 tags: notes
 layout: note
