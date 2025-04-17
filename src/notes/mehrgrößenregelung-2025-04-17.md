@@ -1,6 +1,6 @@
 ---
 course: Mehrgrößenregelung
-type: Vorlesung
+type: Vorlesung - nacharbeiten
 by: Torbjørn Cunis
 date: 2025-04-17 # (YYYY-MM-DD)
 tags: notes

@@ -8,7 +8,7 @@ layout: note
 includesMath: true
 ---
 
-## Einführung
+# Einführung
 
 "Dunkelflaute" vom 10. Dezember 2024 ließe sich mit größerer Nabenhöhe der Windkraftwerke reduzieren\
 China größte Energieproduktion über Windkraft - 500 GW\
@@ -19,6 +19,9 @@ Eine Umdrehung einer 15 MW offshore WEA Windanlage (8 Umdrehungen pro Minute) re
 $$15MWh / \frac{8 U}{60Min} \rightarrow \frac{15000 KWh}{480 U}$$
 $$31.25\frac{KWh}{U}$$
 $208,3$ Km fahren zu können
+
+Steigt die Windgeschwindigkeit um 10%, steigt die Windleistung um 30%\
+Windleistung ist proportional zur dritten Potenz der Windgeschwindigkeit
 
 ## Historie, Status und Entwicklungstendenzen
 
@@ -58,6 +61,7 @@ Wiederstand wird genutzt, nicht die Auftriebskraft - weniger Effizient\
 - 200KW Nennleistung
 - Aerodynamisch schlechter, aber
 - Elektrotechnisch robuster, stabil betreibbar
+- Leistung begrenzbar über stall Regelung
 
 **1980-1990** USA, Kanada **staatlich geförderte** Windenergieforschungsprogramme für Anlagen mit hoher Nennleistung
 - MOD1 (2MW)

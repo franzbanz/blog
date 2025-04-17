@@ -39,7 +39,7 @@ $$CH_4 + O_2 \rightarrow CO_2 + H_2O$$
 
 Annahme: 1 $CH_4$\
 Rechts $C$ nur in $CO_2: 1 CO_2$\
-Rechts $H$ nur in $H_2O: 2 H_2O$ (4H aus $CH_4)\
+Rechts $H$ nur in $H_2O: 2 H_2O$ ($4H$ aus $CH_4$)\
 Damit $C$ und $H$ "Versorgt", es bleibt $O$:\
 $O$ rechts abzählen: $(2 + 2) O = 4 O \rightarrow 2 O_2$
 
@@ -79,6 +79,13 @@ Vorgemischte Flamme
 - Weniger Schadstoffe
 - Gefahr Flammenrückschlag
 - Otto-Motor (keine Selbstzündung, weniger Leistung, dafür geringere Schadstoffe)
+
+<!-- ## Ziele der technischen Verbrennung
+
+- Wärmefreisetzung
+- Geringe Schadstoffbildung
+- Sicherheit
+- Geringe Lärmemissionen -->
 
 ## Wärmefreisetzung
 
