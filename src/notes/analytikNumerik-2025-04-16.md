@@ -14,31 +14,34 @@ includesMath: true
 
 ### Hyperbolische Typ: $B^2 - 4 A C > 0$
 
-<!-- formel 2.39, siehe auch Foto -->
+$$\frac{\partial^2 u}{\partial \xi \partial \eta} = H_1(\xi, \eta, u, \frac{\partial u}{\partial \xi}, \frac{\partial u}{\partial \eta})$$
+
+$$\frac{\partial^2 u}{\partial \alpha^2} - \frac{\partial^2 u}{\partial \beta^2} = H_2(\alpha, \beta, u, \frac{\partial u}{\partial \alpha}, \frac{\partial u}{\partial \beta}); \quad \alpha = \xi + \eta; \beta = \xi - \eta$$
 
 ### Parabolischer Typ: $B^2 - 4 A C = 0$
 
-Eine reelle Charakteristik
-
-<!-- formel 2.42, siehe auch Foto -->
+Eine reelle Charakteristik, siehe 2.42 Skript
 
 ### Eliptischer Typ: $B^2 - 4 A C < 0$
 
-zwei komplex konjugierte Charakteristiken
+zwei komplex konjugierte Charakteristiken, siehe 2.46 Skript
 
-<!-- siehe auch Foto -->
+### Beispiel
 
-### Beispiele
+![beispiel](/src/bilder/analytische_methoden_skizze_3.jpeg)
+<figcaption>Beispiel zur Berechnung der Normalform</figcaption>
 
-<!-- Das erste abschreiben aus dem Skript, auf die anderen verweisen -->
+$c_1$ und $c_2$ sind konstant und können frei gewählt werden, daher kann man sie mit $\xi$ und $\eta$ austauschen
 
-c_1 und c_2 sind konstant und können frei gewählt werden, daher kann man sie mit \xi und \eta austauschen
-
-\alpha und \beta nötig, weil \xi und \eta komplex konjugiert sind \rightaarrow Es müssen Randbedingungen an der ganzen Oberfläche des Gebiets definiert werden, kann nicht mit den komplex konjugierten Koordinaten gemacht werden - Wechsel zu reellen Koordinaten
+$\alpha$ und $\beta$ nötig, weil $\xi$ und $\eta$ komplex konjugiert sind $\rightarrow$ Es müssen Randbedingungen an der ganzen Oberfläche des Gebiets definiert werden, kann nicht mit den komplex konjugierten Koordinaten gemacht werden - Wechsel zu reellen Koordinaten
 
 ## Klassifizierung von Systemen von linearen partiellen DGLs erster Ordnung
 
-<!-- Siehe foto (Unterstrichene Buchstaben mit ~ sollen Matrizen sein) -->
+Systeme von partiellen Differenzialgleichungen lassen sich in verschiedene Typen einteilen (2.77 Skript)
+
+- Elliptisch
+- Hyperbolisch
+- Parabolisch
 
 Charakterisierung über die Eigenwertgleichung
 
@@ -46,11 +49,10 @@ $$(A - \lambda B) t = 0$$
 
 $$...$$
 
-<!-- Siehe Foto -->
 
 ### Beispiele
 
-<!-- Siehe Foto und Skript, vielleicht erstes Beispiel mit Wellengleichung aufschreiben \rightarrow hyperbolisch-->
+Siehe 2.62 im Skript
 
 ## Einschub - Dimensionsanalyse
 
@@ -63,3 +65,5 @@ Beispiele:
 
 Für viele Probleme spielen charakteristische Länge, charakteristische Zeit, ... die größte Rolle\
 Viele Probleme werden dimensionslos einfacher
+
+Weiter mit der Dimensionsanalyse in der nächsten Vorlesung

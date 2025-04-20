@@ -26,7 +26,6 @@ Mit $M_R(\varphi)$ = Rückführendes Moment
 
 Es gilt $\varphi = \varphi_0 = const \rightarrow \dot{\varphi} = 0 = \ddot{\varphi}$
 $\rightarrow M_R(\varphi_0) != 0 \rightarrow k^* \varphi_0 = m g a cos(\varphi_0)$
-<!-- Skizze aus Mitschrieb -->
 
 ### Stabilität der Ruhelage $\varphi_0$
 
@@ -38,7 +37,6 @@ instabil für $\frac{M_R}{d\varphi}>0$,  $E_p$ hat Maximum\
 Für $\frac{M_R}{d\varphi}=0$: Keine Aussage nach linearer Theorie möglich
 
 Potentielle Energie $E_p = - \int M_R d \phi$
-<!-- Skizze aus Mitschrieb -->
 
 ## Wie schwingt es?
 

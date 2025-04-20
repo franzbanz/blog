@@ -12,37 +12,70 @@ includesMath: true
 
 ### Buckinham - Theorem (Pi - Theorem)
 
-$$f(p_1, p_2, p_3, ..., p_n)$$ wichtige Funktion
+$$f(p_1, p_2, p_3, ..., p_n)$$
 
-p stellen physikalische größen dar, Zahlenwert und Einheit, z.B. $a \rightarrow m s^{-2}$
+p stellen physikalische größen dar, Zahlenwert und Einheit, z.B.
 
-Basisgröße, Dimension, SI - Einheit
-Länge L m...
+$$a \rightarrow m s^{-2}$$
 
-<!-- Tabelle aus Vorlesung Foto, 3.1 im Skrip -->
-"Basisgrößen System" (Menschgemacht und damit Willkürlich)
+| Basisgröße  | Dimension | SI-Einheit     |
+|-------------|-----------|----------------|
+| Länge       | $L$       | m - Meter      |
+| Masse       | $M$       | kg - Kilogramm |
+| Tempp       | $\gamma$  | K - Kelvin     |
+| Zeit        | $\tau$    | s - Sekunde    |
+| Stoffmenge  | $\eta$    | mol - Mol      |
+| Stromstärke | $I$       | A - Ampere     |
+| Lichtstärke | $S$       | cl - Coudela   |
 
-<!-- Zweite Tabelle aus Foto, 3.2 im Skript -->
-"Physikalische Größen"
 
-$[p_j] = \prod i=1, m (x_i)^{a i j}$
-<!-- siehe foto -->
+**Basisgrößen System** (Menschgemacht und damit Willkürlich)
+
+
+| Basisgröße  | Dimension |  SI-Einheit    |
+|-------------|-----------|----------------|
+| Beschleunig.|  $a$      | $L \tau^{-2}$  |
+| Dichte      |  $\rho$   | M L^{-3}       |
+| Druck       | $p$       | P a = M L^{-1} \tau^{-2} |
+| ...         | ...       | ...            |
+
+**Physikalische Größen**
+
+$[p_j] = \prod_{i=1}^m (x_i)^{a i j}$\
+$[]$: Domension von $p_j$\
+$p_j$: physikalische Größe\
+$x_i$: Basisgrößen
+Beispiel:
+
+$$[u] = [p_1] = L \tau^{-1}; \quad x_1 = L; \quad a_{11} = 1; \quad x_2 = \tau \quad a_{21} = -1$$
+
+Das Theorem gibt uns einen Zusammenhang zwischen der Anzahl der physikalischen größen $n$ und der Anzahl der unabhängigen dimensionslosen Größen $d$, die im Problem auftreten. Es ist:
 
 $$d = n - r$$
 
 d = anzahl der dimensionslosen größen\
 n = Anzahl der physikalischen größen\
-r = rang der dimensionsmatrix
+r = Rang der dimensionsmatrix
 
 ### Beispiel
 
-<!-- Siehe eigenen Mitschrieb und skript -->
+Aerodynamischer Wiederstand einer Kugel, die einer gleichmäßigen Anströmung ausgesetzt wird\
+Kugeldurchmesser $D$\
+Anströmgeschwindigkeit $U$\
+Wiederstand $W$\
+Dynamische Viskosität $\eta$\
+Dichte des Fluids $\varrho$\
+
+$$W = fn(U, D, \eta, \rho)$$
+
+![beispiel](/src/bilder/analytische_methoden_skizze_2.jpeg)
+<figcaption>Beispiel aerodynamischer Wiederstand einer Kugel</figcaption>
+
+$\eta$ und $\varrho$ sind die einzigen Größen in der Tabelle die noch einen Eintrag in der Zeit $\tau$ haben $\rightarrow$ kann für das Problem keine Rolle spielen, weil sie nicht mit einer anderen Größe dimensionslos gemacht werden können
+
+$$\frac{W}{\varrho u^2 D^2} \stackrel{!}{=} f(\frac{u D \varrho}{\eta})$$
 
 ## Dimensionslose Größen und deren Physikalische Bedeutung
-
-<!-- Siehe Foto oder eigene Zeichnung -->
-
-<!-- dann Formeln ab 3.16 -->
 
 Pi- Theorem
 
@@ -52,8 +85,4 @@ physikalische größe einheit setzt sich immer aus basisgrößen zusammen - dime
 
 dimensionslose größe lässt sich über multiplikation von basisgrößen darstellen (mit exponenten)
 
-### Beispiele
-
-<!-- Erstmal nur eins abschreiben von eigenem aufschrieb mit der Vogel Fluggeschwindigkeit -->
-
-functioneller zusammenhang 3.39 lässt sich als partielle DGl schreiben
+### Beispiele ab 3.29 im Skript
