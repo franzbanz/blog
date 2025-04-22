@@ -19,9 +19,9 @@ includesMath: true
 - numerische Lösungen von Eigenwertproblemen
 
 Approximation bedeutet: Man sucht eine (einfachere) Funktion $p = p(x), x$ aus $[a,b]$, welche die gegebene Funktion $f = f(x), x$ aus $[a,b]$ möglichst gut approximiert\
-Ansatz: Näherung $p$ ist eine Linearkombination von einfachen Basisfunktionen
 
-<!-- Skizze 1 -->
+![einfacher ansatz](/src/bilder/analytische_methoden_skizze_4.jpeg)
+<figcaption>Ansatz: Näherung $p$ ist eine Linearkombination von einfachen Basisfunktionen</figcaption>
 
 Wir brauchen ein Maß dafür, wie gut eine Approximation die tazächliche Funktion Annährt\
 möglichst gut könnte bedeuten, bezüglich einer Norm:
@@ -36,7 +36,8 @@ oder auch möglichst gut bezüglich dem maximalen Abstand (Folien Seite 5):
 
 $$||p(x) - f(x)||_\inf = ...$$
 
-<!-- Skizze 3 Kollokation, Folie 6-->
+![kollokation](/src/bilder/analytische_methoden_skizze_5.jpeg)
+<figcaption>Kollokation, Folie 6</figcaption>
 
 Kollokation: beschreibt, dass wir zwei Dinge an einem Punkt gleichsetzen (Überbegriff)\
 Interpolation: Spezieller Name des Annährungsverfahrens über eine Interpolationsfunktion
@@ -46,13 +47,22 @@ Interpolation: Spezieller Name des Annährungsverfahrens über eine Interpolatio
 ### Darstellung eines Interpolationspolynoms
 
 1. Mit Hilfe der Monombasis
-<!-- Skizze 4 -->
-2. Lagrange Darstellung
-<!-- Skizze 5 -->
+
+![monombasis](/src/bilder/analytische_methoden_skizze_6.jpeg)
+<figcaption>Monombasis</figcaption>
+
+1. Lagrange Darstellung
+
+![lagrange darstellung](/src/bilder/analytische_methoden_skizze_7.jpeg)
+<figcaption>Lagrange Darstellung</figcaption>
+
 Werden auch Lagrangesche Basis-Polynome genannt\
 Definiert durch die Vorgabe der Punkte $x_i$
 <!-- Skizze 6 -->
-3. Newtonsche Darstellung
+1. Newtonsche Darstellung
+
+![newtonsche Darstellung](/src/bilder/analytische_methoden_skizze_8.jpeg)
+<figcaption>Newtonsche  Darstellung, Folie 12</figcaption>
 
 Prüfungsähnliche Frage Beispiel 4.2 Folie 12
 
