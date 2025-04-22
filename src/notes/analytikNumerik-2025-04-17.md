@@ -1,7 +1,7 @@
 ---
 course: Analytische und Numerische Methoden
-type: Vorlesung
-by: Bernhard Weigand, Andrea Beck
+type: Analytik
+by: Bernhard Weigand
 date: 2025-04-17 # (YYYY-MM-DD)
 tags: notes
 layout: note
