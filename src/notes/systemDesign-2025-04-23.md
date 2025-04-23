@@ -8,6 +8,12 @@ layout: note
 includesMath: true
 ---
 
+# Platform Architecture
+
+- How to find the required degree of redundancy for computers, sensors and actuators
+- How to operate redundant computers
+- How to validate the redundant architecture
+
 ## When does a failed computer get out of control
 
 <!-- Noch nacharbeiten bis slide 22 chapter 3 -->
