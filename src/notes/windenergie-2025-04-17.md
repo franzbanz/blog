@@ -1,6 +1,6 @@
 ---
 course: Windenergie 1
-type: Vorlesung
+type: Wind 1
 by: Po Wen Cheng
 date: 2025-04-17 # (YYYY-MM-DD)
 tags: notes
