@@ -1,6 +1,6 @@
 ---
 course: Analytische und Numerische Methoden
-type: Numerik
+type: Numerik - nacharbeiten
 by: Andrea Beck
 date: 2025-04-24 # (YYYY-MM-DD)
 tags: notes
