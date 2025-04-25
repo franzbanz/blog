@@ -21,7 +21,7 @@ Abweichung vom Arbeitspunkt: $\delta x = x - \tilde{x}, \delta u = u - \tilde{u}
 
 $$...$$
 
-### Aufschrieb aus der Vorlesung
+## Aufschrieb aus der Vorlesung
 
 ![mitschieb](/src/bilder/mehrgroessenregelung_mitschrieb_1.jpeg)
 <figcaption>Mitschrieb Seite 1</figcaption>

@@ -70,4 +70,3 @@ Bei einer Konvergent-Divergenten Düse sieht der Verlauf anders aus:
 
 ![Konvergent-Divergente Düse](/src/bilder/turboflugtriebwerke_skizze_4.jpeg)
 <figcaption>Konvergent-Divergente Düse</figcaption>
-

@@ -33,7 +33,8 @@ Zusätzliche Zentrifugalkraft aus Bewegung um Tiefdruckgebiete
 - Luftströmung in großer Höhe unbeeinflusst von Bodenreibung
 - Gleichgewicht zwischen Gradientenkraft und Corioliskraft
 
-<!-- Grafik von Folie 10 hier -->
+![corioliskraft](/src/bilder/windenergie_skizze_1.jpeg)
+<figcaption>Geostropischer Wind von Hoch- in Tiefdruckgebiet unter Beeinflussung der Corioliskraft</figcaption>
 
 ## Lokale Winde
 
@@ -89,7 +90,7 @@ Verhindern dass verschiedene Windenergieanlagen sich nicht gegenseitig negativ b
 - Standortkalibrierung
 - Mechanische Lastmessungen zur Anlagenzertifizierung
 
-<!-- Folie 22 Formeln -->
+Formeln für Windleistung, Leistungsbeiwert und Rotorleistung in Vorlesungsfolien 22
 
 Messgrößen:
 
@@ -98,9 +99,7 @@ Messgrößen:
 - Lufttemperatur
 - Windrichtung
 
-<!-- Folie 26 -->
-
-### Schalenkreuz oder Löffelanemometer
+## Schalenkreuz oder Löffelanemometer
 
 Vorteile
 
@@ -108,7 +107,7 @@ Vorteile
 - gute proportionalität zwischen windgeschwindigkeit und drehzahl
 - ...
 
-### Ultraschallanemometer
+## Ultraschallanemometer
 
 Vorteile
 
@@ -118,10 +117,18 @@ Vorteile
 
 ## Gegenüberstellung Messmast - Fernerkundung
 
-<!-- Folie 31 -->
+Nachteile Messmast
+
+- Mastmiete für zwei Jahre ca. $115000
+- Errichtung dauert Zeit, ca. eine Woche
+- Baugenemigung, Pacht
+- Bei Ausfall der Sensorik Wartung nötig
+- Unflexibel
+
+Vorteile Fernerkundung
+
+- Messung der Windbedingungen über den gesamten Rotordurchmesser möglich
+- Kurze schnelle Messkampagnen an unterschiedlichen Orten möglich
+- In Kombination mit CFD sehr gut für komplexes Gelände geeignet
 
 Mal nachlesen: Windmessungen aus dem Helikopter möglich??
-
-<!-- Folie 40 noch wichtig -->
-
-Leistungskurve einer WEA verifizieren

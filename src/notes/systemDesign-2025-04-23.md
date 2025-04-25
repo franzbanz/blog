@@ -12,19 +12,46 @@ includesMath: true
 
 - How to find the required degree of redundancy for computers, sensors and actuators
 - How to operate redundant computers
-- How to validate the redundant architecture
+- How to validate the redundant architecture#
 
 ## When does a failed computer get out of control
 
-<!-- Noch nacharbeiten bis slide 22 chapter 3 -->
+### Redundant computer: Module State Passive
+
+The redundant computer is passive, if all single computer lanes are passive\
+With a passive failure within duplex operation, both lanes need to passivate. If one lane remains not passive, the redundant computer cannot be passive
+
+### Redundant computer: Module State out-of-control
+
+The redundant computer is out of control, if the single computer lanes states are within:
+
+![out-of-control](/src/bilder/systemDesign_image_7.jpeg)
+<figcaption>module state out-of-control</figcaption>
+
+States (for each line in the above set)\
+(1) due to byzantine faults in quadruplex configuration; **unacceptable**\
+(2) due to special byzantine faults in triplex configuration\
+(3) due to double faults in quadruplex configuration\
+(4) due to double faults in triplex configuration
+
+For quadruplex operation, we do not accept fault propagation with a single fault
+
+1. Catastrophic events due to a single failure are unacceptable
+2. Quadruplex systems can be designed, so that they work after any first failure
+3. Probability for such events would be too high (unacceptable)
+
+
+For bare triplex operation, we cannot outrule this by design
+
+## Redundant Computer: conclusion
 
 1. A reundant computer can either be correct, passive or out-of-control
 2. the state depends on the single computer's state
 3. we can design a quadruplex system that can mitigate every first failure
 4. we cannot design a (pure) triplex system to do the same
 5. the redundant computer can make the law command worse, not better
-6. the redundant computer is only passive if all single computer lanes are passive
-7. the redundant computer with state $z_{mod, rf}$ produces commands $z_{rf, d}$ using $z_{law, d}$
+6.  the redundant computer is only passive if all single computer lanes are passive
+7.  the redundant computer with state $z_{mod, rf}$ produces commands $z_{rf, d}$ using $z_{law, d}$
 
 ## Redundant Sensors: Simplification
 

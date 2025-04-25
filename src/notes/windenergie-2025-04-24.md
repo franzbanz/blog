@@ -39,9 +39,26 @@ Kurzzeitstatistik (Mitteilungszeitraum 10 min bis 1 h):
 
 kumulative Häufigkeitsverteilung, Summenhäufigkeit (Folie 13)
 
+![histogramm](/src/bilder/windenergie_bild_5.png)
+<figcaption>Histogramm (links) und kumulative Häufigkeitsverteilung (Summenhäufigkeit)</figcaption>
+
 bei z.B. einer Windgeschwindigkeit von $10 \frac{m}{s}$ und einer Kumulativen Verteilung $F = 0,3$: Es gibt eine 30% Wahrscheinlichkeit, das die Windgeschwindigkeit kleiner sein wird als $10 \frac{m}{s}$
 
-<!-- Formeln Folie 14 abschreiben -->
+Verteilungsdichtefunktion:
+
+$$f(v) = \frac{k}{A} (\frac{v}{A})^{k-1} \cdot exp[-(\frac{v}{A})^k]$$
+
+Kumulative Verteilung
+
+$$F(v) = 1-exp[-(\frac{v}{A})^k]$$
+
+Weibullfaktoren:\
+Skalierungsparameter $A$ [$\frac{m}{s}$], proportional zu $v_m$\
+Formfaktor $k$ [-] (hier $1 < k < 4$)
+
+Zusammenhang zwischen Weibullfaktoren $A$ und $k$ und dem Jahresmittel $v_m$ der Windgeschwindigkeit
+
+$$v_m \approx A \cdot (0.568 + \frac{0.434}{k})^{1/k}$$
 
 ## Vertikale Hüchrechnung der Weibull-Verteilung
 
@@ -64,5 +81,16 @@ Weibull-Verteilung ist ungenau für extrapolation von hohen Windgeschwindigkeite
 
 ## Beispiel Leistungskurve einer WEA
 
-"Das ist sehr wichtig dass sie das können"
-<!-- Folie 24 -->
+**"Das ist sehr wichtig dass sie das können"**
+
+![leistungskurve](/src/bilder/windenergie_skizze_2.jpeg)
+<figcaption>Beispiel-Leistungskurve einer WEA</figcaption>
+
+$V_{in} = ca. 3.5 - 4 \frac{m}{s}$\
+Einschaltgeschwindigkeit (Beginn positiver Leistungsproduktion)
+
+$V_{nenn} = ca. 11 - 12 \frac{m}{s}$\
+Nenngeschwindigkeit (Nennleistung wird erreicht)
+
+$V_{out} = ca. 25 \frac{m}{s}$\
+Abschaltgeschwindigkeit (Produktionsstopp, Anlage trudelt)

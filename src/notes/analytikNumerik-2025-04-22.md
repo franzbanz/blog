@@ -58,7 +58,7 @@ Interpolation: Spezieller Name des Annährungsverfahrens über eine Interpolatio
 
 Werden auch Lagrangesche Basis-Polynome genannt\
 Definiert durch die Vorgabe der Punkte $x_i$
-<!-- Skizze 6 -->
+
 1. Newtonsche Darstellung
 
 ![newtonsche Darstellung](/src/bilder/analytische_methoden_skizze_8.jpeg)

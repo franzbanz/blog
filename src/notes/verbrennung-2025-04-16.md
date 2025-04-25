@@ -80,13 +80,6 @@ Vorgemischte Flamme
 - Gefahr Flammenrückschlag
 - Otto-Motor (keine Selbstzündung, weniger Leistung, dafür geringere Schadstoffe)
 
-<!-- ## Ziele der technischen Verbrennung
-
-- Wärmefreisetzung
-- Geringe Schadstoffbildung
-- Sicherheit
-- Geringe Lärmemissionen -->
-
 ## Wärmefreisetzung
 
 Umwandlung von chemische Bindungsenergie in Wärme\

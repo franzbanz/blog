@@ -76,6 +76,7 @@ $\tilde{q} = Q_1 e^{-D \omega t} + Q_2 t e^{-D \omega t}$ für $D = \pm 1$
 Der Dämpfungsgrad D ergibt sich auch der **Ursache** und der Stärke der **Einwirkung** auf die Schwingungen des betrachteten Systems
 
 Wie bestimmt man die statischen Gleichgewichtslagen (Ruhelagen) eines EFS
+
 - Extremstellen der potenziellen Energie bzw. Nullstellen der verallgemeinerten Rückführkraft
 Wie ist das Eigenverhalten für kleine Schwingungen um eine stabile Ruhelage?
 - Harmonische Schwingungen mit der Eigenfrequenz

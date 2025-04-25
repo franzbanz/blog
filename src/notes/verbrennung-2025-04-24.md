@@ -31,7 +31,7 @@ Was versteht man unter den **Zündgrenzen**? - Welchen Anteil der Brennstoff am 
 
 CO2 neutral
 
--  Klimaneutral (nicht „CO2-Effekte“, bspw. Kondensstreifen)
+- Klimaneutral (nicht „CO2-Effekte“, bspw. Kondensstreifen)
 - Versorgungssicher
 - Zugelassen für verschiedene Herstellungspfade
 - Drop-in Fuels / Near Drop-in Fuels
@@ -62,4 +62,3 @@ Für Fremdzündende Motoren
 ### Diesel
 
 Für selbstzündende Motoren
-
