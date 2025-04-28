@@ -1,6 +1,6 @@
 ---
 course: Turboflugtriebwerke
-type: Vorlesung
+type: Düsen
 by: Stephan Staudacher
 date: 2025-04-07 # (YYYY-MM-DD)
 tags: notes

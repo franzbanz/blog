@@ -1,6 +1,6 @@
 ---
 course: Turboflugtriebwerke
-type: Vorlesung
+type: Düsen
 by: Stephan Staudacher
 date: 2025-04-14 # (YYYY-MM-DD)
 tags: notes
@@ -68,5 +68,5 @@ Heute verwendete Triebwerke (Zivil, Unterschall) sind Zweistrom-Turboluftstrahl-
 Warum bricht die Kurve vor $\Pi_krit$ ab? Wegen einem Reynoldszahl-Effekt der konvergenten Düse\
 Bei einer Konvergent-Divergenten Düse sieht der Verlauf anders aus:
 
-![Konvergent-Divergente Düse](/src/bilder/turboflugtriebwerke_skizze_4.jpeg)
+![Konvergent-Divergente Düse](/src/bilder/turboflugtriebwerke_skizze_5.jpeg)
 <figcaption>Konvergent-Divergente Düse</figcaption>

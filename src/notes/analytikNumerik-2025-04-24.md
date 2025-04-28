@@ -10,12 +10,14 @@ includesMath: true
 
 ## Approximation im quadratischen Mittel
 
-<!-- folie 17 -->
+$$...$$
 
 ## Numerische Differentiation und Integration 4.2
 
-Die numerische Differenziation und Integration kann jetzt durchgeführt werden, indem die btrachtete Funktion durch ein Interpolationspolynom approximiert wird und dieses dann abgeleitet oder integriert wird}
-Dadurch, dass Polynome hohen Grades gerne oszillieren, unterteilt man bei der numerischen... Folie 21
+Die numerische Differenziation und Integration kann jetzt durchgeführt werden, indem die btrachtete Funktion durch ein Interpolationspolynom approximiert wird und dieses dann abgeleitet oder integriert wird
+Dadurch, dass Polynome hohen Grades gerne oszillieren, unterteilt man bei der numerischen integration mit dem Newton-Cotes-Verfahren mit einer Zerlegung des Integrationsintervalls in Teilintervalle kombiniert. Man spricht dann von der aufsummierten Newton-Cotes_Formel
+
+Eine bessere Wahl der Stützstellen führt auf die Gauß-Quadratur-Formeln. Hier sind die Stützstellen durch die Gaußpunkte gegeben.
 
 ## Numerische Integration
 
@@ -27,7 +29,8 @@ Ersetzt man den Integranden f durch ein Polynom und integriert das Polynom erhä
 
 $$Q_h = \sum_{i=0}^N a_i f(x_i)$$
 
-<!-- Skizze aus Foto Rechteckregel -->
+![rechteckregel](/src/bilder/analytische_methoden_skizze_9.jpeg)
+<figcaption>Rechteckregel</figcaption>
 
 Wird die Anzahl der Rechtecke verzehnfacht, wird der Fehler um das zehnfache reduziert\
 Fehler verhält sich li
@@ -38,7 +41,8 @@ Andere Approximationsmethoden haben ein anderes verhalten, zum Beispiel Mittelpu
 ### Gauß-Quadratur
 
 $$Q_h = \sum_{i=0}^N a_i f(x_i)$$
-<!-- Folie 23 -->
+
+$$...$$
 
 Sowohl die Gewichte $a_i$ als auch die Stützstellen $x_i$ werden so bestommt, dass die Genauigkeit möglichst groß ist - nicht äquidistante Stützstellen
 
@@ -53,16 +57,14 @@ Gesucht ist eine Approximation der Ableitung der Funktion
 
 $$y = f(x) \quad für \quad x \in [a,b]$$
 
-<!-- Rest Folie 25 -->
-
-<!-- Skizze Foto 2 -->
+$$...$$
 
 Exakte Ableitung von p(x) wird als Approximation der Ableitung von f(x) an der Stelle x genutzt\
 Einfacherer Fall: Äquidistante Stützstellen
 
 Bestimmung des Approximationsfehlers:
 
-<!-- Folie 28 -->
+$$...$$
 
 ### Tabelle: Zentrale Differenzenquotienten (Folie 30)
 
@@ -76,6 +78,16 @@ Restterm ist der Fehler, der durch Ersetzung der ursprünglichen Kontinuierliche
 
 Äquidistante Verteilung der Stützstellen ist einfach...
 
-<!-- Folie 31 -->
-
 # Iterative Lösungen von nichtlinearen Gleichungen
+
+Nichtlineares Gleichungssystem der Form
+
+$$\underline{F}(\underline{u}) = 0$$
+
+Fixpunktgleichung führt auf eine Iterationsvorschrift.\
+Das Iterationsverfahren konvergiert, wenn die Funktion $G$ eine Kontraktion ist.Im skalaren Fall einer einzelnen Gleichung kann man dies bei einer stetig differenzierbaren Funktion $G$ nachweisen, indem man zeigt, dass die Ungleichung
+
+$$|\frac{\partial G(u)}{\partial u}| < 1$$
+
+für alle $u$ erfüllt ist.
+

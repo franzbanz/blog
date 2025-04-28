@@ -18,3 +18,13 @@ includesMath: false
   - Definition was wir können / was wir nicht können
   - SPEZIfikation was supportet ist
   - Auf Repo "Visualization Verification Tool" Main mergen
+  
+  - Spezifikation was supported wird
+    - Mit Hilfe von Testcases
+    - Grenzen innerhalb von Functions / Hardware
+    - .md / .pwpt
+  - (kurz reinschauen in testcases automatisch generieren)
+
+Update auf XGEE 0.4:
+
+paket xgee updaten, example application neuen stand der editoren holen
