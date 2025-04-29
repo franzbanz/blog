@@ -1,6 +1,6 @@
 ---
 course: Strukturdynamik
-type: Vorlesung
+type: Kapitel 2
 by: Malte Krack
 date: 2025-04-11 # (YYYY-MM-DD)
 tags: notes

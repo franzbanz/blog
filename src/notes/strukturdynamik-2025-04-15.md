@@ -1,6 +1,6 @@
 ---
 course: Strukturdynamik
-type: Vorlesung
+type: Kapitel 3
 by: Malte Krack
 date: 2025-04-15 # (YYYY-MM-DD)
 tags: notes
@@ -89,9 +89,24 @@ Allgemeine Lösung:
 
 $$q(t) = \mathfrak{R} [|Q| e^{i(\Psi_u+\Delta\Psi)}e^{i\Omega t}]+q_h(t)$$
 
+In gedämpften Systemen klingt die Eigenschwingung in der Regel schnell ab.\
+Partikuläre Lösung erfüllt die Anfangsbedingungen nicht, deswegen brauchen wir eine harmonische Lösung ungleich Null um die Anfangsbedingungen zu erfüllen, daher kann es anfangs zu Eigenschwingungen kommen (Siehe Folie 67)
+
+In Resonanznähe treten bei ungedämpften (und wärend des Einschwingens auch bei gedämpften) Systemen **Schwebungen** auf
+
 ## Periodische Anregung
 
-Froße Amplituden, wenn die Anregungsfrequenz einem Vielfachen der Eigenfrequenz entspricht, jedoch nimmt die Schwingungsantwort Amplitude mit abnehmender Anregungsfrequenz ebenfalls ab
+$$u(t) = u_0 + \sum_{n=1}^{\inf} U_n^c cos(n \Omega t) + U_m^c sin(n \Omega t)$$
+
+$$u(t) = \sum_{n=0}^{\inf} U_n \frac{e^{i n \Omega t}}{2} + cc$$
+
+$$q_p(t) = \sum_{n=0}^{\inf} Q_n \frac{e^{i n \Omega t}}{2} + cc$$
+
+$$\Omega \rightarrow n \Omega : \qquad s(n \Omega) Q_n = a(n \Omega) U_n \quad \text{für} \quad n = 0, 1, 2, ...$$
+
+Ausführlichere Berechnung im Vorlesungsmitschrieb
+
+Große Amplituden, wenn die Anregungsfrequenz einem Vielfachen der Eigenfrequenz entspricht, jedoch nimmt die Schwingungsantwort Amplitude mit abnehmender Anregungsfrequenz ebenfalls ab
 
 Mitellage: Peak-to-Peak Hälfte
 
@@ -105,3 +120,13 @@ Bei **nicht-deteministischen** Systemen ist dagegen eine "zufällige" Streuung �
 **Harmonische und periodische** Anregungen sind typisch für Maschinen mit rotierenden Komponenten
 
 **Transiente Anregung** ist im grunde periodisch, aber mit zeitveränderlichen Parametern
+
+## Fazit:
+
+Wie stark federt das Flugzeug?
+
+- abhängig von Anregungsspektrum und dynamischer Steifigkeit; siehe erzwungene Schwingungsantwort 
+
+Sind alle Bodenwellen gleichermaßen schädlich?
+
+- Nein, besonders kritisch sind Wellenlängen, die zu Resonanz führen
