@@ -10,8 +10,8 @@ includesMath: true
 
 # Frage: Wie bewegt sich das Triebwerk nach einem Pumpstoß?
 
-Wir betrachten dieses mechanische Modell
-<!-- Skizze des Modells auf Folie 82 -->
+![modell](/src/bilder/strukturdynamik_skizze_9.jpeg)
+<figcaption>Wir betrachten dieses mechanische Modell</figcaption>
 
 Zwei Freiheitsgrade:
 
@@ -25,13 +25,13 @@ Anschließend müssen die kinematische Verträglichkeit und das Gleichgewicht (a
 Die Gesamte Methode ist als **Vorgehen nach Newton und Euler** bekannt\
 (Hier nur für ebene Mehrkörpersysteme)
 
-<!-- Einfaches Beispiel  Folie 84-->
+![beispiel](/src/bilder/strukturdynamik_skizze_10.jpeg)
+<figcaption>Einfaches Beispiel Folie 84</figcaption>
 
 Beispiel Rechnung im Vorlesungsaufschrieb
 
-<!-- Vielleicht den Anfang des Beispiels aufschreiben? -->
-
-<!-- Rx, Ry tauchen ohne zeitliche Ableitungen auf, diese sind also leichter zu eleminieren um nur mit zwei gleichungen mit zwei unbekannten und ihren zeitlichen ableitungen weiter zu arbeiten -->
+![rechnung](/src/bilder/strukturdynamik_skizze_11.jpeg)
+<figcaption>Rx, Ry tauchen ohne zeitliche Ableitungen auf, diese sind also leichter zu eleminieren um nur mit zwei gleichungen mit zwei unbekannten und ihren zeitlichen ableitungen weiter zu arbeiten</figcaption>
 
 Die Wahl der Beschreibungsvariablen ist zu einem gewissen Grad Beliebig
 
@@ -39,8 +39,6 @@ Die Konfiguration eines Mehrkörpersystems lösst sich durch Koordinaten (Versch
 Aufgrund von Lagern können nicht alle Koordninaten voneinander unabhängig verändert werden, es bestehen kinematoscje Zwänge\
 Ein Satz von Koordinaten, welche die Konfiguration eindeutig beschreiben... <!-- noch weiter schreiben, Folie 89-->
 Abzählregel nur mit Elementen mit Masse, Masselose Elemente können ignoriert werden
-
-<!-- Skizze Folie 90 unten -->
 
 Anzahl der Freiheitsgrade $n$
 
