@@ -35,9 +35,12 @@ Beispiel Rechnung im Vorlesungsaufschrieb
 
 Die Wahl der Beschreibungsvariablen ist zu einem gewissen Grad Beliebig
 
-Die Konfiguration eines Mehrkörpersystems lösst sich durch Koordinaten (Verschiebungen und Verdrehungen) bescdhreiben\
+Die Konfiguration eines Mehrkörpersystems lösst sich durch Koordinaten (Verschiebungen und Verdrehungen) beschreiben\
 Aufgrund von Lagern können nicht alle Koordninaten voneinander unabhängig verändert werden, es bestehen kinematoscje Zwänge\
-Ein Satz von Koordinaten, welche die Konfiguration eindeutig beschreiben... <!-- noch weiter schreiben, Folie 89-->
+Ein Satz von Koordinaten, welche die Konfiguration eindeutig beschreiben, und voneinander unabhängig verändert weden können (ohne dabei die Zwangsbedingungen zu verletzen), bezeichnet man als verallgemeinerte Koordinaten
+
+Die Anzahl verallgemeinerter Koordinaten entspricht der Anzahl vorhandener Freiheitsgrade
+
 Abzählregel nur mit Elementen mit Masse, Masselose Elemente können ignoriert werden
 
 Anzahl der Freiheitsgrade $n$

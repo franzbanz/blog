@@ -8,12 +8,7 @@ layout: note
 includesMath: true
 ---
 
-# Lagrange - Gleichungen
+## Herleitunge der Lagrange - Gleichungen für ein System von Massepunkten
 
-## Herleitungen für ein System von Massepunkten
-
-Kein Mitschrieb - "Inhalt ist durchaus anspruchsvoll"
-Mitschrieb im Ilias Kurs
-
-## Komplizierte Zwangsbedingungen Folie 95
-
+Kein Mitschrieb - "Inhalt ist durchaus anspruchsvoll"\
+Mitschrieb aus der Vorlesung im Ilias Kurs

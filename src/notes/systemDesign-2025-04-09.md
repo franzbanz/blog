@@ -1,6 +1,6 @@
 ---
 course: System Design 1
-type: Vorlesung
+type: Chapter 1
 by: Bastian Luettig
 date: 2025-04-09 # (YYYY-MM-DD)
 tags: notes
