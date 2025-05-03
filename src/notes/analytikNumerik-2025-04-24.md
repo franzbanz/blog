@@ -1,6 +1,6 @@
 ---
 course: Analytische und Numerische Methoden
-type: Numerik - nacharbeiten
+type: Numerik
 by: Andrea Beck
 date: 2025-04-24 # (YYYY-MM-DD)
 tags: notes
@@ -90,4 +90,3 @@ Das Iterationsverfahren konvergiert, wenn die Funktion $G$ eine Kontraktion ist.
 $$|\frac{\partial G(u)}{\partial u}| < 1$$
 
 für alle $u$ erfüllt ist.
-
