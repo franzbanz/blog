@@ -10,15 +10,14 @@ includesMath: false
 
 ## Noch zu tun
 
-- aktuellste Numerik Vorlesung nacharbeiten
-- System Design vom 19. und vom 30.
-- ils arbeit machen
-  - EasyOCR vielleicht als exception wenn kein AWS API key gefunden warden kann - also weiterhin beibehalten (Fallback)
+- ILS
+  - ContainerDetector should inherit PortDetector
   - Testcases um OCR zu verifizieren und Rest der Pipeline solider zu machen / optimieren
-  - has-vertical-text query einbinden um Geld zu sparen
   - Definition was wir können / was wir nicht können
   - SPEZIfikation was supportet ist
-  - Auf Repo "Visualization Verification Tool" Main mergen
+  - Reduce hardcoded templates
+
+  - AWS bug: test5, test6, and test7 detect no text at all. However, test8 runs perfectly.
   
   - Spezifikation was supported wird
     - Mit Hilfe von Testcases
