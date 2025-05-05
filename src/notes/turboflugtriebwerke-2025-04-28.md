@@ -12,7 +12,7 @@ includesMath: true
 
 $$C_{v9} = \frac{w_{9,real}}{w_{9,ideal}} \leq 1$$
 
-Der Geschwindigkeitskoeffizienz is nicht direkt messbar, da eine präzise Erfassung des Geschwindigkeitsfeldes in Ebene 9 hierzu erforderlich wäre. Eine Bestimmung mittels numerischer Strömungsberechnungen ist derzeit noch nicht Stand der Technik.\
+Der Geschwindigkeitskoeffizienz ist nicht direkt messbar, da eine präzise Erfassung des Geschwindigkeitsfeldes in Ebene 9 hierzu erforderlich wäre. Eine Bestimmung mittels numerischer Strömungsberechnungen ist derzeit noch nicht Stand der Technik.\
 Der Koeffizient wird daher über eine Schubmessung indirekt bestimmt.
 
 <p>
