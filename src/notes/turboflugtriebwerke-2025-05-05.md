@@ -23,6 +23,9 @@ includesMath: true
 - Die Geometrie ist gegeben: $A_2, A_{21}, A_{22}$
 - Ungebungsbedingungen: $p_{t2}, T_{t2}$ sind fest
 
+![messaufbau](/src/bilder/turboflugtriebwerke_skizze_14.jpeg)
+<figcaption>Angestrebter Betriebsbereich</figcaption>
+
 ## Zweite Stufe
 
 **Gelb**: Gebildet (errechnet) mit den Größen am Eintritt des Verdichters\
