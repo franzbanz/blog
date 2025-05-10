@@ -1,6 +1,6 @@
 ---
 course: System Design 1
-type: Chapter 4
+type: Chapter 3
 by: Bastian Luettig
 date: 2025-04-30 # (YYYY-MM-DD)
 tags: notes
@@ -23,7 +23,7 @@ Assess a systems state based on its components states
 ![probabilities](/src/bilder/systemDesign_image_11.jpeg)
 <figcaption>Why do the probabilities not multiply alonog a diagram path?</figcaption>
 
-In general, we assume a strictly-fail-passive operated component $ (i.e. sensors and computers) with redundancy degree $r$:
+In general, we assume a strictly-fail-passive operated component (i.e. sensors and computers) with redundancy degree $r$:
 
 $$P(\mathbb{Z}_{\text{fp,mod,k}}) = r \cdot (\lambda T)^{r-1}$$
 
