@@ -125,7 +125,7 @@ Zahlreiche physikalisch-chemische Prozesse verletzen nicht den 1. Hauptsatz (Ene
 
 ### Berechnung
 
-Verschiedene Gleichgewichtskonstanten $K_{"index"}$:\
+Verschiedene Gleichgewichtskonstanten $K_{\text{"index"}}$:\
 Jede Gleichgewichtskonstante gehört zu einer Reaktion
 
 - $K_p$ ... Verhältnis der Partialdrücke $p$ (normiert mit Standarddruck $p_0$)
@@ -144,7 +144,7 @@ Der zweite Hauptsatz der Thermodynamik beschreibt vereinfacht ausgedrückt...\
 ...die Prozessrichtungen thermodynamischer Prozesse
 
 Ordnen Sie den Zustandsgrößen-Änderungen eine der Bezeichnungen isobar, isentrop, isotherm oder isochor zu:\
-Entropie S = const. isentrop\
-Volumen V = const. isochor\
-Druck p = const. isobar\
-Temperatur T = const isotherm
+Entropie $S$ = const. isentrop\
+Volumen $V$ = const. isochor\
+Druck $p$ = const. isobar\
+Temperatur $T$ = const isotherm

@@ -61,7 +61,7 @@ $$\underline{r}(q, \dot{q}, \ddot{q}, t) = \underline{0}, ...$$
 $\rightarrow$ gewöhnliches DGL-System\
 $\rightarrow$ nichtlinear in $q, \dot{q}$\
 
-### Linearisierung 
+### Linearisierung
 
 Interessant, wenn ein kleiner Bereich um eine gegebene Situation gesucht ist
 

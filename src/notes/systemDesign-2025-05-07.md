@@ -8,11 +8,13 @@ layout: note
 includesMath: true
 ---
 
-Is the previously developed architecture according to regulations and is it safe enough, is it's safety level neccessary?
+**Is the previously developed architecture according to regulations and is it safe enough, is it's safety level neccessary?**
 
 ## Safety Assessment Process
 
-<!-- V-Design-Graph -->
+![architecture](/src/bilder/systemDesign_image_12.jpeg)
+<figcaption>The Safety V (according to ARP 4754 [3] & 4761 [4])</figcaption>
+
 **AHFA**: Aircraft functional hazard assessment - Enumerate all failure conditions of the aircraft independent of the technical realization and judge their severity\
 **PASA**: Preliminary aircraft safety assessment - Map functions to systems and elaborate interdependance and common resources\
 **SFHA**: System functional hazard assessment\
@@ -80,7 +82,8 @@ Flight phases
 
 Remark: Those are only suggestions and shall be modified and defined as needed
 
-<!-- slide 23 table (not all of it, just one row) -->
+![architecture](/src/bilder/systemDesign_image_13.jpeg)
+<figcaption>The full AFHA - too many entries</figcaption>
 
 ### PASA
 
@@ -97,8 +100,6 @@ Remark: Those are only suggestions and shall be modified and defined as needed
 - Judge failure effect and derive severity on A/C level
 - Classification results in boundary probability and DAL as defined in Step 0
 - (Is carried out for each system individually, i.e., definition of systems and allocation of A/C functions has to happen in advance)
-
-<!-- One or two rows from table on slide 31 -->
 
 ### PSSA
 
