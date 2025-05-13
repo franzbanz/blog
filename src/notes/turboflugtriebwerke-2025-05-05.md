@@ -24,7 +24,9 @@ includesMath: true
 - Ungebungsbedingungen: $p_{t2}, T_{t2}$ sind fest
 
 ![messaufbau](/src/bilder/turboflugtriebwerke_skizze_14.jpeg)
-<figcaption>Angestrebter Betriebsbereich</figcaption>
+<figcaption>Angestrebter Betriebsbereich, Einfluss der Umfangsmachzahl ist nur vor dem weißen Punkt zu sehen, danach nicht mehr. Diagramm gut für Betriebsart einer Turbine betrachten</figcaption>
+
+Gesucht: Betriebspunkt nahe des Weißen Punktes - Nachexpansionen verringern Wirkungsgrad
 
 ## Zweite Stufe
 
@@ -33,11 +35,7 @@ includesMath: true
 
 ## Ähnlichkeit bei Turbbomaschinen - Turbine
 
-Bei fixer Geometrie und unter Annahme konstanter Abströmwinkel $\alpha_{41}$ sowie
-$\beta_{42}$ hängt die Arbeitsumsetzung im Laufrad von der Machzahl $Ma_{c41}$ und der vom
-rotierenden Laufrad mechanisch induzierten Machzahl $Ma_{u41}$ ab
-
 ![messaufbau](/src/bilder/turboflugtriebwerke_skizze_13.jpeg)
-<figcaption>Einfluss der Umfangsmachzahl ist nur vor dem weißen Punkt zu sehen, danach nicht mehr. Diagramm gut für Betriebsart einer Turbine betrachten</figcaption>
-
-Gesucht: Betriebspunkt nahe des Weißen Punktes - Nachexpansionen verringern Wirkungsgrad
+<figcaption>Bei fixer Geometrie und unter Annahme konstanter Abströmwinkel $\alpha_{41}$ sowie
+$\beta_{42}$ hängt die Arbeitsumsetzung im Laufrad von der Machzahl $Ma_{c41}$ und der vom
+rotierenden Laufrad mechanisch induzierten Machzahl $Ma_{u41}$ ab</figcaption>
