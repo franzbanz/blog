@@ -65,9 +65,11 @@ $\rightarrow$ nichtlinear in $q, \dot{q}$\
 
 Interessant, wenn ein kleiner Bereich um eine gegebene Situation gesucht ist
 
-$\rightarrow$ Oft relevant: kleine Bewegungen um ein gegebenes $q^*(t)$ \
-$q = q^*(t) + \Delta q$\
-Entwicklung mithilfe ver Taylor-Entwicklung von $\underline{r} \text{um} q^*(t)$
+$\rightarrow$ Oft relevant: kleine Bewegungen um ein gegebenes $q^*(t)$
+
+$$q = q^*(t) + \Delta q$$
+
+Entwicklung mithilfe ver Taylor-Entwicklung von $\underline{r}$ um $q^*(t)$
 
 ![messaufbau](/src/bilder/strukturdynamik_skizze_14.jpeg)
 <figcaption>Mitschrieb 1</figcaption>
