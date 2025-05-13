@@ -10,9 +10,11 @@ includesMath: true
 
 # Eigendynamik konservativer Mehr-Freiheitsgrad-Systeme
 
-<!-- skizze system folie 2 mit fragestellung -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_15.jpeg)
+<figcaption>Wie lässt sich die – auf den ersten Blick regellose – Schwingung nach einem Anfangsimpuls deuten?</figcaption>
 
-<!-- Aufschrieb Seite 1 -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_16.jpeg)
+<figcaption>Mitschrieb Seite 1</figcaption>
 
 ## Ruhelage **indiferent**
 
@@ -31,9 +33,10 @@ $\rightarrow$ Da sie keine elastische Kraft bewirken ($\underline{\underline{K}}
 
 ## Ruhelage **instabil**
 
-<!-- Aufschrieb Seite 2 -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_17.jpeg)
+<figcaption>Mitschrieb Seite 2</figcaption>
 
-Wie lässt sich die – auf den ersten Blick regellose – Schwingung nach einem Anfangsimpuls deuten?
+Zurück: Wie lässt sich die – auf den ersten Blick regellose – Schwingung nach einem Anfangsimpuls deuten?
 
 - Sie setzt sich aus n Anteilen (zeitlich) harmonischer Oszillationen zusammen
 - Frequenz und räumliche Form dieser Anteile erhält man als Lösung eines verallgemeinerten Eigenwertproblems.
