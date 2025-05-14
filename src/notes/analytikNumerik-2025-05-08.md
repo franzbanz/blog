@@ -11,7 +11,7 @@ includesMath: true
 ## Parabolische DGL
 
 - Lineare Probleme (Superposition von Lösungen ist möglich)
-- 1. Problem: 1D instationäre Wärmeleitung in einem konst. Gebiet
+- Erstes Problem: 1D instationäre Wärmeleitung in einem konst. Gebiet
 
 ![mitschrieb1](/src/bilder/analytische_methoden_skizze_17.jpeg)
 <figcaption>Stab heizt sich ovn beiden Seiten auf, wie in heißem Wasser</figcaption>
@@ -22,10 +22,9 @@ $\rightarrow$ Vereinfachung: alle wärmeleitung geht in x-Richtung, Wärmeström
 <figcaption>Temperatur ansetzen als Überlagerung der Zeit- und Ortsfunktion</figcaption>
 
 ![mitschrieb1](/src/bilder/analytische_methoden_skizze_19.jpeg)
-<figcaption>Lösen mit Seperation der Variablen\
-Lässt es sich nicht separieren, war der Ansatz der falsche</figcaption>
+<figcaption>Lösen mit Seperation der Variablen - Lässt es sich nicht separieren, war der Ansatz der falsche</figcaption>
 
-## Lösen mit linearer superposition
+### Lösen mit linearer superposition
 
 ![mitschrieb1](/src/bilder/analytische_methoden_skizze_20.jpeg)
 <figcaption></figcaption>
