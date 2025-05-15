@@ -17,7 +17,7 @@ includesMath: true
 <figcaption>Mitschrieb Seite 2</figcaption>
 
 ![mitschieb](/src/bilder/mehrgroessenregelung_mitschrieb_13.jpeg)
-<figcaption>Mitschrieb Seite §</figcaption>
+<figcaption>Mitschrieb Seite 3</figcaption>
 
 ![mitschieb](/src/bilder/mehrgroessenregelung_mitschrieb_14.jpeg)
 <figcaption>Mitschrieb Seite 4</figcaption>

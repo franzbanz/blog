@@ -86,6 +86,8 @@ beschreibt Temperaturänderung eines Systems bei Zuführung einer Wärmemenge $\
 <figcaption>Modellvorstellung: Wärme bleibt im System erhalten und wird als Temperaturänderung sichtbar</figcaption>
 
 - Enthalpieänderung bei Reaktion: $dH = dU + p d V + V d p = \delta Q - V d p$
+  - d: Änderung der Zustandsgröße - wegunabhängig
+  - $\delta$: Änderung der Prozessgröße - wegabhängig
 - Näherungen für praktische Anwendungen
   - Reaktion läuft vollständig ab
   - Nur wenige stabile Reaktionsprodukte
