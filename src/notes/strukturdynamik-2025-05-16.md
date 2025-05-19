@@ -13,18 +13,12 @@ includesMath: true
 - Kann man mithilfe der Eigenmodel ein MFS auf voneinander unabhängige EFS zurückführen
 - Sind Eigenmoden auch zu Beschreibung gedämpfter und erzwungener Schwinungen nützlifh?
 
-<!-- Bewegungsgleichung: mitschrieb  -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_18.jpeg)
+<figcaption>Bewegungsgleichung</figcaption>
 
+![messaufbau](/src/bilder/strukturdynamik_skizze_19.jpeg)
+<figcaption>Behauptung: $\underline{\underline{\mu}}, \underline{\underline{\kappa}}$ sind diagonal</figcaption>
 
-Modale Vorgehensweise einleiten mit Koordinatentransformation (umkehrbar, da $\varphi$ linear unabhängig)
-
-$$\underline{q}(t) = \sum_{j=1}^m \underline{\varPhi}\_j \eta_j(t) = [\varPhi_1, ..., \varPhi_\m][\eta_1, ..., \eta_\m]^T = \underline{\underline{\Phi}} \underline{\eta}(t)$$
-
-$\eta_j(t)$ sind modale Koordinaten (Zeitfunktion zunächst unbekannt)
-
-<!-- mitschrieb 2 -->
-
-Behauptung: $\underline{\underline{\mu}}, \underline{\underline{\kappa}}$ sind diagonal\
 Beweis in Vorlesungsmitschrieb
 
 Orthogonalitätsbeziehungen ($i \neq j$)
@@ -42,13 +36,14 @@ $\underline{\underline{\kappa}}, \underline{\underline{\mu}}$ sind diagonal, Gl.
 Eigenvektoren $\varphi_i$ sind zunächst beliebig skalierbar\
 Übliche Varianten der Normierung:
 
-<!-- mitschrieb 3 -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_20.jpeg)
+<figcaption>Herleitung der Bewegungsgleichung in modalen Koordinaten</figcaption>
 
-Für $\Epsilon_i = 0$, d.h. $\underline{e} = \underline{0}$ sind die Gleichungen entkoppelt (trotz möglicher Anregung)
+Für $\varepsilon_i = 0$, d.h. $\underline{e} = \underline{0}$ sind die Gleichungen entkoppelt (trotz möglicher Anregung)
 
 Für $\underline{e} \neq \underline{0}$ sind die Gleichungen gekoppelt.
 
-$\Epsilon_i(\eta_1, \dots, \eta_n, \dot{\eta}\_1, \dots, \dot{\eta}\_n)$ allgemein gekoppelt
+$\varepsilon_i(\eta_1, \dots, \eta_n, \dot{\eta}\_1, \dots, \dot{\eta}\_n)$ allgemein gekoppelt
 
 $\underline{\underline{G}}, \underline{\underline{N}}$ bewirken stets Kopplung - *siehe später in der Veranstaltung*
 
@@ -58,7 +53,30 @@ $$\underline{\underline{M}} \underline{\ddot{q}} + \underline{\underline{D}} \un
 
 $$\rightarrow \underline{\underline{\mu}} \underline{\ddot{\eta}} + \underline{\underline{\Phi^T}} \underline{\underline{D}} \underline{\underline{\Phi}} \underline{\dot{\eta}} + \underline{\underline{K}} \underline{\eta} = \underline{\underline{\Phi^T}} \underline{f}$$
 
-<!-- mitschrieb 4 -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_21.jpeg)
+<figcaption>Modale Koordinaten sind verallgemeinerte Koordinaten mit der besonderen Eigenschaft, dass Massen- und Steifigkeitsmatrizen diagonal sind</figcaption>
 
-**Modale Koordinaten sind verallgemeinerte Koordinaten mit der besonderen Eigenschaft, dass Massen- und Steifigkeitsmatrizen diagonal sind**\
-Somit sind die modalen Koordinaten hinsichtlich der Trägheitskräfte und der elastischen Kräfte voneinander entkoppelt.\
+Somit sind die modalen Koordinaten hinsichtlich der Trägheitskräfte und der elastischen Kräfte voneinander entkoppelt.
+
+Ein wichtiger Sonderfall ist die Proportionaldämpfung auch bekannt unter Rayleigh-Dämpfung oder Bequemlichkeitshypothese
+
+## Anmerkungen zur Dämpfung
+
+- Die Physik strukturmechanischer Dämpfung gehört zu den am wenigsten gut verstandenen Phänomenen des Ingenieurwesens
+- Leichte Dämpfung
+  - Sind die Dämpfungskräfte klein verglichen mit elastischen und Trägheitskräften, sprechen wir von leichter Dämpfung
+  - Bei leichter Dämpfung hat nicht-modale Dämpfung nur Einfluss von höchstens zweiter Ordnung
+  - Die weit verbreitete Annahme modaler Dämpfung lässt sich dann rechtfertigen
+  - Bei der experimentellen Modalanalyse werden neben Eigenfrequenzen und Eigenformen standartmäßig modale Dämpfungsgrade ermittelt
+- Sind die Dämpfungskräfte dagegen groß, (*z.B. in Gegenwart von Dämpfern oder starker Einwirkung von Gleitreibung*) lässt sich die Annahme modaler Dämpfung nicht rechtfertigen
+- Selbst leichte Dämpfung geht in erster Ordnung ein in
+  - die Verstärkung der Schwingung nahe Resonanzen und
+  - die Stabilität von Systemen mit Neigung zur Selbsterregung
+
+Eigenmoden eignen sich besonders gut zur Beschreibung der Eigenschwingungen, denn die Zeitfunktion dieser Moden enthält nur eine einzige Frequenz. Das entspricht grade dem Verhaöten n voneinander unabhängigen EFS.
+
+## Signatur des strukturdynamischen Verhaltens
+
+- Eigenfrequenz: Wie *schnell* schwingt es? Wo sind Resonanzen zu erwarten?
+- Dämpfungsgrad: Wie schnell klingen Eigenschwingungen ab? Wie gut sind mögliche Resonanzen gedämpft?
+- Eigenform: Wie schwingt es räumlich? Wie ist die Schwingungsenergie im System verteilt?

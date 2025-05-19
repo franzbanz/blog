@@ -1,6 +1,6 @@
 ---
 course: Analytische und Numerische Methoden
-type: Analytik
+type: Analytik - nacharbeiten
 by: Bernhard Weigand
 date: 2025-05-13 # (YYYY-MM-DD)
 tags: notes
