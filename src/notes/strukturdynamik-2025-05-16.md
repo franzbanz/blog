@@ -19,6 +19,8 @@ includesMath: true
 ![messaufbau](/src/bilder/strukturdynamik_skizze_19.jpeg)
 <figcaption>Behauptung: $\underline{\underline{\mu}}, \underline{\underline{\kappa}}$ sind diagonal</figcaption>
 
+$$\underline{\underline{\mu}}\_{ij} = [\mu\_{ij}] \qquad \underline{\underline{\kappa}}\_{ij} = [\kappa\_{ij}]$$
+
 Beweis in Vorlesungsmitschrieb
 
 Orthogonalitätsbeziehungen ($i \neq j$)
@@ -51,14 +53,16 @@ Wie muss $\underline{\underline{D}}$ aufgebaut sein, damit die Gleichungen weite
 
 $$\underline{\underline{M}} \underline{\ddot{q}} + \underline{\underline{D}} \underline{\dot{q}} + \underline{\underline{K}} \underline{q} = \underline{f}(t)$$
 
-$$\rightarrow \underline{\underline{\mu}} \underline{\ddot{\eta}} + \underline{\underline{\Phi^T}} \underline{\underline{D}} \underline{\underline{\Phi}} \underline{\dot{\eta}} + \underline{\underline{K}} \underline{\eta} = \underline{\underline{\Phi^T}} \underline{f}$$
+$$\rightarrow \underline{\underline{\mu}} \underline{\ddot{\eta}} + \underline{\underline{\Phi^T}} \underline{\underline{D}} \underline{\underline{\Phi}} \underline{\dot{\eta}} + \underline{\underline{\kappa}} \underline{\eta} = \underline{\underline{\Phi^T}} \underline{f}$$
+
+Für den Fall schwacher Dämpfung haben die Nebendiagonalelemente nur Einfluss von niederer Ordnung - Die Annahme Modaler Dämpfung ist daher angemessen
 
 ![messaufbau](/src/bilder/strukturdynamik_skizze_21.jpeg)
 <figcaption>Modale Koordinaten sind verallgemeinerte Koordinaten mit der besonderen Eigenschaft, dass Massen- und Steifigkeitsmatrizen diagonal sind</figcaption>
 
 Somit sind die modalen Koordinaten hinsichtlich der Trägheitskräfte und der elastischen Kräfte voneinander entkoppelt.
 
-Ein wichtiger Sonderfall ist die Proportionaldämpfung auch bekannt unter Rayleigh-Dämpfung oder Bequemlichkeitshypothese
+Ein wichtiger Sonderfall ist die Proportionaldämpfung auch bekannt unter Rayleigh-Dämpfung oder Bequemlichkeitshypothese - kommt in der echten Welt jedoch nicht wirklich vor - *halten sie sich davon fern*
 
 ## Anmerkungen zur Dämpfung
 

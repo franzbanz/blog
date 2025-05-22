@@ -2,7 +2,7 @@
 course: Windenergie 1
 type: Aerodynamik 2
 by: Christian Molter
-date: 2025-05-08 # (YYYY-MM-DD)
+date: 2025-05-15 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
