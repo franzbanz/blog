@@ -1,6 +1,6 @@
 ---
 course: Analytische und Numerische Methoden
-type: Analytik - nacharbeiten
+type: Analytik
 by: Bernhard Weigand
 date: 2025-05-13 # (YYYY-MM-DD)
 tags: notes
@@ -12,17 +12,18 @@ includesMath: true
 
 ## Instationäre Wärmeleitung in einem halb-unendlichen Körper mit einer temperaturabhängigen Wärmeleitfähigkeit
 
-<!-- skizze 1 Könnte zum beispiel die temeraturverteilung im Erdboden darstellen -->
-modell ist beschreibbar mit eindimensionaler instationärer wärmeleitungsgleichung
-wegen teta nicht lineare dgl
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_22.jpeg)
+<figcaption>Könnte zum Beispiel die Temeraturverteilung im Erdboden darstellen</figcaption>
+
+Modell ist beschreibbar mit eindimensionaler instationärer Wärmeleitungsgleichung
+wegen $\theta$ nicht lineare DGL
 
 ## Störungsrechnung
 
 Lösungsmethode für nicht partielle gewöhnliche differentialgleichungen (nochmal im Skript nachlesen ob das so richtig ist)
 
-Function in störsequenz von beliebig vielen funktionen und einem störparameter umwandelt
-
-<!-- mitschrieb 2 -->
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_23.jpeg)
+<figcaption>Funktion in Störsequenz von beliebig vielen Funktionen und einem Störparameter umwandelt</figcaption>
 
 ### Reguläre Störungsrechnung
 
@@ -30,13 +31,13 @@ Singuläre Störungsrechung wird nicht in dieser Vorlesung betrachtet
 
 Störungsansatz einsetzen - man erhält eine reihe die im gesamten feld konvergiert - die gleichung ist linearisiert
 
-<!-- mitschrieb 3 Lösung des nichtlinearen Problems eingetauscht gegen Sequenz von Lösungen von linearen Problemen -->
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_24.jpeg)
+<figcaption>Lösung des nichtlinearen Problems eingetauscht gegen Sequenz von Lösungen von linearen Problemen</figcaption>
 
 ## Beispiel: Strömung und Wärmeübergang über eine längsangeströmte Platte
 
-<!-- skizze 4 -->
-
-Stark nicht lineares Problem - Grenzschichtströmungsgleichungen sind stark miteinander verkoppelt und sind nicht linear
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_25.jpeg)
+<figcaption>Stark nicht lineares Problem - Grenzschichtströmungsgleichungen sind stark miteinander verkoppelt und sind nicht linear</figcaption>
 
 ### Blasiussche Gleichung
 

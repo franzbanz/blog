@@ -10,102 +10,84 @@ includesMath: true
 
 ## Das Finite Elemente Verfahren
 
-1. Diskretisierung des Rechengebiets und Auswahl von *lokalen* Basisfunktionen <!-- Folie 35 -->
-2. Auswahl der Methode der gewichteten Residuen <!-- Folie 38 -->
-3. Einsetzen der Ansatzfunktion <!-- Folie 38 Galerking: Testfunktion gleich Ansatzfunktion -->
+1. Diskretisierung des Rechengebiets und Auswahl von *lokalen* Basisfunktionen (Folie 35)
+   - Einfachster Fall: stückweise linear
+   - Basisfunktionen sind nur lokal aktiv
+2. Auswahl der Methode der gewichteten Residuen (Folie 38)
+   - Meistens Galerkin-Verfahren
+   - Start mit schwacher Formulierung der DGL
+3. Einsetzen der Ansatzfunktion 
 4. Aufstellen und Lösen des Gleichungssystems
 
-<!-- Folie 40: Steifigkeitsmatrix hängt vom Produkt der beiden Ableitungen ab -->
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_26.jpeg)
+<figcaption>Steifigkeitsmatrix hängt vom Produkt der beiden Ableitungen ab</figcaption>
 
 ### Fazit
 
 - Komplizierter als finite differenzen
-- Das Finite-Elemente-Verfahren ist von Seiten der Konstruktion deutlich
-komplizierter als ein Differenzen-Verfahren. Die grundlegende Idee ist
-die Approximation der Lösung durch einfache Funktionen. Diese
-schreibt man als Linearkombination von Basisfunktionen. Benutzt
-werden hier Basisfunktionen, welche nur in einer Gitterzelle und den
-direkten Nachbarn von Null verschieden sind. Dies führt auf schwach
-besetzte Gleichungssysteme, die sehr effizient iterativ gelöst werden
-können. Neben der Basis muss auch ausgewählt werden, nach welchem
-Kriterium die Freiheitsgrade bestimmt werden. Wir betrachten hier
-ausschließlich das Galerkin-Verfahren. Das diskrete Problem setzt sich
-aus algebraischen Gleichungen zusammen, in der verschiedene
-Matrizen auftauchen: Masse-Matrix, Steifigkeitsmatrix, … . Diese
-lassen sich für jede Gitterzelle bestimmen und dann zur gesamten
-Matrix zusammen führen, was man als Assemblierung bezeichnet.
-Wer noch etwas mehr über die Idee des Finite-Elemente-Verfahrens
-wissen möchte, der sollte in [1], Seite 144-165, für RWPs von gewöhn-
-lichen Differenzialgleichungen nachlesen.
+- Idee: Approximation der Lösung durch einfache Funktionen
+- Diese sind Linearkombination von Basisfunktionen
+- Basisfunktionen nur in einer Gitterzelle und den direkten Nachbarn $\neq 0$
+- Schwach besetzte Gleichungssysteme
+- Freiheitsgrade bestimmt mit Galerkin-Verfahren
+- Masse-Matrix, Steifigkeitsmatrix, ...für jede Gitterzelle bestimmen
+- Assemblierung
 
 ## Linienmethode
 
-<!-- Folie 43 Formel oben -->
+Konvektions-Diffusions-Reaktions-Gleichung
 
-Wir führen jetzt eine Zeitapproximation und eine Raumapproximation
-wie diese in den beiden letzten Unterkapiteln behandelt wurden ein.
-In zwei Raumdimensionen lautet diese Gleichung
+$$u_t + \underline{a} \cdot \nabla u = d \Delta u + r \quad \text{zeitabhängig}$$
 
-<!-- Folie 43 Formel unten -->
-<!-- Folie 46 *wenn a positiv ist, nimm den koeffizienten, wenn a negativ ist, nimm den anderen koeffizienten* -->
+$\underline{a}$ - Konvektion mit der Geschwindigkeit $\underline{a}$ hyperbolisch\
+$d$ - Diffusion mit dem Koeffizienten $d \geq 0$ parabolisch\
+$r$ - Reaktion mit dem Quellterm $r(x)$
 
-Fassen wir dies zusammen, haben wir die Raumapproximation der
-Konvektion-Diffusionsgleichung. An jedem Gitterpunkt xi,yj gilt die
-gewöhnliche Differenzialgleichung in der Zeit
+Wir führen jetzt eine Zeitapproximation und eine Raumapproximation ein\
+Gleichung in zwei Raumdimensionen:
 
-Dies gilt für jeden inneren Gitterpunkt
-An den Rändern müssen die physikalisch sinnvollen Randbedingungen
-vorgegeben werden. Dies kann entweder gleich in die Gleichung oben
-für die Rand nahen Gitterpunkte (Dirichletbedingungen) eingesetzt werden
-oder als zusätzliche Gleichungen (Neumann Randbedingungen)
-vorgegeben werden.
-<!-- Folie 47 -->
+$$u_t + a_1 u_x + a_2 u_y = d (u_{xx} + u_{yy}) + r$$
 
-<!-- Folie 49 -->
+An jedem Gitterpunkt $x_i, y_j$ gilt die gewöhnliche Differenzialgleichung in der Zeit
+
+Dies gilt für jeden inneren Gitterpunkt $i = 1, \dots, n_1 - 1, \quad j = 1, \dots, n_2 - 1$
+
+- An den Rändern physikalisch sinnvolle Randbedingungen vorgegeben
+- In Gleichung oben für die Rand nahen Gitterpunkte einsetzen (Dirichletbedingungen)
+- Als zusätzliche Gleichungen vorgeben (Neumann Randbedingungen)
 
 ## Numerische Lösung von parabolischen Differenzialgleichungen
 
 Lineare Wärmeleitungsgleichung
 
-<!-- Folie 4 gleichung -->
+$$u_t = \kappa \Delta u \quad \text{mit} \quad \kappa \in \mathfrak{R}, \quad \kappa > 0$$
 
 Lineare Wärmeleitungsgleichung in einer Raumdimension
 
-<!-- Folie 4 gleichung unten -->
+$$u_t = \kappa u_{xx} \quad \text{in} \quad [a, b] \times [0, T]$$
 
-Wegen der Übersichtlichkeit und der Einfachheit starten wir
-hier mit den Differenzen-Verfahren für das räumlich
-eindimensionale Problem.
+- Explizites Verfahren mit zentralen Differenzen
+- Implizittes Verfahren mit zentralen Differenzen
+- Implizites Verfahren 2. Ordnung in Raum und Zeit - Crank-Nicholsen-Verfahren
 
-### Explizites Verfahren mit zentralen Differenzen
-
-### Implizittes Verfahren mit zentralen Differenzen
-
-### Implizites Verfahren 2. Ordnung in Raum und Zeit - Crank-Nicholsen-Verfahren
-
-Stabilität, Konsistenz und Konvergenz?
-Stabilitätsuntersuchung: von Neumann – diskrete Fourieranalyse
-Konsistenz: Einsetzen der exakten Lösung und der
-Gebrauch von Taylorentwicklungen führt auf den lokalen
-Diskretisierungsfehler
-
-<!-- Vieilleicht lieber den Überblick ab Folie 9 aufschreiben...? -->
-
-### Das Mehrdimensionale Problem
+![mitschrieb2](/src/bilder/analytische_methoden_skizze_27.jpeg)
+<figcaption>Überblick: Einfache Differenzenverfahren für parabolische Differenzialgleichungen</figcaption>
 
 ### Die nichtlineare Wärmeleitungsgleichung
+
+$$u_t = \nabla \cdot (\kappa(u)\nabla u)$$
+
+Vollimplizites Verfahren
+
+$$\frac{u^{n+1} - u^n}{\Delta t} = \tilde{\nabla} \cdot (\kappa(u^{n+1}) \tilde{\nabla} u^{n+1})$$
+
+$$...$$
 
 ... Dies ist ein System von nichtlinearen Gleichungen. **Wie löst man diese?**
 
 Als nichtlineares Gleichungssystem: Iterativ\
 Welche Möglichkeiten gibt es, um eine Iterationsvorschrift zu erhalten?
 
-#### Ansatz 1: Einfache Linearisierung
-
-*Einfach nur eine Fixpunktiteration*
-
-#### Ansatz 2: Fixpunktiteration - nichtlineares SOR - Verfahren
-
-#### Ansatz 3; Newton - Verfahren
-
-<!-- In der nächsten Vorlesung -->
+- Ansatz 1: Einfache Linearisierung (*Einfach nur eine Fixpunktiteration*)
+- Ansatz 2: Fixpunktiteration - nichtlineares SOR - Verfahren
+- Ansatz 3; Newton - Verfahren

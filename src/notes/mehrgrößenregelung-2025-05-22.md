@@ -9,3 +9,12 @@ includesMath: true
 ---
 
 ## Aufschrieb aus der Vorlesung
+
+![mitschieb](/src/bilder/mehrgroessenregelung_mitschrieb_15.jpeg)
+<figcaption>Mitschrieb Seite 1</figcaption>
+
+![mitschieb](/src/bilder/mehrgroessenregelung_mitschrieb_16.jpeg)
+<figcaption>Mitschrieb Seite 2</figcaption>
+
+![mitschieb](/src/bilder/mehrgroessenregelung_mitschrieb_17.jpeg)
+<figcaption>Mitschrieb Seite 3</figcaption>

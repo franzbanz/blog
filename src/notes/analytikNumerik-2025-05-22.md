@@ -10,81 +10,95 @@ includesMath: true
 
 ## Die nichtlineare Wärmeleitungsgleichung
 
-<!-- Folie 17, 18 -->
+$$u_t = \nabla \cdot (\kappa(u)\nabla u)$$
 
-### Ansatz 1: Einfache Linearisierung
+Vollimplizites Verfahren
+
+$$\frac{u^{n+1} - u^n}{\Delta t} = \tilde{\nabla} \cdot (\kappa(u^{n+1}) \tilde{\nabla} u^{n+1})$$
+
+$$...$$
+
+#### Ansatz 1: Einfache Linearisierung
 
 damit hat man wie im linearen Fall ein lineares Gleichunngssystem erzeugt, das jetzt in jeder Iteration geößt werden muss.\
 Im Falle der Konvergenz wird das nichtlineare System durch die Grenzfunktion erfüllt
 
 Start der Iteration
 
-<!-- Folie 18 -->
+(Folie 18)
 
-### Anssatz 2: Fixpunktiteration - nichtlineares SOR-Verfahren
+#### Anssatz 2: Fixpunktiteration - nichtlineares SOR-Verfahren
 
-<!-- Folie 19 -->
+(Folie 19)
 
-### Ansatz 3: Newton-Verfahren
+#### Ansatz 3: Newton-Verfahren
 
-<!-- Folie 21 -->
-
-# Finite-Elemente-Verfahren
-
-Wärmeleitungsgleichung
-
-<!-- Folie 25 -->
+(Folie 21)
 
 ## Galerkin-Verfahren
 
-Herleitung der *schwachen Form* - lösung soll normal auf dem Testraum stehen, sie soll das gleiche Integral wie die Ursprungsfunktion haben, nicht exakt identisch sein (Siehe Foto mitschrieb von Folie 25)
+Herleitung der *schwachen Form* - Lösung soll normal auf dem Testraum stehen, sie soll das gleiche Integral wie die Ursprungsfunktion haben, nicht exakt identisch sein (Siehe Foto mitschrieb von Folie 25)
 
 - Multiplikation der DGL mit einer Testfunktion $v(x)$
 - Integration über das Rechengebiet
 - Partielle Integration
 
-<!-- Folie 26 mathematisch ist schwache Form identisch zu starker Form-->
+**schwache Formulierung der Wärmeleitungsgleichung**
+
+$$\int_a^b \{ u_t v + \kappa u_x v_x \} \, dx - [\kappa u_x v ]_a^b = \int_a^b f v dx$$
+
+Mathematisch ist schwache Form identisch zu starker Form\
+- Etwas allgemeinere Formulierung des physikalischen Problems
+- Mit schwächeren RegularitätsVoraussetzungen
+- Annahme, dass die Testfunktion nur von der Raumvariablen $x$ abhängt
 
 ## Approximation
 
 Man betrachtet jetzt nicht den gesamten Lösungsraum, sondern gibt eine Häherungslösung als Linearkombination von einer **endlichen Anzahl** von Basisfunktionen vor:
 
-<!-- Folie 27 -->
+$$u_h(x,t) = \sum_{j=1}^N \hat{u}\_j(t) \varphi_j(x)$$
 
-Die Näherungsfunktion wird in die schwache Formulierung eingesetzt\
-Wir haben wegen der homogenen Dirichlet-Randbedungen angenommen, dass...
+$u_h(x,t)$ - Ansatzfunktion\
+$t$ - Freiheitsgrade\
+$\varphi_j$ - Basis- oder Formfunktion
+
+Die Näherungsfunktion wird in die schwache Formulierung eingesetzt
 
 **Galerkin Ansatz**: Testfunktion gleich der Basisfunktionen wählen
 
 Linienmethods: Aufteilen in Räumliche und Zeitliche Anteile
 
-<!-- Folie 31 - 35 -->
-
 Einfache Zeitdiskretisierungen: **Explizites Euler-Cauchy-Verfahren**
 
-Im Unterschied zu den Differenzen-Verfahren benötigen FR-Verfahren somit auch bei expliziter Zeitapproximation die Lösung eines Gleichunssystems. Eine Zeitschrittweitenbeschänlung zur Sicherung der Stabilität tritt hier ebenso auf
+Im Unterschied zu den Differenzen-Verfahren benötigen FR-Verfahren auch bei expliziter Zeitapproximation die Lösung eines Gleichunssystems\
+Eine Zeitschrittweitenbeschänlung zur Sicherung der Stabilität tritt auf
 
-Bei parabolischen Problemen muss der Zeitschritt proportional zum Quadrat der Raumschrittweite gewählt werden. Insofern werden hier meist implizite Verfahren eingesetzt. Das einfachste Verfahren ergibt sich hier aus dem **impliziten Euler-Verfahren**, auch **voll-implizites Verfahren** genannt
+Bei parabolischen Problemen muss der Zeitschritt proportional zum Quadrat der Raumschrittweite gewählt werden - Meist implizite Verfahren.\
+Einfachstes Verfahren **impliziten Euler-Verfahren**, auch **voll-implizites Verfahren** genannt
 
-Die hier vorgestellten impliziten Verfahren: voll-implizit, Crank-Nicolson und BDF Formeln sind bedingungslos stabil, während explizite Verfahren nur bedingt stabil sind. Die Zeitschrittweite ist proportional des Quadrats des Raumschrittes und hängt ab von dem kleinsten Eigenwert von
+Die hier vorgestellten impliziten Verfahren: voll-implizit, Crank-Nicolson und BDF Formeln sind bedingungslos stabil, während explizite Verfahren nur bedingt stabil sind.\
+Die Zeitschrittweite ist proportional des Quadrats des Raumschrittes und hängt ab von dem kleinsten Eigenwert von
 
 $$- \underline{\underline{M}}^{-1} \underline{\underline{K}}$$
+
+ab
 
 ## Finite-Elemente
 
 Basisfunktionen sind nur lokal aktiv. Der einfachste Fall sind die Hut-Funktionen oder Dreiecksfunktionen (Überall definiert, aber haben nur bei $x_i$ einen Wert ungleich 0) - Bewirkt dass Einträge in der Stefigkeitsmatrix $\underline{\underline{K}}$ größtenteils $0$ sind
 
-### Approximation höherer Ordnung
-
-<!-- Folie 43 -->
+![mitschrieb2](/src/bilder/analytische_methoden_skizze_28.jpeg)
+<figcaption>Approximation höherer Ordnung: Stückweise Polynome</figcaption>
 
 ## Randbedungungen
 
 Bislang hatten wir nur homogene Dirichlet-Randbedungungen gefordert
 
+$$u(a, t) = 0, \quad u(b, t) = 0 \quad \text{für} \quad t > 0$$
+
 Allgemeine Dirichlet-Randbedungungen
 
-<!-- Folie 44 -->
+$$u(a, t) = g_a(t), \quad u(b, t) = g_b(t) \quad \text{für} \quad t > 0$$
 
 1. Starke Approximation der Randwerte
 
@@ -98,4 +112,4 @@ Annsatzfunktionen mit zwei zusätzlichen Basisfunktionen und Testfunktionen:
 
 Dies funktioniert auch mit Neumann-Randbedingungen
 
-<!-- Folie 48 -->
+$$u(a, t) = s_a(t), \quad u(b, t) = s_b(t) \quad \text{für} \quad t > 0$$

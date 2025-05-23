@@ -46,8 +46,35 @@ This is important because:
 
 Failma significantly reduces the number of failure handling we have to develop
 
-We will distinguish 3 failure classes for the computing lanes
+3 failure classes for the computing lanes
 
 1. $z_{\text{cls,} \lnot \text{avail}}$: indications that show a lane as offline / not available / power off
-2. $z_{\text{cls, fail}}$: indications that show a 
-3. $z_{\text{cls, long}}$:
+2. $z_{\text{cls, fail}}$: indications that show a lane as faulty
+3. $z_{\text{cls, long}}$: indications that may show a lane aus faulty - but we want to confirm that very long
+
+Failure indications:
+
+1. lane did not synchronize
+2. lane synchronized with wrong data
+3. lane had wrong information - thrown by plama core / one-step
+4. lane had wron information - thrown by plama actor / one-step
+5. lane had wrong information - thrown by plama law / one-step
+6. supma(platform) could not correctly attribute the failure and guessed this lane
+
+Each service can throw its own failure indication. They are condensed into three classes. The classes are stored in $\text{db}_{\text{indi}}$ as they have $A_\neq$. A descision based on these classes with $A_\neq$ would lead to loss of computer replica determinism
+
+## Module: Two-Step
+
+The Module $M_{\text{two-step}}$ has four specific tasks:
+
+- confirmation of certain values
+- implementing reliable broadcast
+- combination of certain values
+- voting of certain values to gain consensus data
+
+- individual failure indications thrown by any Service: $z_{\text{fail}}$
+- failure management condenses the individual indications into one of 3 failure classes $z_{\text{cls,fail}} \quad z_{\text{cls,} \lnot \text{avail}} \quad z_{\text{cls,long}}$
+- $F_{\text{confirm}}$ implements that not every single event leads to a reaction
+- $F_{\text{RBC}}$ distributes the confirmed failure classes and ensures each correct lane has the same matrices
+- $F_{\text{combine}}$ condenses the confirmed classes into failure categories
+- $F_{\text{CSS}}$ votes specific signal data and creates $db_{\text{css}}$ data.

@@ -10,8 +10,11 @@ includesMath: true
 
 ## Literatur
 
-- Gasch, R., Twele, J.: Windkraftanlagen – Grundlagen, Entwurf, Planung und Betrieb. Springer Vieweg, 8. Auflage, 2013 (Kapitel 2, 6, 7)
-- Hau, E.: Windkraftanlagen – Grundlagen, Technik, Einsatz, Wirtschaftlichkeit. Springer Vieweg, 5. Auflage, 2014 (Kapitel 3, 4, 5)
+![buch1](/src/bilder/windenergie_bild_7.png)
+<figcaption>978-3-322-99446-2 *Kapitel 2, 6, 7*</figcaption>
+
+![buch2](/src/bilder/windenergie_bild_8.png)
+<figcaption>978-3-662-53154-9 *Kapitel 3, 4, 5*</figcaption>
 
 ## Typologien
 
@@ -20,19 +23,21 @@ Beispiel hierfür ist das Schalenkreizanemometer (Folie 10)
 
 ### Auftriebsläufer: Horizontalachenanlagen
 
-<!-- Folie 9 Formel -->
+$$W = c_W \cdot \frac{\rho}{2} \cdot f \cdot v^2 \quad \rightarrow \quad P = \frac{\rho}{2} \cdot f \cdot v^3 \cdot c_p$$
+
+*Formel zu finden auf Folie 9*
+
+Beispiel am Schalenkreuzanemometer
 
 - unterschiedlicher Wiederstand der Schalen bewirkt Rotation
 - Scheinbare Windgeschwindigkeit auf Antriebsseite des Rotors
 
-$$c = v - \Omega \cdot r = v - u$$
+$$c = v - \Omega \cdot r = v - u = \text{windgeschw.} - \text{umfangsgeschw.}$$
 
 - Nur eine kleine Antriebskraft wird erzeugt
 - maximaler aerodynamischer Wirkungsgrad ca. $8 \%$
 
 Lee - Ausgerichtete Anlagen: Selbsterzeugtes Moment um die Anlage wieder in Windrichtung zu drehen - selbstjustierende Windenergieanlagen
-
-<!-- Vielleicht Folie 15 Tabelle -->
 
 ### Auftriebsläufer: Vertikalachanlagen
 
@@ -47,17 +52,10 @@ Aber:
 
 ## Leisungsbegrenzung und Leistungsregelung
 
-<!-- Folie 24 -->
+Begrenzung von Leistung und Belastungen auf zulässige Betriebsbereiche - Stabiles Erreichen der Nennleitung der Anlage
 
-### Veränderung des Leistungsbeiwerts $c_p$ durch Änderung der Schnelllaufzahl $\lambda$
-
-$\lambda$ wird kleiner durch
-
-- ...
-
-$\lambda$ wird größer durch
-
-- ...
+![bild1](/src/bilder/windenergie_skizze_6.jpeg)
+<figcaption>Veränderung des Leistungsbeiwerts $c_p$ durch Änderung der Schnelllaufzahl $\lambda$</figcaption>
 
 ### Auftriebs- und Wiederstandsbeiwert bei unterschiedlichen Anstellwinkeln
 
@@ -67,8 +65,6 @@ Außerdem kann übermäßig hoher Rotorschub auftreten
 Stall und Ablösung ist so komplex, dass die Nennleistung nicht sehr genau geregelt werden kann - es geht Leistung verloren
 
 Mit active pitch control kann eine sauberere Leistungsregelung erreicht werden. Auch der maximale Rotorschub wird stark reduziert - besser für die Belastung der Anlage
-
-<!-- Folie 20 Grafik -->
 
 ***Könnte ja mal in Klausur drankommen***
 
@@ -87,16 +83,13 @@ Annahmen:
 - Keine Reynoldseffekte
 - Nur stationäre Lasten
 
-<!-- Tabelle Folie 38 -->
-
 - Mit der Drehzahl?
 - Leistung
 - Drehmoment
 - Masse
 - ...
 
-## Fazit
+![bild2](/src/bilder/windenergie_skizze_7.jpeg)
+<figcaption>Modellgesetze und Ähnlichkeitsregeln Beispiele</figcaption>
 
-...
-
-*nachlesen "catch the wind" startup*
+*weitere notiz vom prof.: über "catch the wind" startup nachlesen*
