@@ -61,7 +61,12 @@ Failure indications:
 5. lane had wrong information - thrown by plama law / one-step
 6. supma(platform) could not correctly attribute the failure and guessed this lane
 
-Each service can throw its own failure indication. They are condensed into three classes. The classes are stored in $\text{db}_{\text{indi}}$ as they have $A_\neq$. A descision based on these classes with $A_\neq$ would lead to loss of computer replica determinism
+Each service can throw its own failure indication. They are condensed into three classes. The classes are stored in
+
+$$\text{db}_{\text{indi}}$$
+
+as they have $A_\neq$\
+A descision based on these classes with $A_\neq$ would lead to loss of computer replica determinism
 
 ## Module: Two-Step
 
