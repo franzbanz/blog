@@ -1,7 +1,7 @@
 ---
 course: Windenergie 1
 type: Windenergienutzung 1
-by: Christian Molter
+by: Po Wen Cheng
 date: 2025-05-22 # (YYYY-MM-DD)
 tags: notes
 layout: note
