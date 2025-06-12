@@ -1,6 +1,6 @@
 ---
 course: Windenergie 1
-type: Strukturdynamik 1
+type: Strukturdynamik 1 - nacharbeiten
 by: Po Wen Cheng
 date: 2025-06-05 # (YYYY-MM-DD)
 tags: notes
