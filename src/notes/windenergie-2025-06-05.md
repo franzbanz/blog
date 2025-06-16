@@ -1,6 +1,6 @@
 ---
 course: Windenergie 1
-type: Strukturdynamik 1 - nacharbeiten
+type: Strukturdynamik
 by: Po Wen Cheng
 date: 2025-06-05 # (YYYY-MM-DD)
 tags: notes
@@ -11,26 +11,23 @@ includesMath: true
 ## Motivation: Warum Dynamische Berechnungen?
 
 - Warum reichen statische Berechnungen nicht aus?
-- Rotorblatt als *linear und *starrer Balken*, einseitig fest eingespannt
+- Rotorblatt als *linear und *starrer* Balken, einseitig fest eingespannt
 
-<!-- Folie 7 -->
+![skizze1](/src/bilder/windenergie_skizze_8.jpeg)
+<figcaption>warum reichen stat. Berechnungen nicht aus?</figcaption>
 
-Aerodynamische Kräfte, Gewichtskräfte als statische Streckenlast
-(keine Funktion der Zeit)
-• Schnittlasten bestimmen mit Kräfte- und Momentengleichgewicht
-• Statische Berechnungen sind brauchbar für grobe Abschätzungen aber
-nicht für Strukturauslegung
+- Aerodynamische Kräfte, Gewichtskräfte als statische Streckenlast (keine Funktion der Zeit)
+- Schnittlasten bestimmen mit Kräfte- und Momentengleichgewicht
+- Statische Berechnungen sind brauchbar für grobe Abschätzungen aber nicht für Strukturauslegung
 
-<!-- Folie 8 -->
+![skizze2](/src/bilder/windenergie_skizze_9.jpeg)
+<figcaption>Balken in deformiertem Zustand</figcaption>
 
-Rotorblatt als flexibler Balken, einseitig festeingespannt
-• Aerodynamische Kräfte, Gewichtskräfte als dynamische Streckenlast
-(eine Funktion der Zeit)
-• Schnittlasten bestimmen mit der Lösung der
-Bewegungsdifferentialgleichung
-• Dynamische Berechnungen sind notwendig für Strukturauslegung,
-berücksichtigt die dynamische Amplifikation
-• Die Strukturdeformation kann bestimmt werden
+- Rotorblatt als flexibler Balken, einseitig festeingespannt
+- Aerodynamische Kräfte, Gewichtskräfte als dynamische Streckenlast (eine Funktion der Zeit)
+- Schnittlasten bestimmen mit der Lösung der Bewegungsdifferentialgleichung
+- Dynamische Berechnungen sind notwendig für Strukturauslegung, berücksichtigt die dynamische Amplifikation
+- Die Strukturdeformation kann bestimmt werden
 
 ## Koordinatensysteme
 
@@ -46,18 +43,9 @@ Raumfeste KS vs. drehendes KS (Gierwinkel, Azimuthwinkel, Pitchwinkel)
 
 ### Typische Auslegungslasten für Windenergieanlagen
 
-Schwenk- und Schlagmoment in
-Rotorblatt Blattkoordinatensystem
-(edgewise und flapwise bending
-moment)
-• Drehmoment, In-Plane und Out-of-
-Plane Biegemomente in
-Nabenkoordinatensystem
-• Schubkraft, Nick-, Roll- und
-Giermoment in
-Turmkopfkoordinatensystem (thrust
-force, fore-aft and side to side bending
-moment, yaw moment)
+- Schwenk- und Schlagmoment in Rotorblatt Blattkoordinatensystem
+- Drehmoment, In-Plane und Out-of-Plane Biegemomente in Nabenkoordinatensystem
+- Schubkraft, Nick-, Roll- und Giermoment in Turmkopfkoordinatensystem
 
 ## Anregung durch atmosphärische Turbulenz
 
@@ -67,22 +55,12 @@ moment, yaw moment)
 
 ## Dynamische Anregungen: Einteilung von Belastungen
 
-<!-- Folie 18 -->
+![skizze2](/src/bilder/windenergie_skizze_10.jpeg)
+<figcaption></figcaption>
 
-Lasten können konstant und zeitlich
-veränderlich sein je nach
-Koordinatensystem. Die Schwerkraft
-von Turm ist konstant. Die
-Schwerkraft von einem Blatt (bei
-konstanter Drehzahl) verursacht aber
-periodische Lasten für das Rotorblatt
-• Die dynamische Belastungen werden
-durch die Regelung und den Betrieb
-der Windenergieanlage beeinflusst,
-e.g. das Pitchen von Rotorblatt,
-Windnachführung von dem Gondel,
-Drehmoment Regelung,
-Notabschaltung etc.
+Lasten können je nach KS konstand oder zeitlich veränderlich sein - Schwerkraft des Turms Konstant, Schwerkraft eines Blatts verursacht aber periodische Lasten für das Blatt
+
+Dynamische Lasten werden durch Regelung und Betrieb der Analge beeinflusst (Rotorblatt pitchen, Windnachführung, ...)
 
 Externlasten
 
@@ -103,7 +81,11 @@ Internlasten
 
 $$M \ddot{q} + B \dot{q} + K q = F(t)$$
 
-<!-- Folie 21 -->
+$M$: Masse\
+$D$: Dämpfung\
+$S$: Federsteifigkeit\
+$F(t): Anregungskraft\
+$q$: Generalisierte Koordinate
 
 ### Stationäre Lasten aus Wind- und Massenkräften
 
@@ -113,20 +95,24 @@ $$M \ddot{q} + B \dot{q} + K q = F(t)$$
 ### Periodosche und transiente Lasten aus Massenkräften
 
 - Massenkräfte durch Eigengewicht
-- Transiente Lasten bei Manövern
-
-<!-- Folie 27 -->
+- Kreisel- und Corioliskräfte bei Manövern
+- Massenumwucht
 
 ## Transformation der Rotorblattlasten auf die Gondel
 
-<!-- Folie 28 -->
 
 - Blattwurzelbiegemomente infolge von
   - Eigengewicht, Transformation in ein Rollmoment
   - Fliehkräfte, Transformation in ein Rollmoment
 
-<!-- Folie 32 - Transformation von Lasten vom rotierenden ins feststehende System: Bsp. Massenumwucht -->
+Drei Blatt Rotor ideal in Bezug auf Reduktion der wirkenden Kräfte durch symmetrie und in Bezug auf Produktionskosten (Im Gegensatz zu vier Blättern)
 
 ### Superposition von Blatt-Lasten, Bsp. Höhenprofil
 
-<!-- Folie 34 3-Blatt-Rotor vs 2-Blatt-Rotor -->
+![skizze2](/src/bilder/windenergie_skizze_11.jpeg)
+<figcaption></figcaption>
+
+- Keine Auslöschung der Wechsellasten (im Gegensatz zum drei Blatt Rotor)
+- effektiver Druckpunkt verschiebt sich auf und nieder
+- Gondel Nickmoment variiert mit 2P
+- Welle 1P-Wechsellast

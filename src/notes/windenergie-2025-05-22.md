@@ -1,6 +1,6 @@
 ---
 course: Windenergie 1
-type: Kennlinien, Typologien, ...
+type: Typologien
 by: Po Wen Cheng
 date: 2025-05-22 # (YYYY-MM-DD)
 tags: notes
