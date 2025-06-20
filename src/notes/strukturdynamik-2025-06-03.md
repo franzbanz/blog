@@ -1,6 +1,6 @@
 ---
 course: Strukturdynamik
-type: Kapitel 8
+type: Kapitel 8 - arbeit
 by: Malte Krack
 date: 2025-06-03 # (YYYY-MM-DD)
 tags: notes
