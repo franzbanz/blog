@@ -204,7 +204,7 @@ img{
   border-bottom: 2px solid var(--black);
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
   article{
     padding-left: 10%;
     padding-right: 10%;
