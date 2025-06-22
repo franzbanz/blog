@@ -1,83 +1,85 @@
 ---
 course: System Design 1
-type: Chapter 5
+type: Chapter 6
 by: Bastian Luettig
-date: 2025-05-28 # (YYYY-MM-DD)
+date: 2025-06-04 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
 ---
 
-## Supervisor Management SUPMA(core)
+# Platform Management: Sensor
 
-SUPMA is responsible for
+## Requirements
 
-- deciding which modules to passivate (RESMA)
-- creation of new status vector
-- setting the new status active at the end of the cycle
-- setting the next job to execute
+$B_{\text{v,rs.rfcc}}$ - At least two computers and two attached sensors are part of the system, which means they are not passivated
 
-### Passivation
+Platform management sensor is suitable for the reundant computer, if it gurantees that the redundant computer correctly acquires the sensor data in all valid operating scenarios. It *performs correctly*, if:
 
-passivated modules will not influence
+- synchrony: all correct single computers acquire the sensor data time synchronous
+- agreement: all correct single computers acquire similar data in each cycle
+- integrity: all correct single computers acquire actual sensor data or a default value if no sensor values were acquired
 
-- constructive core tasts: xsynchro, RBC, CSS, Voting
-- constructive sensor tasks: voting
-- constructive law tasks: xdrift, RBC
-- constructive actor tasks: actor model comparison
-- controlling any actor (other lanes open the outputs of the passive lane)
+## Sensor Types
 
-but they will still take part in the monitorin, which is essential for the re-integration of the module
+Simple Sensors (e.g. simple PT100 temperature sensor)
 
-When will the Resource Manager re-integrate a module?
+- transforms the physics signal into current, voltage, frequency
+- single computer performs the actual measuring and conversion
+- cross-strapping almost impossible
 
-- a module is set $s_{\text{off}} = true$ but $s_{\text{iso}} = false$ (it was off due to power outage / late start ...)
-- the module behaved correctly during monitoring for multiple cycles
-- the correct lanes decide unanimously to re-integrate the module
+Complex Sensors (e.g. Honeywell Air Data Computer with ARINC429 output)
 
-#### Strategy 1: Self-Categorization
+- transforms the physics signal to the suitable signal, sensor performs the conversion
+- sensor communicates voa messages with single computers
+- cross-strapping possible
 
-A single computer that blames itself as being not available (it will be passivated) or as being failed (it will be passivated and isolated)
+We have to expect disagreement among correct sensors:
 
-#### Strategy 2: Majority / Quadruplex and Triplex
+- due to imprecise trigger of redundant sensors
+- due to imprecise sampling from redundant computers
 
-If two or more single computers blame one computer as being not available (it will be passivated) or failed (it will be passivated and isolated)
+Hence: correct redundant discrete single sensors do not have $A_=$, but instead have $A_\in$
 
-#### Strategy 3: Majority / Duplex
+## Bus Sensors: ARINC 429
 
-If one single computer blames another computer as being not available (both will be passivated) or failed (both will be passivated and isolated)
+- Parity Bit: 1 if number of HIGH bits is odd
+- Label: type and information for payload
+- Payload: any signal data
+- SSM: two bits that indicate the status information:
+  - 0/0: failure warning
+  - 0/1: no computed data
+  - 1/0: functional test
+  - 1/1: normal operation
 
-Examples of this are on slides 71-83
+## Bus Sensors: ARINC 664 / AFDX
 
-## Resource Management Platform
+- Consists of an Ethernet frame with up to 1518 bytes, including
+- 47 byte overhead (MAC source, destination, IP and UDH header, message type, sequence number)
+- AFDX payload:
+  - Functional Status Sets
+  - Date Sets (float, integer, boolean, boolean-field, opaque data)
+- the system designer defines Virtual Links between AFDX communication modules; they represent cables that would exist in a classic implementation, each has one sender and at least one receiver
 
-Above all SUPMA blocks, we haev the Supervisor Management (platform). It performs platform wide descisions\
-It has the information about all failure categories and status entries from all other SUOMA domains: core, sensor, actor
+## Bus Sensors: Messages / Properties
 
-- Resolve discrepancies
-- Help determine the failed module in ambiguous cases
-  - Is one lane responsible for most failure categories?
+1. signals are packed into messages (frames)
+2. a complex sensor may transmit different messages
+3. the sensor transmits messages cyclic
+4. each message has a checksum, e.g., parity bit, or CRC; to detect some transmission errors
+5. a signal may have a payload code, e.g., SSM, FS; this gives an indication for the sensor state:
+   - 1/1: sensor is in normal operation, the system should use the signal
+   - 1/0: sensor is in test mode, the sensor just started up and signals should not be used or monitored
+   - 1/0: sensor is in bootup mode, sensor just powered-on, signals should not be used or monitored
+   - 0/0: sensor considers itself as failed, signals should not be used, sensor not to be trusted
+6. Data of redundant complex sensors have:
+   - Analog data: $A_\Delta$
+   - Discrete data: $A_\in$
 
-### Failure Category Tally
+For all messages from a sensor, check if
 
-Count each failure category created by and for a module - this gives us an estimate of which module is most likly to be faulty
-reasoning:
-
-- If a module is faulty, it can generate arbitrary failure indications - even for correct modules
-- If a module is faulty, other modules can generate failure indications
-- If a module performs asymmetric communication, not each correct module creates a suitable failure indication
-- If a module is faulty, it is more likely to show more than one fault
-
-![procedure](/src/bilder/systemDesign_image_18.jpeg)
-<figcaption>Procedure</figcaption>
-
-## Operation Manager
-
-Operations Manager decides, which job-table to execute\
-job-table is a list of services, each entry has the following attributes:
-
-- service name (i.e. function pointer to the service)
-- start time
-- duration (worst case)
-
-The scheduler or dispatcher performs the job execution
+1. a new message has arrived
+2. the arrived message matches the checksum
+3. the payload status is useable
+4. the payload is within the expected limits
+5. the signals are correct

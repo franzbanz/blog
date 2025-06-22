@@ -8,32 +8,35 @@ layout: note
 includesMath: true
 ---
 
-Einführung der Elementenweisen Formulierung: Mitschrieb 1
+## Einführung der Elementenweisen Formulierung
 
-Assemblierung - Folie 24
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_38.jpeg)
+<figcaption>Mitschrieb 1</figcaption>
 
-1. Initialisierung
-2. ...
+### Assemblierung
+
+1. Initialisierung mit $\underline{\underline{A}} = \underline{\underline{0}} N \times N \quad \underline{f} = \underline{0} \quad N \times 1$
+2. Auffüllen mit den Elementmatrizen zur Assemblierung der Steifigkeitsmatrix
+3. Auffüllen des Lastvektors
 
 ## Lokale Basisfunktionen in 2D / 3D
 
-Folie 33 - Elemente der Steifigkeitsmatrix A
+Siehe *Folie 33* für Aufstellen der Elementsteifigkeitsmatrix und Aufbau der Hutfunktion
 
 **Folie 53**
 Betrachtung: Aufbau der Matrix entsprechend der Knoten:
 
 Zeilen und Spalten der Matrix sind die globalen Knotenindizes
 
-***Folie 57 beliebte Prüfungsaufgabe***
-
-damit will ich sie jetzt nicht weiter quälen, oder eigentlich doch, ein bisschen schon noch
+***Folie 57 zur 2D-Assemblierung ist eine beliebte Prüfungsaufgabe***
 
 # Finite Volumen Verfahren
 
 Durchbruch bei den hyperbolischen Problemen (Probleme mit Informationstransport - Beschreiben dass aus einer glatten Anfangslösung eine Unstetigkeit entstehen kann)
 
-<!-- skizze 2 -->
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_39.jpeg)
+<figcaption>Mitschrieb 2</figcaption>
 
 Hier Modellierte Diskontinuitäten führten zur Vorhersage von Verdichtungsstößen
 
-*Wer war der Mathematiker der diese Stöße herausgefunden hat?*
+Zur Vorbereitung auf Test: Skript bis zu diesem Zeitpunkt lesen, Verständnisfragen und Zusammenhänge klären

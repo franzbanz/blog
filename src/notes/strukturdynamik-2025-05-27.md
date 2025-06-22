@@ -15,7 +15,7 @@ Um unbequeme Systeme berechnen zu können müssen auch diese Phänomene beschrie
 
 ## Lineare, zeitinvariante, mechanische Systeme DGL
 
-$$\underleftarrow{\underline{M}} \ddot{\underline{q}} + (\underline{\underline{D}} + \underline{\underline{G}}) \dot{\underline{q}} + (\underline{\underline{K}} + \underline{\underline{N}}) \underline{q} = \underline{0}, \quad \underline{q} \in \real^{n \times 1}, \quad n: \text{Anzahl FHG}$$
+$$\underleftarrow{\underline{M}} \ddot{\underline{q}} + (\underline{\underline{D}} + \underline{\underline{G}}) \dot{\underline{q}} + (\underline{\underline{K}} + \underline{\underline{N}}) \underline{q} = \underline{0}, \quad \underline{q} \in \mathbb{R}^{n \times 1}, \quad n: \text{Anzahl FHG}$$
 
 Koeffizientenmatrizen reell, $\underline{q} = \underline{0}$ ist Ruhelage
 

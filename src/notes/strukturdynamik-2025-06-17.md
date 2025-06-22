@@ -1,6 +1,6 @@
 ---
 course: Strukturdynamik
-type: Kapitel 8
+type: Kapitel 9
 by: Malte Krack
 date: 2025-06-17 # (YYYY-MM-DD)
 tags: notes
@@ -12,7 +12,8 @@ includesMath: true
 
 Nicht mehr verformbare körper - aber masselos, oder unverformbare Massen, nun beides in einem Festkörper möglich
 
-<!-- Skizze 1 -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_25.jpeg)
+<figcaption>Mitschrieb Seite 1</figcaption>
 
 - Wie viele Eigenmoden hat das System?
 - Wovon hängen die Eigenfrequenzen ab?
@@ -20,31 +21,37 @@ Nicht mehr verformbare körper - aber masselos, oder unverformbare Massen, nun b
 
 <!-- Mitschrieb Seite 1 Definitionslücken behebbar (Im Skript nochmal nachlesen -->
 
-Gleichung (a) Standardform des konsergvativen EFS
+![messaufbau](/src/bilder/strukturdynamik_skizze_26.jpeg)
+<figcaption>Gleichung (a) Standardform des konsergvativen EFS</figcaption>
 
-<!-- Mitschrieb Seite 2 -->
+![messaufbau](/src/bilder/strukturdynamik_skizze_27.jpeg)
+<figcaption>Mitschrieb Seite 2</figcaption>
 
 ## Die Eindimensionale Wellengleichung
 
-Standartform
+Standardform
 
 $$\ddot{u} = c² u''$$
 
-Universalität - Mechanische Schwingungen
-
-Drehschwingungen von Torsionsstäben, c2=G/ρ
-• Querschwingungen von Seil oder Saite, c2=S/(ρA)
-
-<!-- Lösung der Eindimensionalen Wellengleichung Tabelle -->
+![alt text](/src/bilder/strukturdynamik_skizze_28.png)
+<figcaption>Siehe Kapitel 9 Folie 182\
+Lösung der Eindimensionalen Wellengleichung Tabelle</figcaption>
 
 ## Beispiel: Euler-Bernoulli-Balken
 
-<!-- Skizze Folie 185 -->
 Annahmen: gerader schlanker Balken, Schubverformung und Rotationsträgheit
 vernachlässigbar, kleine linear-elastische Verformungen, keine Vorspannung
 
-<!-- Tabelle 187 -->
+Zur Beschreibung eines allgemeinen Festkörpers als Kontinuum sind folgende Gleichungen zu berücksichtigen
 
-<!-- Folie 189, 191 192 abschreiben -->
+- lokales Kräftegleichgewicht
+- Stoffgesetz
+- Kinematik
+
+Die Zusammenführung liefert ein partielles Differentialgleichungssystem mit den freien Variablen Zeit und Ort
+
+Mit geeigneten Rand- und Anfangsbedingungen erhält man ein konkretes Anfangs-Randwert-Problem
+
+Exakte Lösungen der Bewegungsgleichungen sind jedoch nur für Sonderfälle bekannt
 
 Die Modale Überlagerung (allein) ist nicht die Lösung für alle unsere Probleme - Zwei Beispiele im Vorlesungsaufschrieb

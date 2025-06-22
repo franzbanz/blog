@@ -57,4 +57,4 @@ Dies bedeutet, dass der Massenstromparameter mit sinkendem Düsendruckverhältni
   - Dazu gehört Überlegung Tafel Bild 3
 - Betriebslinie vom inneren Fan und / oder Booster kann in der Klausur auch im Rechenteil sehr gut drankommen
 
-*Als nächstes: Instationäres Betriebsverhalten, Regelung und Schubberechnung*
+*Nächste Stunde fällt aus, aber danach als nächstes: Instationäres Betriebsverhalten, Regelung und Schubberechnung*
