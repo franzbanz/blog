@@ -10,7 +10,7 @@ Diese Website wurde von mir (Franz Köhler) erstellt und wird von mir gepflegt. 
 
 ### Datenschutz (Privacy Policy)
 
-Diese Seite setzt keine Cookies und sammelt keinerlei Analysetaten. Es wird weder Google Analytics noch irgendeine andere Drittanbieter-Analyse-Software verwendet.
+Diese Seite setzt keine Cookies und sammelt keinerlei Analysedaten. Es wird weder Google Analytics noch irgendeine andere Drittanbieter-Analyse-Software verwendet.
 
 ### Eingebettete Inhalte
 
