@@ -1,35 +1,45 @@
-﻿---
+---
 layout: base
 ---
+<script src="/src/button.js"></script>
 <section class="lecture_section">
-    <h2>Mitschriften</h2>
-    {% assign sorted_notes = collections.notes | sort: "date" | reverse %}
-    {% assign course_names = "" | split: "" %}
-    {% for note in sorted_notes %}
-        {% unless course_names contains note.data.course %}
-            {% assign course_names = course_names | push: note.data.course %}
-        {% endunless %}
-    {% endfor %}
-
-    {% for course in course_names %}
-    <h3>{{ course }}</h3>
-    <ol>
+    <h2 class="section_heading">
+    Mitschriften
+    <span id="page_controls">
+        <button id="prev_btn" disabled>&lt;</button><button id="next_btn">&gt;</button>
+    </span>
+    </h2>
+    <div id="course_sections">
+        {% assign sorted_notes = collections.notes | sort: "date" | reverse %}
+        {% assign course_names = "" | split: "" %}
         {% for note in sorted_notes %}
-        {% if note.data.course == course %}
-            <li class="list_item">
-            <a href="{{ note.url }}">
-                <table class="list_table">
-                <tr>
-                    <td class="list_date">{{ note.data.date | date: "%d %B, %Y" }}</td>
-                    <td class="list_type">{{ note.data.type }}</td>
-                </tr>
-                </table>
-            </a>
-            </li>
-        {% endif %}
+            {% unless course_names contains note.data.course %}
+                {% assign course_names = course_names | push: note.data.course %}
+            {% endunless %}
         {% endfor %}
-    </ol>
-    {% endfor %}
+
+        {% for course in course_names %}
+        <div class="course_section">
+            <h3>{{ course }}</h3>
+            <ol>
+                {% for note in sorted_notes %}
+                {% if note.data.course == course %}
+                    <li class="list_item">
+                    <a href="{{ note.url }}">
+                        <table class="list_table">
+                        <tr>
+                            <td class="list_date">{{ note.data.date | date: "%d %B, %Y" }}</td>
+                            <td class="list_type">{{ note.data.type }}</td>
+                        </tr>
+                        </table>
+                    </a>
+                    </li>
+                {% endif %}
+                {% endfor %}
+            </ol>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 
 <section class="exam_section">
