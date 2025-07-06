@@ -100,7 +100,6 @@ $q$: Generalisierte Koordinate
 
 ## Transformation der Rotorblattlasten auf die Gondel
 
-
 - Blattwurzelbiegemomente infolge von
   - Eigengewicht, Transformation in ein Rollmoment
   - Fliehkräfte, Transformation in ein Rollmoment
