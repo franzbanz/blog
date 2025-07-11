@@ -217,9 +217,12 @@ article{
     font-size: 20px;
     border-bottom: 2px solid var(--black);
   }
-  .mathjax {
+  .MJX-TEX{
+    line-height: 25%;
+    text-align: center;
     word-wrap: break-word;
     white-space: normal;
+    overflow-wrap: break-word;
   }
   p{
     margin-bottom: 0px;

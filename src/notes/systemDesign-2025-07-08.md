@@ -46,3 +46,25 @@ There are four main software tasks:
 **Consistency / Resource Manager**: The resource manager will passivate an actuator if it does not meet the required minimum components (i.e. one common component *off* or too many single components *off*)
 
 ## Actor Control Law and Digital Twins
+
+Model for each common actuator component - The system measures $y_\text{ddv}$ which the actuator control function can access and use
+
+- Each lane has a single sensor for $y_\text{ram}$ and $y_\text{ddv}$
+- Using the A/D-converter, each lane acquires the single sensor signals
+- Stuff happens in between
+- Using a D/A-converter and an amplifier, each lane controls its ddv-coil
+
+## Mathematic model for calculating actuator lane interctions: simplifications
+
+1. Magnetic flux for each coil independent
+2. Resulting anchor force is simply the sum of anchor forces
+3. Very little anchor movement: anchor force independent from position
+4. negligible magnetic induction within coil as a result fromm anchor movement
+5. oil is in-compressible
+
+Example: coil 1 does not work anymore
+
+![graph](/src/bilder/systemDesign_image_21.jpeg)
+<figcaption>Reaction: all intact $sf_o$ detect that current for coil 1 differs too much and thus passivate the current sensor and the coil</figcaption>
+
+$$s_\text{off, sac, coild, 1} = true; s_\text{off, ss, coil, 1} = true$$
