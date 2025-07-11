@@ -27,7 +27,7 @@ body {
   background-color: var(--gray);
   color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: auto 1fr;
@@ -66,6 +66,7 @@ section{
   }h3{
     padding: 8px;
     margin: 0px;
+    background-color: var(--red_lighter);
     font-size: inherit;
     font-weight: inherit;
     border-bottom: 2px var(--black) solid;
