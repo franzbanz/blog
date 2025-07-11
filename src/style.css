@@ -88,26 +88,26 @@ section{
   }
 }
 .section_heading {
+  padding: 0px !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  span{
+    padding: 8px !important;
+  }
 }
 #page_controls {
   background-color: var(--red_light);
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
-  margin: 0px;
-  padding: 0px;
+  border: none;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; 
   button{
     background-color: var(--red);
-    padding: 8px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
     border: none;
   }
 }
@@ -115,11 +115,19 @@ button:hover {
   background-color: var(--red_dark) !important;
   cursor: pointer;
 }#next_btn{
-  margin-right: -8px !important;
+  margin-right: -8px;
   border-left: 2px var(--black) solid !important;
 }
 #prev_btn{
   border-left: 2px var(--black) solid !important;
+}
+button:disabled{
+  color: inherit;
+  text-decoration: line-through;
+}
+button:disabled:hover{
+  background-color: var(--red) !important;
+  cursor: auto;
 }
 .list_table {
   width: 100%;

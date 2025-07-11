@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const prevBtn = document.getElementById("prev_btn");
     const nextBtn = document.getElementById("next_btn");
-    // const pageIndicator = document.getElementById("page_indicator");
 
     function updateSections() {
         sections.forEach((section, index) => {
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
             section.style.display = index >= start && index < end ? "block" : "none";
         });
 
-        // pageIndicator.textContent = `Page ${currentPage}`;
         prevBtn.disabled = currentPage === 1;
         nextBtn.disabled = currentPage === totalPages;
     }
@@ -33,6 +31,5 @@ document.addEventListener("DOMContentLoaded", function () {
             updateSections();
         }
     });
-
     updateSections(); // Initial display
 });
