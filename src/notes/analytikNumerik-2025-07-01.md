@@ -10,10 +10,9 @@ includesMath: true
 
 ## Numerische Methoden für Hyperbolische Differentialgleichungen
 
-<!-- Folie 5 -->
 Zentrale Differenzenbildung ist bei hyperbolischen Dgln problematisch – insbesondere ist sie instabil in Verbindung mit expliziter Zeitappoximation 1. Ordnung
 
-Lösung des Stabilitätsproblems
+### Lösung des Stabilitätsproblems
 
 1. Möglichkeit: Man berücksichtigt das Vorzeichen der Wellenausbreitung: Upwind-Verfahren
    - Numerische Approximation genau wie die Ausbreitung auch nur aus einer Richtung beeinflusst
@@ -22,34 +21,27 @@ Lösung des Stabilitätsproblems
    - Ändern des Diskretisierungsfehlers durch dissipativen Term, welcher sich über $\epsilon$ beeinflussen lässt
 3. Lax-Wendroff-Verfahren: Nicht in dieser Vorlesung behandelt, gibts aber auch noch
 
-<!-- Folie 12 -->
-Explizite Verfahren mit 1. Ordnung Zeitapproximation
-Das explizite Verfahren ist bedingungslos instabil.
-Das explizite Verfahren mit Upwind-Differenzen (CIR)
-ist bedingt stabil unter der CFL-Bedingung
+- Explizite Verfahren mit 1. Ordnung Zeitapproximation
+- Das explizite Verfahren ist bedingungslos instabil.
+- Das explizite Verfahren mit Upwind-Differenzen (CIR) ist bedingt stabil unter der CFL-Bedingung
 
 ### Lineare Hyperbolische Systeme
 
-<!-- Folie 14 -->
-Wir betrachten jetzt ein System von hyperbolischen
-Differenzialgleichungen
-Die Matrix besitze dabei einen vollständigen Satz von
-Eigenvektoren und ist damit diagonalisierbar.
-Verfahren mit zentralen Differenzen sind einfach übertragbar,
-indem man die Verfahren einfach auf jede Gleichung anwendet.
-Bei den Upwind-Verfahren muss man etwas mehr überlegen, da
-es jetzt Wellengeschwindigkeiten mit unterschiedlichen
-Vorzeichen gibt.
-Für die CFL-Bedingung müssen jetzt alle Wellengeschwindig-
-keiten herangezogen werden:
+System von hyperbolischen Differenzialgleichungen:\
+Die Matrix besitze einen vollständigen Satz von Eigenvektoren und ist diagonalisierbar\
+Verfahren mit zentralen Differenzen sind einfach übertragbar, indem man die Verfahren einfach auf jede Gleichung anwendet.
+
+Für die CFL-Bedingung müssen alle Wellengeschwindigkeiten herangezogen werden:
 
 (### CIR Verfahren für Charakteristische Normalform)
 
 ## Der Nicht Lineare Fall
 
-Finites Differenzen Verfahren funktioniert hier nicht so gut, kommt durch Approximation mit Poylnomen schlecht mit Sprüngen (Verdichtungsstöße) in der Lösung zurecht\
-Weiterer subtiler Grund: Rohr mit Verdichtungsst0ß
-<!-- Skizze 2 -->
+Finites Differenzen Verfahren funktioniert hier nicht so gut, kommt durch Approximation mit Poylnomen schlecht mit Sprüngen (Verdichtungsstößen) in der Lösung zurecht\
+
+![mitschrieb1](/src/bilder/analytische_methoden_skizze_45.jpeg)
+<figcaption>Weiterer subtiler Grund: Rohr mit Verdichtungsstoß</figcaption>
+
 Position des Stoßes ändert sich bei Geringem Fehler in der Abschätzungen am Ein- und Auslauf (z.B. Druck) erheblich\
 Unterschiedliche Verteilung der Gitterpunkte am Ein- und Auslauf kann bewirken, dass die einläufenden Ströme nicht gleich den auslaufenden sind - Keine Garantie beim Finiten Differenzenverfahren\
 Kommt daher, dass keine Integralen Betrachtungsweisen erlaubt sind (*Nicht-konversativität der Differenzenverfahren*)
