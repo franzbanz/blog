@@ -1,7 +1,7 @@
 ---
 course: Organisation
 type: Dimensionsanalyse
-by: 
+by: Simon Volker
 date: 2025-07-21 # (YYYY-MM-DD)
 tags: notes
 layout: note
@@ -68,11 +68,16 @@ In nicht klassisch physikalischen Problemen sind die Größen im Basisgrößensy
 
 ## Buckinghamsches $\Pi$-Theorem
 
-<!-- Mitschrieb Seiten 1, 2 -->
+![mitschrieb1](/src/bilder/dimensionsanalyse_skizze_1.jpeg)
+<figcaption>Mitschrieb Seite 1</figcaption>
+
+![mitschrieb1](/src/bilder/dimensionsanalyse_skizze_2.jpeg)
+<figcaption>Mitschrieb Seite 2</figcaption>
 
 ## Erste Beispielrechnung
 
-<!-- Mitschrieb Seite 3 -->
+![mitschrieb1](/src/bilder/dimensionsanalyse_skizze_3.jpeg)
+<figcaption>Mitschrieb Seite 3</figcaption>
 
 ## Wahl des Basisgrößensystems
 
@@ -87,13 +92,16 @@ Welchen Einfluss hat die Einführung einer neuen Basisgröße?
 
 im [LMT] - System gilt $F = m a$
 
-<!-- Mitschrieb Seite 4 (1) Es kann eine neue Basisgröße eingeführt werden, wenn auch eine dimensionsbehaftete konstante eingeführt wird (2) Für sehr kleine Reynolds-Zahlen gegen 0: Reibungsterme >> Trägheitsterme -> Schleichende Strömung (Stokes Flow) - $W 0 3 \pi \eta U d \rightarrow W/\eta U d = 3 \pi = const.$ Genau das kommt heraus, wenn C weggelassen wird -->
+![mitschrieb1](/src/bilder/dimensionsanalyse_skizze_4.jpeg)
+<figcaption>Es kann eine neue Basisgröße eingeführt werden, wenn auch eine dimensionsbehaftete konstante eingeführt wird</figcaption>
+
+![mitschrieb1](/src/bilder/dimensionsanalyse_skizze_5.jpeg)
+<figcaption>Für sehr kleine Reynolds-Zahlen gegen 0: Reibungsterme >> Trägheitsterme -> Schleichende Strömung (Stokes Flow) - $W 0 3 \pi \eta U d \rightarrow W/\eta U d = 3 \pi = const.$ Genau das kommt heraus, wenn C weggelassen wird</figcaption>
 
 Kurzzusammenfassung Wechsel des Basisgrößensystems:
 
 - Formel des Pi Theorems ist universell - Einführung einer neuen Größe geht mit der Einführung einer Dimensionsbehafteten Konstante einher
 - Ohne diese Konstante: Bruch eines grundliegenden Physikalischen Phänomens - Hat eine Implikation auf ob ein physikalischer Effekt vernachlässigt wird oder nicht.
 
-## Der Ähnichkeitsbegriff / Modelltheorie
-
-## Ähnlichkeitslösung
+![mitschrieb1](/src/bilder/dimensionsanalyse_skizze_6.jpeg)
+<figcaption>Mitschrieb Seite 6</figcaption>
