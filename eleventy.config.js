@@ -1,6 +1,8 @@
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/button.js");
+  eleventyConfig.addPassthroughCopy("src/upload.js");
+  eleventyConfig.addPassthroughCopy("src/schedule.js");
   eleventyConfig.addPassthroughCopy("src/pdfs");
   eleventyConfig.addPassthroughCopy("src/bilder");
   eleventyConfig.addPassthroughCopy("src/impressum.md");

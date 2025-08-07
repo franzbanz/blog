@@ -3,6 +3,10 @@
   --yellow: #f3de8a;
   --yellow_light: #fcedad;
   --yellow_dark: #fec57b;
+  --purple: #c092de;
+  --purple_light: #d7a4f9;
+  --purple_lighter: #cf9af2;
+  --purple_dark: #bf75f1;
   --red: #eb9486;
   --red_lighter: #fa9e90;
   --red_light: #f8a99d;
@@ -98,7 +102,6 @@ section{
   }
 }
 #page_controls {
-  background-color: var(--red_light);
   border: none;
   padding-top: 0px !important;
   padding-bottom: 0px !important; 
@@ -115,14 +118,7 @@ section{
 button:hover {
   background-color: var(--red_dark) !important;
   cursor: pointer;
-}#next_btn{
-  margin-right: -8px;
-  border-left: 2px var(--black) solid !important;
-}
-#prev_btn{
-  border-left: 2px var(--black) solid !important;
-}
-button:disabled{
+}button:disabled{
   color: inherit;
   text-decoration: line-through;
 }
@@ -130,6 +126,61 @@ button:disabled:hover{
   background-color: var(--red) !important;
   cursor: auto;
 }
+#next_btn{
+  margin-right: -8px;
+  border-left: 2px var(--black) solid !important;
+}
+#prev_btn{
+  border-left: 2px var(--black) solid !important;
+}
+#schedule_next_btn{
+  margin-right: -8px;
+  background-color: var(--purple_lighter) !important;
+  border-left: 2px var(--black) solid !important;
+
+}
+#schedule_prev_btn{
+  background-color: var(--purple_lighter) !important;
+  border-left: 2px var(--black) solid !important;
+  margin-right: -8px;
+}#schedule_prev_btn:hover{
+      background-color: var(--purple_dark) !important;
+}#schedule_next_btn:hover{
+      background-color: var(--purple_dark) !important;
+}
+#uploadXmlButton {
+  background-color: var(--blue_light);
+  border-right: 2px var(--black) solid !important;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border: none;
+}#uploadXmlButton:hover {
+  background-color: var(--blue_dark) !important;
+  cursor: pointer;
+}.custom-upload-button {
+  background-color: var(--blue_light);
+  border-right: 2px var(--black) solid !important;
+  margin-right: -5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border: none;
+}.custom-upload-button:hover {
+    background-color: var(--blue_dark) !important;
+}
+.filename-display {
+    max-width: 200px;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .list_table {
   width: 100%;
   border-collapse: collapse;
@@ -142,23 +193,35 @@ button:disabled:hover{
   h2{
     background-color: var(--red_light);
   }
-  box-shadow: 4px 4px var(--gray_dark);
   background-color: var(--red);
-  border-left: 2px var(--black) solid;
-  border-right: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
+  border-left: 2px var(--black) solid;
+  box-shadow: 4px 4px var(--gray_dark);
   li:hover{
     background-color: var(--red_dark);
   }
-}.exam_section{
+}.middle_section{
+  border-left: 2px var(--black) solid;
+  box-shadow: 4px 4px var(--gray_dark);
+}.exam_subsection{
   h2{
     background-color: var(--yellow_light);
   }
-  box-shadow: 4px 4px var(--gray_dark);
   background-color: var(--yellow);
   border-bottom: 2px var(--black) solid;
   li:hover{
     background-color: var(--yellow_dark);
+  }ol{
+    padding-top: 0px;
+  }
+}.schedule_subsection{
+  h2{
+    background-color: var(--purple_light);
+  }
+  background-color: var(--purple);
+  border-bottom: 2px var(--black) solid;
+  li:hover{
+    background-color: var(--purple_dark);
   }ol{
     padding-top: 0px;
   }
@@ -181,6 +244,8 @@ button:disabled:hover{
     border-top: 2px var(--black) solid;
   }li:hover{
     background-color: var(--blue_dark);
+  }#uploadScheduleBox:hover{
+    background-color: var(--blue);
   }
 }.meta_subsection{
   h2{
@@ -255,12 +320,13 @@ img{
     padding-left: 10%;
     padding-right: 10%;
   }
-  .lecture_section, .exam_section{
+  .lecture_section, .middle_section{
     grid-column: span 15;
     border-bottom: none;
-  }.exam_section{
-    border-right: 2px var(--black) solid;
+  }.exam_subsection{
     border-bottom: 2px var(--black) solid;
+  }.lecture_section{
+    border-right: 2px var(--black) solid;
   }.upcoming_subsection{
     grid-column: 16/31;
     border-top: 2px var(--black) solid;
@@ -273,7 +339,7 @@ img{
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 675px){
   article{
     padding-left: 8px;
     padding-right: 8px;
@@ -291,14 +357,12 @@ img{
     white-space: normal !important;
   }
   
-  .lecture_section, .exam_section, .coolstuff_subsection, .upcoming_subsection {
+  .lecture_section, .schedule_subsection, .middle_section, .exam_subsection, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
   }.lecture_section{
     border-right: 2px var(--black) solid;
-  }.exam_section{
-    border-top: 2px var(--black) solid;
-    border-bottom: none;
-    border-left: 2px var(--black) solid;
+  }.middle_section{
+    border-right: 2px var(--black) solid;
   }
 }
 
@@ -321,4 +385,3 @@ img{
     font-size: 15px !important;
   }
 }
-
