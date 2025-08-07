@@ -13,9 +13,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (fileInput.files.length > 0) {
         const fullName = fileInput.files[0].name;
         const dotIndex = fullName.lastIndexOf(".");
-        const baseName = fullName.substring(0, dotIndex);
-        const extension = fullName.substring(dotIndex);
+        let baseName, extension;
 
+        if (dotIndex !== -1) {
+            baseName = fullName.substring(0, dotIndex);
+            extension = fullName.substring(dotIndex);
+        } else {
+            baseName = fullName;
+            extension = "";
+        }
         const shortBase = baseName.length > 8 ? baseName.substring(0, 8) + "…" : baseName;
         fileNameDisplay.textContent = shortBase + extension;
     } else {
@@ -62,9 +68,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
         reader.readAsText(file, 'ISO-8859-1');
     });
-});
-
-document.getElementById("xmlFile").addEventListener("change", function () {
-    const fileName = this.files[0]?.name || "Keine Datei";
-    document.getElementById("fileName").textContent = fileName;
 });

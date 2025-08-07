@@ -151,7 +151,7 @@ button:disabled:hover{
 #uploadXmlButton {
   background-color: var(--blue_light);
   border-right: 2px var(--black) solid !important;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
