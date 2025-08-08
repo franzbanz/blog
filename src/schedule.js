@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <table class="list_table">
               <tr>
                 <td class="list_date">${von} &hyphen; ${bis}</td>
-                <td class="list_type">${titel}<br><span>${ort}</span></td>
+                <td class="list_type">${titel}<br><span style="color: var(--black_light)">${ort}</span></td>
               </tr>
             </table>
           </a>
