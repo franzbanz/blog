@@ -45,8 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Dates:", dates);
     console.log("Grouped:", grouped);
 
-    let currentIndex = dates.findIndex(d => d === getTodayISO());
-    if (currentIndex === -1) currentIndex = 0;
+    const today = new Date();
+    const toDate = d => new Date(d.split(".").reverse().join("-"));
+
+    let currentIndex = dates.findIndex(dateStr => toDate(dateStr) >= today);
+    if (currentIndex === -1) currentIndex = dates.length - 1;
 
     function updateScheduleDisplay() {
       const currentDate = dates[currentIndex];
