@@ -13,6 +13,7 @@ includesMath: false
 - logseq (coole note software) testen
 - Manjaro testen
 - Endeavor OS testen
+- testing vim setup
 
 ## Kurse
 
