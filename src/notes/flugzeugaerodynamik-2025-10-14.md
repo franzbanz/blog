@@ -12,8 +12,8 @@ includesMath: false
 
 - [Forschungseinrichtung](https://www.project.uni-stuttgart.de/windfors/) für Windenergie, Schwerpunkt Wechselwirkungen der Umgebung mit der Umgebung (Für potenzielle Masterarbeit)
 - Handschriftliche Ergänzungen auf Folien auf Ilias
-- Übungsaufgaben, Prüfungsaufgaben mit Musterlösung in extra [Ilias Kurs]()
-- Aero Programm zur besseren Übung ebenfalls auf [Ilias]()
+- Übungsaufgaben, Prüfungsaufgaben mit Musterlösung in extra [Ilias Kurs](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&ref_id=4184232)
+- Aero Programm zur besseren Übung ebenfalls [auf Ilias](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&ref_id=4184232)
 - Vorlesung in *Präsenz*, *Live* auf DFN und als *Aufzeichnung*
 - Online Sprechstunden in DNF sind Montags 13:00 bis 14:00
 - Aerodynamik 2 und Profilentwurf als weiterführende Veranstaltungen
