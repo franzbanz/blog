@@ -20,18 +20,22 @@ includesMath: false
 
 ### Bücher
 
-- Anderson: Fundamentals of Aerodynamics
-- Schlichtung / Trudenbrodt: Aerodynamik des Flugzeugs (Bisschen schwerer zu finden)
+![Anderson: Fundamentals of Aerodynamics](../bilder/flugzeugaerodynamik_bild_3.png)
+<figcaption>Anderson: Fundamentals of Aerodynamics</figcaption>
+
+![Schlichtung / Trudenbrodt: Aerodynamik des Flugzeugs (Bisschen schwerer zu finden)](../bilder/flugzeugaerodynamik_bild_4.png)
+<figcaption>Schlichtung / Trudenbrodt: Aerodynamik des Flugzeugs</figcaption>
 
 ## 1.1.1 Zweidimensional umströmte Körper
 
-// Bild 1 (Mitschrieb von Hand)
+![Mitschrieb](../bilder/flugzeugaerodynamik_bild_1.png)
+<figcaption>Mitschrieb Seite 1</figcaption>
 
 - Profilsehne: Verbindung Hinterkante mit vorderstem Punkt (Muss nicht die x-Achse sein)
 - Skelettlinie: Mittelpunkte der einbeschriebenen Kreise
 - Profiltropfen: Dickenverteilung
 - Wölbung: Höchster Abstand zwischen Skelettlinie und x-Achse
 
-// Bild 2 (Foto von Mitschrieb auf der Wand, auch auf Ilias)
-
+![Foto Tafel](../bilder/flugzeugaerodynamik_bild_2.png)
+<figcaption>Foto von Mitschrieb auf der Wand, auch auf Ilias</figcaption>
 
