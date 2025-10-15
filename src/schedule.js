@@ -28,8 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(cleanedXml, "application/xml");
     const rows = Array.from(xmlDoc.querySelectorAll("ROW"));
-
-    // Group entries by date
     const grouped = {};
     rows.forEach(row => {
       const datum = row.querySelector("DATUM")?.textContent ?? "";
@@ -48,8 +46,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const today = new Date();
     const toDate = d => new Date(d.split(".").reverse().join("-"));
 
-    let currentIndex = dates.findIndex(dateStr => toDate(dateStr) >= today);
-    if (currentIndex === -1) currentIndex = dates.length - 1;
+    let currentIndex = dates.findIndex(dateStr => {
+      const dateObj = toDate(dateStr);
+      return (
+        dateObj.getDate() === today.getDate() &&
+        dateObj.getMonth() === today.getMonth() &&
+        dateObj.getFullYear() === today.getFullYear()
+      );
+    });
+
+    // if no entry exactly for today - fall back to the first date after today
+    if (currentIndex === -1) {
+      currentIndex = dates.findIndex(dateStr => toDate(dateStr) > today);
+      if (currentIndex === -1) currentIndex = dates.length - 1;
+    }
 
     function updateScheduleDisplay() {
       const currentDate = dates[currentIndex];
@@ -65,17 +75,14 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       entries.forEach(row => {
-        const datum = row.querySelector("DATUM")?.textContent ?? "";
         const von = row.querySelector("VON")?.textContent ?? "";
         const bis = row.querySelector("BIS")?.textContent ?? "";
         const titel = row.querySelector("TITEL")?.textContent ?? "";
         const ortRaw = row.querySelector("ORT")?.textContent ?? "";
         const ort = ortRaw.replace(/\s*\(.*?\)\s*$/, "");
 
-
         const li = document.createElement("li");
         li.className = "list_item";
-
         li.innerHTML = `
           <a style="background-color: var(--purple) !important;">
             <table class="list_table">
@@ -86,7 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
             </table>
           </a>
         `;
-
         list.appendChild(li);
       });
 
@@ -113,18 +119,38 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function updateScheduleHeading(displayedDateStr) {
-    const heading = document.getElementById("schedule_heading");
-    const today = new Date();
-    
-    // Parse displayed date from string (e.g., "06.08.2025")
-    const [day, month, year] = displayedDateStr.split(".").map(Number);
-    const displayedDate = new Date(year, month - 1, day); // JS months are 0-indexed
+  const heading = document.getElementById("schedule_heading");
+  const today = new Date();
 
-    // Compare with today
-    const isToday =
-        today.getDate() === displayedDate.getDate() &&
-        today.getMonth() === displayedDate.getMonth() &&
-        today.getFullYear() === displayedDate.getFullYear();
+  const [day, month, year] = displayedDateStr.split(".").map(Number);
+  const displayedDate = new Date(year, month - 1, day);
 
-    heading.textContent = isToday ? "Stundenplan heute" : `Stundenplan ${displayedDateStr}`;
+  const isToday =
+    today.getDate() === displayedDate.getDate() &&
+    today.getMonth() === displayedDate.getMonth() &&
+    today.getFullYear() === displayedDate.getFullYear();
+
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+  const isYesterday =
+    yesterday.getDate() === displayedDate.getDate() &&
+    yesterday.getMonth() === displayedDate.getMonth() &&
+    yesterday.getFullYear() === displayedDate.getFullYear();
+
+  const tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 1);
+  const isTomorrow =
+    tomorrow.getDate() === displayedDate.getDate() &&
+    tomorrow.getMonth() === displayedDate.getMonth() &&
+    tomorrow.getFullYear() === displayedDate.getFullYear();
+
+  if (isToday) {
+    heading.textContent = "Stundenplan heute";
+  } else if (isTomorrow) {
+    heading.textContent = "Stundenplan morgen";
+  } else if (isYesterday) {
+    heading.textContent = "Stundenplan gestern";
+  } else {
+    heading.textContent = `Stundenplan ${displayedDateStr}`;
+  }
 }
