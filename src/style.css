@@ -196,12 +196,12 @@ button:disabled:hover{
   }
   background-color: var(--red);
   border-bottom: 2px var(--black) solid;
-  border-left: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
   li:hover{
     background-color: var(--red_dark);
   }
 }.middle_section{
+  border-right: 2px var(--black) solid;
   border-left: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
 }.exam_subsection{
@@ -321,13 +321,14 @@ img{
     padding-left: 10%;
     padding-right: 10%;
   }
-  .lecture_section, .middle_section{
+  .middle_section{
     grid-column: span 15;
-    border-bottom: none;
-  }.exam_subsection{
-    border-bottom: 2px var(--black) solid;
+    margin-bottom: 16px;
+		border-bottom: none;
   }.lecture_section{
+    grid-column: span 15;
     border-right: 2px var(--black) solid;
+    margin-bottom: 16px;
   }.upcoming_subsection{
     grid-column: 16/31;
     border-top: 2px var(--black) solid;
@@ -361,7 +362,8 @@ img{
   .lecture_section, .schedule_subsection, .middle_section, .exam_subsection, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
   }.lecture_section{
-    border-right: 2px var(--black) solid;
+    border: 2px var(--black) solid;
+    margin-bottom: 16px;
   }.middle_section{
     border-right: 2px var(--black) solid;
   }
