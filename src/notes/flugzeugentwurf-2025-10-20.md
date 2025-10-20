@@ -2,7 +2,7 @@
 course: Flugzeugentwurf
 type: Vorlesung
 by: Andreas Strohmayer
-date: 2025-04-15 # (YYYY-MM-DD)
+date: 2025-10-20 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
@@ -21,5 +21,25 @@ includesMath: true
 
 ![buch3](/src/bilder/flugzeugentwurf_bild_3.png)
 <figcaption><Darrol Stinton: The Design of the Aeroplane / The Anatomy of the Aeroplane, 1983/1966 - Mit wenigen Formeln</figcaption>
+
+## Der Flugzeugentwicklungsprozess
+
+- Studienphase
+    * Marktanforderungen, Vorschrigten
+    * Lastenheft
+    * Konzeptstudien
+- Konzeptphase
+    * Basiskonfiguration, Bewertung und Auswahl
+    * Parametrische Studien
+- Definitionsphase
+    * Technische Spezifikationen
+    * Detailkonstruktion
+- Entwicklungsphase
+    * Prototypenferigung
+    * Struktur-/Systemversuche, Flugerprobung
+    * Zulassung
+- Serienanlauf und Weiterentwicklung
+    * Technische Dokumentation
+    * Wartung, Training
 
 
