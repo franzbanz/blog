@@ -29,8 +29,8 @@ $$
 (\text{Luft mit} \kappa = 1,4)
 $$
 
-Wir können bis zu einer Machzahl von 0.3 eine Strömung als Inkompressibel betrachten (Auch in der Klausur!)\
-Größte Dichteänderung passiert vom Staupunkt zur dicksten Stelle des Profils (${Ma_{max}$), nicht von vor dem Profil ($Ma_{\inf}$) zum Staupunkt
+Wir können bis zu einer Machzahl von 0,3 eine Strömung als Inkompressibel betrachten (Auch in der Klausur!)\
+Größte Dichteänderung passiert vom Staupunkt zur dicksten Stelle des Profils ($Ma_{max}$), nicht von vor dem Profil ($Ma_{\inf}$) zum Staupunkt
 
 $\rightarrow$ Störungen wirken sich im gesamten Strömungsfeld aus
 
