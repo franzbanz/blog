@@ -1,6 +1,6 @@
 ---
 course: Flugzeugaerodynamik
-Type: Vorlesung
+type: Vorlesung
 by: Thorsten Lutz
 date: 2025-10-16 # (YYYY-MM-DD)
 tags: notes
