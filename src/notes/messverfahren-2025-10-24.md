@@ -61,6 +61,8 @@ $$
 
 #### Stefan-Boltzmann-Gesetz
 
+\\ hier vielleicht ein \align ?
+
 $$
 M(T) = \int_0^\infty M_\lambda(\lambda, T) d\lambda
 $$
@@ -81,5 +83,57 @@ $\rightarrow \lambda_{max} = \frac{b}{T}$\
 mit $b = \frac{c_2}{\xi} = 2,8977721 \cdot 10^{-3} mK$ - Wiensche Verschiebungskonstante\
 $\xi = 5[1-exp(-\xi)] \approx 4,96511$
 
+### Wärmeleitung
 
+Benötigt ein Medium
+
+**Mikroskopische** vs **Makroskopische** Betrachtung
+
+- Makroskopische Betrachtung
+    * Fourierscher Erfahrungssatz
+    * Fouriersche Wärmeleitungsgleichung
+- Mikroskopische Betrachtung
+    * Wiedemann-Franz-Gesetz
+
+#### Wiedemann-Franz-Gesetz 1853
+
+Es gibt einen Zusammenhang zwischen Wärmeleitfähigkeit und Elektischer Leitfähigkeit
+
+$$
+\frac{k}{\sigma} = L T
+$$
+
+$k$ - Wärmeleitfähigkeit\
+$\sigma$ - elektrische Leitfähigkeit
+$L$ - Lorenzzahl (Proportionalitätsfaktor)
+
+Experimente zeigten, dass für fast alle reinen Metalle $L = 2,4 \cdot 10^{-8} \frac{W\Omega}{K^2} \pm 10 \%$ ungefär gleich groß ist\
+Um 1900 Drude-Modell, um $L$ zu beschreiben:
+$$
+L = \frac{3}{2}(\frac{k_B}{e})^2 = 1,11 \cdot 10^{-8} \frac{W \Omega}{K^2}
+$$
+um 1933 erweiterung des Modells zur Drude-Sommerfeld-Theorie
+$$
+L = \frac{\pi^2}{3}(\frac{k_B}{e})^2 = 2,44 \cdot 10^{-8} \frac{W \Omega}{K^2}
+$$
+Smith-Palmer-Korrelation
+$$
+k = L \sigma T + c
+$$
+$L \sigma T$ - Beitrag der freien Elektronen\
+$c$ - Beitrag der Schwingungen des Atom-Gitters
+
+### Fourierscher Erfahrungssatz 1822
+
+(Eigentlich ein Vektorpfeil über dem $\dot{q})
+$$
+\dot{q}_A = - k \nabla T
+$$
+Vereinfachungen: nur 1D Betrachtung
+$$
+\dot{q}_A = -k \frac{dT}{dx}
+$$
+$$
+\dot{Q} = -k A \frac{\Delta T}{\Delta x}
+$$
 
