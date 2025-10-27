@@ -23,9 +23,6 @@ Der Bedarf für neue Großflugzeuge setzt sich zusammen aus:
 
 Durschnittsalter der Flugzeuge (US-Flotte)
 
-// Bild von Folie 28
-
-
 ![](/src/bilder/flugzeugentwurf_image_4.png)
 <figcaption>Weltweite Auslieferungen von Flugzeugen der General Aviation und zugehöriger Wert</figcaption>
 
