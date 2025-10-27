@@ -15,7 +15,7 @@ $k, [\frac{W}{mK}]$ - Wärmeleitfähigkeit\
 $T, [K]$ - Temperatur\
 $\Theta, [K]$ - Temperatur\
 $\dot{Q}, [W]$ - Wärmestrom\
-$\dot{q}, []$ - spez. Wärmestrom, gibt es auch in längenspezifisch, flächenspezifisch, volumenspezifisch
+$\dot{q}, [\frac{W}{m}]$ - spezifischer Wärmestrom, gibt es in längenspezifisch, flächenspezifisch, volumenspezifisch
 
 ## Grundlagen des Wärmetransports
 
@@ -61,8 +61,6 @@ $$
 
 #### Stefan-Boltzmann-Gesetz
 
-\\ hier vielleicht ein \align ?
-
 $$
 M(T) = \int_0^\infty M_\lambda(\lambda, T) d\lambda
 $$
@@ -73,7 +71,15 @@ $$
 \sigma_{SB} = \frac{2 \pi^5 k_B^4}{15 h_p^3 c^2} = 5,670373(21) \cdot 10^{-8} \frac{W}{m^2K^4}
 $$
 
-// Beispiel von Vorlesungsfoto
+$$
+Q_{k, em} = A_k \varepsilon_k \sigma_{SB} T_k
+$$
+$$
+\dot{Q}\_{k, abs} = A_k \alpha_k \sigma_{SB} T_\infty^4
+$$
+$$
+\rightarrow \ddot{Q}\_k = \dot{Q}\_{k, em} - \dot{Q}\_{k, abs} = A_k \sigma_{SB}(\varepsilon_k T_k^4-\alpha_k T_\infty^4)
+$$
 
 #### Wiensches Verschiebungsgesetz
 
@@ -125,9 +131,8 @@ $c$ - Beitrag der Schwingungen des Atom-Gitters
 
 ### Fourierscher Erfahrungssatz 1822
 
-(Eigentlich ein Vektorpfeil über dem $\dot{q})
 $$
-\dot{q}_A = - k \nabla T
+\vec{\dot{q}_A} = - k \nabla T
 $$
 Vereinfachungen: nur 1D Betrachtung
 $$
