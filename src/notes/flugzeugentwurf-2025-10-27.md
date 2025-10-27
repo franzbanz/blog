@@ -25,6 +25,10 @@ Durschnittsalter der Flugzeuge (US-Flotte)
 
 // Bild von Folie 28
 
+
+![](/src/bilder/flugzeugentwurf_image_4.png)
+<figcaption>Weltweite Auslieferungen von Flugzeugen der General Aviation und zugehöriger Wert</figcaption>
+
 - Kolbenmotorflugzeuge um die 40 Jahre
 - Businessjets und Turboprop-Flugzeuge sind um die 15 Jahre (Twin Turboprop um die 25 Jahre)
 

@@ -10,7 +10,7 @@ includesMath: true
 
 ## Wann können wir in der aerodynamik eine Strömung als inkompressibel betrachten?
 
-![bild 1](/src/bilder/flugzeugaerodynamik_bild_5.png)
+![bild 1](/src/bilder/flugzeugaerodynamik_image_5.png)
 <figcaption>Dreidimensionale Strömungen Mitschrieb von Folie</figcaption>
 
 $\Lambda$ heißt mittlere Streckung

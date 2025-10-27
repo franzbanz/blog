@@ -64,7 +64,7 @@ Low turbulence intensity if function of surface roughness, atmospheric stability
 High tubulences can reduce the turbines expected lifetime, e.g. because turbine has to keep power constant by pitching constantly\
 IEC turbulence classes to classify wind turbines into wind speed and turbulence categories I, II, III
 
-![IEC turbulence classes](/src/bilder/windenergie_2_bild_1.png)
+![IEC turbulence classes](/src/bilder/windenergie_2_image_1.png)
 <figcaption>IEC turbulence classes</figcaption>
 
 Modeling used to extrapolate measurements to other locations, possible methods are:

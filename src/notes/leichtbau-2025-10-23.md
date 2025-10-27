@@ -16,10 +16,10 @@ includesMath: true
 
 ## Werkstoffleichtbau / Gestaltleichtbau
 
-![](/src/bilder/leichtbau_bild_1.png)
+![](/src/bilder/leichtbau_image_1.png)
 <figcaption>Beispielsanwendungen des Werkstoffleichtbaus</figcaption>
 
-![](/src/bilder/leichtbau_bild_2.png)
+![](/src/bilder/leichtbau_image_2.png)
 <figcaption>Beispielanwendung des Gestaltleichtbaus</figcaption>
 
 Beim Werkstoffleichtbau wird versucht durch die Wahl der Werkstoffe das Gewicht auf ein Minimum zu reduzieren,
