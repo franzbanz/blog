@@ -306,6 +306,12 @@ article{
     color: var(--black);
     text-decoration: underline;
   }
+	table, th, td{
+		border: 1px solid;
+		border-collapse: collapse;
+		padding: 4px;
+	}
+
 }
 
 img{

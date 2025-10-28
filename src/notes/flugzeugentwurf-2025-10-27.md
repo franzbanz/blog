@@ -10,6 +10,8 @@ includesMath: true
 
 ## Ermittlung des Bedarfs im Markt
 
+ssdkljfslkd
+
 - Gebunden an globale Trends folgt der Luftverkehrsmarkt dem Wirtschaftswachstum *GDP*
 - Langzeit-Trends sind Grundlage für die strategische Planung: Investmentanalyse, neue Produktlinien, langfristige Ziele
 - Kurzzeit-Zyklen werden für die mittelfristige Finanzplanung herangezogen: Produktionsraten, Subventionen, Personal
