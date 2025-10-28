@@ -1,6 +1,6 @@
 ---
 course: Flugzeugentwurf
-type: Vorlesung
+type: Einführung
 by: Andreas Strohmayer
 date: 2025-10-20 # (YYYY-MM-DD)
 tags: notes
