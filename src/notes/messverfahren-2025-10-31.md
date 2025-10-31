@@ -22,12 +22,13 @@ $$
 
 Stationäre Probleme: $\frac{\partial T}{\partial t} = 0$
 
-// Mitschrieb 1
 
-Wärmelitfähigkeit konstant und isotrop: $k = k_x = k_y = k_z = const.$
+![](/src/bilder/messverfahren_image_1.png)
+<figcaption>Wärmelitfähigkeit konstant und isotrop: $k = k_x = k_y = k_z = const.$</figcaption>
 
-// Mitschrieb 2
-Stationäre Probleme nahezu unabhängig von Stoffeigenschaften, liegt an sehr langsamer Betrachtung bei stationären Problemen
+
+![](/src/bilder/messverfahren_image_2.png)
+<figcaption>Stationäre Probleme bahezu unabhängig von Stoffeigenschaften, liegt an sehr langsamer Betrachtung bei stationären Problemen</figcaption>
 
 Stationäres 1D Problem ohne Quellen und Senken: $\frac{d}{dx}(k \frac{dT}{dx}) = 0$
 
@@ -44,15 +45,20 @@ Stationäres 1D Problem ohne Quellen und Senken: $\frac{d}{dx}(k \frac{dT}{dx}) 
 
 #### Konzentrationsgrenzschicht
 
-// Mitschrieb 3
+![](/src/bilder/messverfahren_image_3.png)
+<figcaption></figcaption>
 
 #### Strömungsgrenzschicht
 
-// Mitschrieb 4
+
+![](/src/bilder/messverfahren_image_4.png)
+<figcaption></figcaption>
 
 #### Thermische Grenzschicht
 
-// Mitschrieb 5
+
+![](/src/bilder/messverfahren_image_5.png)
+<figcaption></figcaption>
 
 Thermische- und Konzentrationsgrenzschicht sind ähnlich, kann zum Beispiel für die [naphthalene sublimation technique](https://www.sciencedirect.com/science/article/abs/pii/089417779190031L) genutzt werden
 
@@ -62,9 +68,9 @@ $$
 \dot{q}_A = - k_f \frac{dT_f}{dy}\|_{y=0^+}
 $$
 
-// Mitschrieb 6
-Anwendbar, da wir keine Fluidbewegung direkt an der Wand haben\
-$\rightarrow$ Wärmeleitung
+![](/src/bilder/messverfahren_image_6.png)
+<figcaption>Anwendbar, da wir keine Fluidbewegungen direkt an der Wand haben\
+$\rightarrow$ Wärmeleitung</figcaption>
 
 Problem: Bestimmung des Gradienten, weil die Grenzschicht im Fluid so klein ist, daher Lösung über Newton mit Wärmeübergangskoeffizient $h$
 
@@ -82,12 +88,13 @@ $$
 h (T_w - T_\infty) = - k_f \frac{dT_f}{dy}\|_{y=0^+}
 $$
 
-// Mitschrieb 7
+![](/src/bilder/messverfahren_image_7.png)
+<figcaption></figcaption>
 
 ## Wärmeübergangskoeffizient
 
-// Mitschrieb 8
-Ort der Messung der Referenztemperatur ist als sehr wichtig und sollte bei Messungen festgehalten werden
+![](/src/bilder/messverfahren_image_8.png)
+<figcaption>Ort der Messung der Referenztemperatur ist sehr wichtig und sollte bei Messungen festgehalten werden</figcaption>
 
 ### Referenztemperatur
 
