@@ -65,7 +65,7 @@ Thermische- und Konzentrationsgrenzschicht sind ähnlich, kann zum Beispiel für
 ## Fourierscher Erfahrungssatz *an der Wand, auf der Fluid-Seite* (Keine Teilchenbewegung)
 
 $$
-\dot{q}_A = - k_f \frac{dT_f}{dy}\|_{y=0^+}
+\dot{q}\_A = - k_f \frac{dT_f}{dy}\bigg|_{y=0^+}
 $$
 
 ![](/src/bilder/messverfahren_image_6.png)
@@ -77,7 +77,7 @@ Problem: Bestimmung des Gradienten, weil die Grenzschicht im Fluid so klein ist,
 ## Newton's Law of Cooling
 
 $$
-\dot{q}_A = h (T_w - T_\infty)
+\dot{q}\_A = h (T_w - T_\infty)
 $$
 
 Problem: Die gesamten Eigenschaften der Grenzschicht sind in $h$ enthalten, es muss also für jeden Fall neu bestimmt werden, was nicht sehr einfach ist
@@ -85,7 +85,7 @@ Problem: Die gesamten Eigenschaften der Grenzschicht sind in $h$ enthalten, es m
 Gleichsetzen der beiden Funktionen ergibt:
 
 $$
-h (T_w - T_\infty) = - k_f \frac{dT_f}{dy}\|_{y=0^+}
+h (T_w - T_\infty) = - k_f \frac{dT_f}{dy}\bigg|_{y=0^+}
 $$
 
 ![](/src/bilder/messverfahren_image_7.png)
