@@ -35,7 +35,7 @@ Identify potentially windy areas which also possess all the necessary requiremen
 - Selection of actual tower location(s) within the candidate site
 
 Standard measurements for site assessment are wind speed, wind direction, atmospheric pressure, air temperature, relative air humidity.\
-![windatlas](https://globalwindatlas.info/en/) is not sufficient, because it is too uncertain
+[wind atlas website](https://globalwindatlas.info/en/) is not sufficient, because it is too uncertain
 
 Data has to be collected over at least a year, usually by Met Mast with sensors on several heights\
 The highest measured height should be at least 2/3 of the intended hub height. Sensors include:
@@ -64,7 +64,7 @@ Low turbulence intensity if function of surface roughness, atmospheric stability
 High tubulences can reduce the turbines expected lifetime, e.g. because turbine has to keep power constant by pitching constantly\
 IEC turbulence classes to classify wind turbines into wind speed and turbulence categories I, II, III
 
-![IEC turbulence classes](/src/bilder/windenergie_2_image_1.png)
+![IEC turbulence classes](/src/bilder/windenergie2_image_1.png)
 <figcaption>IEC turbulence classes</figcaption>
 
 Modeling used to extrapolate measurements to other locations, possible methods are:
