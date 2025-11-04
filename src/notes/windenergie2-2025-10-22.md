@@ -33,14 +33,23 @@ Aerosols (small particles in the air, pollutants, salt, dust,...) are assumed to
 - Returning (backscattered) light is frequency shifted because of the line-of-sight speed of the aerosols
 - You dont get the full velocity information of the particle in three dimensions, only one speed in line-of-sight is measured
 
-// Skizze von Folie 5
+![](/src/bilder/windenergie2_image_6.png)
+<figcaption>The optical doppler effect</figcaption>
 
 - Wind speed is almost 0 compared to speed of light, measurements are very difficult
 - Final measurement is a volumetric averare of the area the Laser is focused on. With the anenometer, you only get a point measurement
+- Solution: Coherent Doppler Lidars
 
 ## Coherent Doppler Lidars
 
-// Folie 6,7 nochmal lesen und zusammenfassen
+Concept of mixing a local oscillator beam with the received signal. The mixed signal contains the sum and the difference frequencies of the two components.
+
+Main elements:
+
+- CW and/or pulsed laser
+- receive/transmit telescope
+- detectors
+- electronic system for data aquisition, processing, evaluation, display, storage, etc...
 
 - Continous Wave Lidar
     * Probe volume increases with the distance of the focal point - larger area that has to be averaged
@@ -54,7 +63,9 @@ Aerosols (small particles in the air, pollutants, salt, dust,...) are assumed to
     * Time resolution ~ 1 Hz
     * Worse time resolution than Continous Wave Lidars
 
-// Folie 14 zusammenfassen (Wichtig für Klausur)
+
+![](/src/bilder/windenergie2_image_7.png)
+<figcaption>Continous Wave / Pulsed Wave Lidars</figcaption>
 
 ## Signal Quality
 

@@ -57,9 +57,9 @@ $$
 
 We use the Gumbal Distribution, where the shape parameter $\xi \rightarrow 0$
 
-// Folie 12 abzeichnen und hier einfügen
 
-//ab hier Folie 15
+![](/src/bilder/windenergie2_image_8.png)
+<figcaption>Example Values</figcaption>
 
 1. Measure extreme values over time, e.g. the last 12 years
 2. Rank the values from 1 to 12

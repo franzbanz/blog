@@ -23,8 +23,13 @@ includesMath: true
 
 ## Literature
 
-- Bailey, Bruce H.; McDonald, Scott L.; Bernadett, Daniel W.; Markus, Michael J.; Elsholz, Kurt V.: „Wind Resource Assessment Handbook“, Subcontract No. TAT-5-15283-01, National Renewable
-- Erich Hau: „Windkraftanlagen – Grundlagen, Technik, Einsatz, Wirtschaftlichkeit“, Kapitel 13, 4. Auflage, 2008, Springer
+
+![](/src/bilder/windenergie2_image_3.png)
+<figcaption>Bailey, Bruce H.; McDonald, Scott L.; Bernadett, Daniel W.; Markus, Michael J.; Elsholz, Kurt V.: „Wind Resource Assessment Handbook“, Subcontract No. TAT-5-15283-01, National Renewable</figcaption>
+
+
+![](/src/bilder/windenergie2_image_4.png)
+<figcaption>Erich Hau: „Windkraftanlagen – Grundlagen, Technik, Einsatz, Wirtschaftlichkeit“, Kapitel 13, 4. Auflage, 2008, Springer</figcaption>
 
 ## Site characterization
 
