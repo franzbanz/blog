@@ -33,7 +33,7 @@ Erfahrungswerte für $c_{Amax}$ sind
 
 Dreifachspaltklappen zum Beispiel bei B747
 
-// Diagramm von Folie 29 abzeichnen
+![](/src/bilder/flugzeugentwurf_image_7.png)
 
 ## Start
 
