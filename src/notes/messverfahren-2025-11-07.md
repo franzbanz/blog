@@ -18,9 +18,8 @@ includesMath: true
 
 - **lokale** Wandtemperatur für **lokal** angenommene adiabate Wand
 
-// Skizze 1
-
-$T_{aw}$ schwierig zu bestimmen, weil immer wieder kleine Elemente erneut adiabat gesetzt werden müssen und dann die Rechnung für das neue Element neu durchgeführt werden muss
+![](/src/bilder/messverfahren_image_12.png)
+<figcaption>$T_{aw}$ schwierig zu bestimmen, weil immer wieder kleine Elemente erneut adiabat gesetzt werden müssen und dann die Rechnung für das neue Element neu durchgeführt werden muss</figcaption>
 
 $T_{aw}$ entspricht der *Recovery Temperatur* $T_r$\
 $T_t = T + \frac{u^2}{2 c_p}$\
@@ -30,11 +29,10 @@ $T_r = T (1+r \frac{\kappa - 1}{2} Ma^2)$
 
 $r$ entspricht dem *Recovery Faktor*
 
-// Skizze 2
+![](/src/bilder/messverfahren_image_13.png)
 
-// Tabelle 3
-
-$\rightarrow$ Die Adiabate Wandtemperatur ist eine geeignete Referenztemperatur
+![](/src/bilder/messverfahren_image_14.png)
+<figcaption>$\rightarrow$ Die Adiabate Wandtemperatur ist eine geeignete Referenztemperatur</figcaption>
 
 In der Praxis wird häufig etwas anderes gemacht:
 
@@ -45,23 +43,24 @@ In der Praxis wird häufig etwas anderes gemacht:
 
 $$T_b = \frac{\int_A \rho u c_p T_f dA}{\int_A \rho u c_p dA}$$
 
-//skizze 4
-
-Experimentell würde immer nur jeweils ein Thermoelement gleichzeitig verwendet werden, um so wenig interferenz wie möglich zu erzeugen (Ändderung der Strömung hinter dem Element)
+![](/src/bilder/messverfahren_image_15.png)
+<figcaption>Experimentell würde immer nur jeweils ein Thermoelement gleichzeitig verwendet werden, um so wenig interferenz wie möglich zu erzeugen (Ändderung der Strömung hinter dem Element)</figcaption>
 
 ### Centerline-Temperatur
 
 - Lokale Temperatur im Flächenschwerpunkt eines Strömungsquerschnitts
 - Messungen können auch mit zwei Thermo Elementen durchgeführt werden, um sicherzustellen, dass die Messungen korrekt sind
 
-// Skizze 5
-//Skizze 6
+![](/src/bilder/messverfahren_image_16.png)
 
 ## Beispiele
 
-// Skizze 7
-// Skizze 8
-// Skizze 9
+![](/src/bilder/messverfahren_image_17.png)
+
+![](/src/bilder/messverfahren_image_18.png)
+<figcaption>$T_{ref} in der Nähe der Wand</figcaption>
+
+![](/src/bilder/messverfahren_image_19.png)
 
 ## Vorgriff auf nächstes Thema: Ähnlichkeit bei Modellversuchen
 
