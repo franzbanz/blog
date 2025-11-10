@@ -24,8 +24,6 @@ Spannungen können Normalspannungen oder Schubspannungen sein
 
 ## Biegehauptgleichungen (Bernoulli, Balkentheorie, ETB)
 
-// Skizze Seite 4 Kapitel 2
-
 - $x-y-z$: Rechts Koordinatensystem
 - $z$ ist Balkenachse
   - $F$ pos. (in $z$ - Richtung) $\rightarrow \sigma$ postitiv Zug
@@ -39,14 +37,14 @@ Gesucht ist die längs- (normal) -spannungsverteilung im Längsquerschnitt: $\si
   2. Querschnittsgestalt bleibt erhalten $\rightarrow$ ein Kreis bleibt ein Kreis, wird nicht zu Ellipse verformt,...
   3. Querschnitte bleiben eben: Die Ebenen auf Balkenachse senkrecht stehende Querschnitte bleiben nach Belastung eben und senkrecht auf Balkenachse
 
-// Skizze Seite 4 Kapitel 2 - Der Querschnitt führt eine Drehung um eine Neutralachse (Keine Verwölbung)
+Der Querschnitt führt eine Drehung um eine Neutralachse (Keine Verwölbung)
 Kinematik: Drehen des Querschnittes erzwingt eine lineare Dehnungsverteilung
 $\varepsilon \rightarrow \sigma \text{ist linear verteilt}$
 
 ## Linearer Ansatz für $\sigma_z(x,y)$
 
 $$
-\sigma_z(x,y) = a+by+cx			(1)
+\sigma_z(x,y) = a+by+cx \quad (1)
 $$
 
 Unbekannte a, b, c müssen bestimmt werden\
@@ -54,33 +52,33 @@ Scnittlasten sind Resultierende der Spannungsverteilung im Querschnitt\
 Lösen mit Summe aller Momente, Summe aller Kräfte
 
 $$
-F = \int_A \sigma_z(x,y) \cdot dA	(2)
+F = \int_A \sigma_z(x,y) {dA} \quad (2)
 $$
 
 $$
-M_x = \int_A \sigma_z(x,y) \cdot y \cdot dA		(3)
+M_x = \int_A \sigma_z(x,y) \cdot y {dA} \quad (3)
 $$
 
 $$
-M_y = - \int_A \sigma_z(x,y) \cdot x \cdot dA		(4)
+M_y = - \int_A \sigma_z(x,y) \cdot x {dA} \quad (4)
 $$
 
 (1) in (2)
 
 $$
-F = a\int_A dA + b\int_A y \cdot dA + c\int_A x \cdot dA	(5)
+F = a\int_A dA + b\int_A y {dA} + c\int_A x {dA} \quad (5)
 $$
 
 (1) in (3)
 
 $$
-M_x = a \int_A y \cdot dA + b \int_A y^2 \cdot dA + c \int_A x \cdot y \cdot dA		(6)
+M_x = a \int_A y {dA} + b \int_A y^2 {dA} + c \int_A x \cdot y {dA} \quad (6)
 $$
 
 (1) in (4)
 
 $$
-M_z =  - a \int_A x \cdot dA - b \int_A x \cdot y \cdot dA - c \int x^2 \cdot dA (7)
+M_z =  - a \int_A x {dA} - b \int_A x \cdot y {dA} - c \int x^2 {dA} \quad (7)
 $$
 
 - $S_x$ - Statisches Moment um die x-Achse

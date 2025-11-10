@@ -62,8 +62,3 @@ $$T_b = \frac{\int_A \rho u c_p T_f dA}{\int_A \rho u c_p dA}$$
 
 ![](/src/bilder/messverfahren_image_19.png)
 
-## Vorgriff auf nächstes Thema: Ähnlichkeit bei Modellversuchen
-
-![](/src/bilder/messverfahren_image_9.png)
-<figcaption>Alle Dimensionslöse Größen bleiben gleich: "Vollständige Modellähnlichkeit"</figcaption>
-

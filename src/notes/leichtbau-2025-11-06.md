@@ -10,7 +10,7 @@ includesMath: true
 
 ## Statisches Moment und Flächenschwerpunkt
 
-Beispielrechnung zur Bestimmung des Verlaufs der Normalspannung und Schubspannung (Skript Seite 4)
+Beispielrechnung zur Bestimmung des Verlaufs der Normalspannung und Schubspannung ist im Skript Seite 4
 
 ### Koordinatensysteme
 
@@ -28,6 +28,6 @@ Beispielrechnung zur Bestimmung des Verlaufs der Normalspannung und Schubspannun
 ![](/src/bilder/leichtbau_image_4.png)
 <figcaption>Exzentrisch belastbare Träger</figcaption>
 
-**I Klausur müssen keine volllen Gleichungen abgeschrieben werden, es reicht die Gleichungsnummer aus der Klausur, die Eingangsvariablen und das Ergebnis!**
+**In Klausur müssen keine volllen Gleichungen abgeschrieben werden, es reicht die Gleichungsnummer aus der Klausur, die Eingangsvariablen und das Ergebnis!**
 
 
