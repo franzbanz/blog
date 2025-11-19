@@ -19,7 +19,7 @@ $$
 Spannungen können Normalspannungen oder Schubspannungen sein
 
 
-![](/src/bilder/leichtbau_image_3.png)
+![](/src/bilder/leichtbau_image_3..jpeg)
 <figcaption>Bezogen auf ein x-y-Hauptachsensystem, Vorzeichen können sich also abhängig von der Orientierung ändern</figcaption>
 
 ## Biegehauptgleichungen (Bernoulli, Balkentheorie, ETB)

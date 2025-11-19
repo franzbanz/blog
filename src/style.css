@@ -310,8 +310,8 @@ article{
 		border: 1px solid;
 		border-collapse: collapse;
 		padding: 4px;
+		place-items: center;
 	}
-
 }
 
 img{

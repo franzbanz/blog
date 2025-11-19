@@ -13,9 +13,6 @@ includesMath: true
 - Which distribution is the most suitable one for extreme wind?
     - Gumbel Distribution
 - Which of the fitting methods is less sensitive to outliers
-    1. asd
-    2. asd
-    3. asd
 - What is the return period in years if we use a Gumbel distribution for the yeatly maxima and the exceedence probability is 0.1
     - 10 Years
 - What is the probability of occurence of the 10 year extreme wind speed happening two years in a row, in percent?
@@ -26,8 +23,6 @@ includesMath: true
 - The second statistical moment of a distribution function is related to the...?
     - Variance
 - What is the wake of wind turbines and what is the effect of wake on the power production?
-    - as
-    - asd
 
 ## Basics
 
@@ -56,7 +51,6 @@ Far wake is most important to predict power loss
 
 - The wake expands die to the mass conservation
 - Velocity deficit is reduced due to the mixing of undisturbed flow with the wake
-
 
 ![](/src/bilder/windenergie2_image_9.png)
 <figcaption>Qualitative description of the average wind speed in the wake</figcaption>

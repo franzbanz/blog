@@ -30,5 +30,5 @@ Einfluss der Reynoldszahl ist in den Folien auf **Seite 68**
 
 Ist bei Nurflüglern für das Momentengleichgewicht notwendig
 
-Anmerkungen zur Seletttheorie sind auf **Folie 87**
+Anmerkungen zur Skeletttheorie sind auf **Folie 87**
 

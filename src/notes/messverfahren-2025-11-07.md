@@ -58,7 +58,7 @@ $$T_b = \frac{\int_A \rho u c_p T_f dA}{\int_A \rho u c_p dA}$$
 ![](/src/bilder/messverfahren_image_17.png)
 
 ![](/src/bilder/messverfahren_image_18.png)
-<figcaption>$T_{ref} in der Nähe der Wand</figcaption>
+<figcaption>$T_{ref}$ in der Nähe der Wand</figcaption>
 
 ![](/src/bilder/messverfahren_image_19.png)
 

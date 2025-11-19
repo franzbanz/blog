@@ -57,6 +57,6 @@ $C_{a, max}$ wird erreicht, wenn Ablösung im Bereich des Dickemaximums angekomm
 
 Symmetrisches Jankowski Profils bei $\alpha = 0°$
 
-![](/src/bilder/flugzeugaerodynamik_image_12.png)
+![](/src/bilder/flugzeugaerodynamik_image_12.jpeg)
 <figcaption>Einfluss der Profildicke auf Druckbeiwert $c_p$</figcaption>
 

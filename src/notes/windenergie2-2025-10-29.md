@@ -46,8 +46,33 @@ Return period of 100 years: Event occurs once on average in the period of 100 ye
 Problem: only verly small amount of data for extreme events - harder to predict\
 solution: If the maximum values are not available for years but in different resolutions the formula must be adjusted accordingly
 
-![](/src/bilder/windenergie2_image_2.png)
-<figcaption>Return periods corresponding to the available data records</figcaption>
+Return periods corresponding to the available data records:
+
+**annual maximum:**
+
+$$
+p_{ne} = 1 - \frac{1}{50} = 0.9800
+$$
+
+**monthly maximum:**
+
+$$
+p_{ne} = 1 - \frac{1}{50 \cdot 12} = 0.9983
+$$
+
+**weekly maximum:**
+
+$$
+p_{ne} = 1 - \frac{1}{50 \cdot 52} = 0.9996
+$$
+
+**daily maximum:**
+
+$$
+p_{ne} = 1 - \frac{1}{50 \cdot 365} = 0.9999
+$$
+
+**Assumption:** the maxima are independent of each other.
 
 **Fisher-Tippett theorem**: The maximum of a sample of independent and identically distributed random variables after proper renormalization converges to the Generalized Extreme Value (GEV) distribution.
 
@@ -57,9 +82,21 @@ $$
 
 We use the Gumbal Distribution, where the shape parameter $\xi \rightarrow 0$
 
+| extreme values | extreme values sorted | rank | $\small p_{ne} = 1 - \frac{rank(x)}{N+1} $ | reduced variable $ y = -\ln(-\ln(p_{ne})) $ |
+|----------------|------------------------|------|-----------------------------------------|----------------------------------------------|
+| 22.10          | 28.22                 | 1    | 0.92                                    | 2.53                                         |
+| 22.21          | 27.23                 | 2    | 0.85                                    | 1.79                                         |
+| 19.29          | 24.53                 | 3    | 0.77                                    | 1.34                                         |
+| 18.89          | 24.02                 | 4    | 0.69                                    | 1.00                                         |
+| 17.30          | 23.31                 | 5    | 0.62                                    | 0.72                                         |
+| 15.89          | 22.21                 | 6    | 0.54                                    | 0.48                                         |
+| 19.12          | 22.10                 | 7    | 0.46                                    | 0.26                                         |
+| 28.22          | 19.29                 | 8    | 0.38                                    | 0.05                                         |
+| 24.02          | 19.12                 | 9    | 0.31                                    | -0.16                                        |
+| 23.31          | 18.89                 | 10   | 0.23                                    | -0.38                                        |
+| 27.23          | 17.30                 | 11   | 0.15                                    | -0.63                                        |
+| 24.53          | 15.89                 | 12   | 0.08                                    | -0.94                                        |
 
-![](/src/bilder/windenergie2_image_8.png)
-<figcaption>Example Values</figcaption>
 
 1. Measure extreme values over time, e.g. the last 12 years
 2. Rank the values from 1 to 12

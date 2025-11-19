@@ -36,6 +36,10 @@ includesMath: false
 - Profiltropfen: Dickenverteilung
 - Wölbung: Höchster Abstand zwischen Skelettlinie und x-Achse
 
-![Foto Tafel](/src/bilder//flugzeugaerodynamik_image_2.png)
-<figcaption>Foto von Mitschrieb auf der Wand, auch auf Ilias</figcaption>
+- Sehne: Verbindungslinie Hinterkante Vorderkante (linear), beschreibt Profilwölbung
+- Skelett-Linie: Mittelpunkte der einbeschreibenden Kreise, beschreibt Profildickenverteilung, Druckverteilung, Wiederstand
+
+Sehne muss nicht der x-Achse entsprechen, siehe Unterschied $\alpha$ und $\alpha^*$
+
+Gesamtprofil = Skelettlinie + Profiltropfen
 

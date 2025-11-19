@@ -2,7 +2,7 @@
 course: Windenergie 2 
 type: Wind measurement with Lidar
 by: Po Wen Cheng
-date: 2025-10-20 # (YYYY-MM-DD)
+date: 2025-10-22 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
@@ -61,11 +61,16 @@ Main elements:
     * Does not use the focused area of the laser, but the time of flight to probe the same volume no matter the distance
     * Probe volume length is constant over measurement distance
     * Time resolution ~ 1 Hz
-    * Worse time resolution than Continous Wave Lidars
+    * Worse time resolution than Continous Wave Lidar
 
-
-![](/src/bilder/windenergie2_image_7.png)
-<figcaption>Continous Wave / Pulsed Wave Lidars</figcaption>
+| Category                     | Continuous Wave Lidar (CW)                                                                 | Pulsed Wave Lidar (PW)                                                                                 |
+|-----------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Operation                   | Sends a continuous beam of laser light.                                                     | Sends pulses of light. Uses time of flight (range gating) to measure at different distances.            |
+| Measurement distance        | Uses beam focusing to measure at a particular distance. Can only measure one distance at a time. | Uses time of flight (range gating) to measure at several distances simultaneously.                      |
+| Measurement volume          | Increases with the measurement distance.                                                    | Constant and proportional to the pulse duration.                                                         |
+| Min. measurement distance   | Can be short.                                                                                | Twice the length of the measurement volume.                                                              |
+| Max. measurement distance   | Limited to several hundred meters, depending on the optical telescope width.                | Depends on pulse energy, up to several tens of kilometers.                                               |
+| Integration time            | Short.                                                                                       | Needs integration of multiple pulses.                                                                    |
 
 ## Signal Quality
 
