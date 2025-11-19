@@ -73,5 +73,13 @@ Doubeling the sound energy corresponds to an increase of 3 dB
 
 *Slide 30*: Definition of sound pressure level at an immission point due to the presence of a wind turbine.
 
+## Sources of wind turbine noise
 
+- Aerodynamic noise (dominant source)
+    - Biggest portion is from the blade tip
+    - Trailing edge noise
+- Mechanical noise
+
+Larger wind turbines are not much louder than smaller ones, because the blade tip speed is about the same (Bigger but smaller RPM)\
+Noise can also always be reduced by reducing the power by reducing the speed of the turbine
 
