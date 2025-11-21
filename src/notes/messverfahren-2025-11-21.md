@@ -57,7 +57,7 @@ Zur punktuellen Messung von zeitlichen Geschwindigkeits. und Temperaturfluktuati
 - Sehr aufwändig, wird nur für spezielle Turbulente, hochfrequente Messungen in Wandnähe genutzt
 
 ![](/src/bilder/messverfahren_image_22.png)
-<figcaption>Mess-Sonde</figcaption>
+<figcaption><a href="https://commons.wikimedia.org/wiki/File:Hd_sonde.jpg">Original Datei</a></figcaption>
 
 - Draht wird gegenüber der Strömung elektrisch aufgeheizt
 - Konvektive Kühlung der SOnde $\rightarrow$ Wiederstandsänderung
