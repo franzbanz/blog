@@ -8,6 +8,6 @@ layout: note
 includesMath: true
 ---
 
-Gastvortrag am 16.01.26
+![](/src/bilder/leichtbau_image_7.png)
+<figcaption>Mitschrieb aus der Vorlesung</figcaption>
 
-\\ Mitschrieb Seite 1

@@ -44,9 +44,9 @@ $$
 - gilt für beliebige Körper und Mach-Zahlen ohne oder mit Reibung
 - $x_N$ wandert im linearen Bereich der Momentenkurve nicht
 
-\\ Folie 102 hier aufschreiben
+Druck- und Neutralpunkt fallen zusammen, falls $c\_{m\_{A=0}} = 0$ ist
 
-Druck- und Neutralpunkt fallen zusammen, falls $c_m_{A=0} = 0$ ist
+Zusammenhang zwischen Druck- und Neutralpunkt auf **Folie 102**
 
 ### Bedingungen für stabilen, stationären Flug
 
@@ -71,9 +71,12 @@ Bedingung für Druckpunktfestigkeit: $\frac{x_A}{t} = -\frac{c_m}{c_a} = const.$
 - bei symmetrischen Profilen ist $A_1 = A_2 = 0$. symmetrische Profile sind daher stets druckpunktfest
 - bei druckpunktfesten Profilen fallen Druck- und Neutralpunkt zusammen und es gilt $\frac{x_A}{t} = \frac{x_N}{t} = \frac{1}{4}$
 
-\\ Mitschrieb 1
+![](/src/bilder/flugzeugaerodynamik_image_15.png)
+<figcaption>Mitschrieb Seite 1</figcaption>
 
-\\ Mitschrieb 2
+![](/src/bilder/flugzeugaerodynamik_image_16.png)
+<figcaption>Mitschrieb Seite 2</figcaption>
 
-\\ Mitschrieb 3
+![](/src/bilder/flugzeugaerodynamik_image_17.png)
+<figcaption>Mitschrieb Seite 3</figcaption>
 
