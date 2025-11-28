@@ -8,12 +8,14 @@ layout: note
 includesMath: true
 ---
 
-![](/src/bilder/messverfahren_image_23.png)
-<figcaption>(Sehr kleine aber messbare) Spannung kann durch den **Seebeck-Effekt** gemessen werden</figcaption>
+**Seebeck-Effekt**: In einem Stromkreis aus zwei verschiedenen Materialien bei einer Temperaturdifferenz zwischen den Kontaktstellen entsteht eine elektrische Spannung.
 
-**Peltier-Effekt**:
+**Peltier-Effekt**: Gegenüber dem Seebeck-Effekt umgekehrte Verhältnisse, elektrischer Strom bewirkt einen Wärmetransport.
 
 **Thomson-Effekt**: Kontinuierlicher Peltier-Effekt. häufig aber so schwach, dass er vernachlässigt werden kann
+
+![](/src/bilder/messverfahren_image_23.png)
+<figcaption>(Sehr kleine aber messbare) Spannung kann durch den Seebeck-Effekt gemessen werden</figcaption>
 
 ![](/src/bilder/messverfahren_image_24.png)
 <figcaption>Quelle [PPH05] im Skript / in den Folien soll sehr gut zur Erklärung der Thermospannungen sein</figcaption>
