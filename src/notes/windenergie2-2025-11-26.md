@@ -79,8 +79,3 @@ DC transmission cables are now used to transport power from offshore turbine to 
 In Germany the maximal nominal load in the medium-voltage power grid is 2% of the short-circuit power\
 On the high voltage system it is partially possible to connect up to 20% of the short-circuit power.
 
-## Grid Compatability of Power Suppliers
-
-## Grid Protection py Power Suppliers
-
-
