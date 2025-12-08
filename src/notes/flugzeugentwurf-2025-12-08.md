@@ -28,3 +28,4 @@ Auslegungsaspekte sind Strukturelle Anbindung, Nutzbarkeit von Kabine und Fracht
 - Operationelle Aspekte
 
 Rest der Vorlesung: Coole Flugzeuge anschauen
+
