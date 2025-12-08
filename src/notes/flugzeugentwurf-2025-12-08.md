@@ -1,6 +1,6 @@
 ---
 course: Flugzeugentwurf
-type: Vorentwurf: Flugzeugkonfiguration
+type: Vorentwurf Flugzeugkonfiguration
 by: Andreas Strohmayer
 date: 2025-12-08 # (YYYY-MM-DD)
 tags: notes
