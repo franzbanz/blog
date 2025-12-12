@@ -46,6 +46,11 @@ Wellenlängenbereich 1 - 14 $\mu m$
     - Fluoreszenz passiert sofort nach der Absorbtion, Phosphoreszenz mit längerer Verzögerung
     - (Sauerstoff) Quenching kann durch Sauerstoffmoleküle in der Farbe passieren, welche die Farbe dunkler werden lassen (Kann durch Beschichtung verhindert werden und ist reversibel)
 - Thermochromatische Flüssigkristalle (TLC)
+    - Optisch aktive Mischungen organischer Chemikalien
+    - Abhängigkeiten: Temperatur, Schubspannungen, Druck, elektrische Felder, magnetische Felder
+    - Schubspannungs- und Druckeffektunterdrückung mit mikroverkapselten TLCs
+    - Hysterese: Kurve des Erwärmens und des Abkühlens nicht zwingend gleich
+    - Weitere Sensitivität: Sprektren, Alterung, Schichtdicke, Winkel
 
 ### Digitalisierung
 
