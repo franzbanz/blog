@@ -42,4 +42,11 @@ $$ E_t = \frac{d\sigma}{d\varepsilon} $$
 - Werkstoff muss Fließvermögen besitzen, meistens gegeben, aber nicht bei CFK
 - Verformungen müssen unterkritisch sein
 
+### Vereinfachtes Verfahren nach Cozzone
+
+- Dehungsverlauf ist auch bei Plastifizierung linear (Querschnitte bleiben eben)
+- Spannungen entsprechen der Spannungs-Dehnungs-Beziehunh und sind für Zug und Druck gleich
+- Maximal zulässige Dehnung ist bestimmend $\varepsilon = A$
+- Werkstoff muss plastifizierbar sein (CFK!)
+
 
