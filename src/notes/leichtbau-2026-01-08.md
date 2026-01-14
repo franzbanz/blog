@@ -8,59 +8,38 @@ layout: note
 includesMath: true
 ---
 
-### Exzentrische Krafteinleitung
-
-Durch einen Versatz der Kraftwirkungslinie vom Flächenschwerpunkt oder vom elastischen Schwerpunkt entsteht ein zusätzliches Biegemoment, das vor allem bei dynamischer Belastung zu Prblemen führen kann
-
 ## Biegeelemente
 
-Werden unterteilt in:
+Belastung eines Rechteckträgers mit einem Biegemoment $M$ führt zu Spannungsverteilung, die in der Neutralfaser ihren Nulldurchgang hat, größere Spannung auf der Innenseite.
 
-- Ebene Biegeträger
-- Gekrümmte Biegeträger
-- Platten und Membrane (Flächige Biegeträger)
+![](/src/bilder/leichtbau_image_19.png)
+<figcaption>Ergänzung zu Skript Abbildung 4.20</figcaption>
 
-Neben der maximal zulässigen Spannung des Werkstoffes sind die wichtigsten Kenngrößen zur Gestaltung biegebelasteter Strukturen
+### Plastische Biegung
 
-$E$ - Elastizitätsmodul\
-$J$ - Trägheitsmoment\
-$W$ - Wiederstandsmoment\
+Spannung wird im plastischen Bereich des Werkstoffs geringer, weil dort auch das E-Modul geringer wird.
 
-Für einen ersten Vergleich kann die Biegesteifigkeit $EJ$ herangezogen werden
+E-Modul ist (im elastischen Bereich) definiert als
 
-![](/src/bilder/leichtbau_image_15.png)
-<figcaption>Einschub - Wiederstandsmoment</figcaption>
+$$ E = \frac{\sigma}{\varepsilon} $$
 
-Die Frage des Werkstoffs ist nicht mehr so leicht zu beantworten wie bei den [Zugelementen](https://franzkoehler.com/src/notes/leichtbau-2025-12-04/) - Sie ist von der konstruktiven Gestaltung abhängig.
+Srkantenmodul ist (im plastischen Bereich) definiert als
 
-### Beispiel
+$$ E_s = \frac{\sigma}{\varepsilon} $$
 
-![](/src/bilder/leichtbau_image_16.png)
-<figcaption>Lösung der Werkstofffrage</figcaption>
+Tangentenmodul ist definiert als
 
-**Gestaltfragen** und **Besondere Probleme** sind schon in [vorheriger Vorlesung](https://franzkoehler.com/src/notes/leichtbau-2025-12-11/) behandelt worden.
+$$ E_t = \frac{d\sigma}{d\varepsilon} $$
 
-## Ebene Biegeträger
+![](/src/bilder/leichtbau_image_20.png)
+<figcaption>Elastischer und Plastischer Bereich und Auswirkung auf Spannungsverteilung</figcaption>
 
-Transformation von Schwerpunkt- in Hauptachsensystem:
+### Wo darf plastische Biegung eingesetzt werden?
 
-$$y_H = y_S \cdot cos(\varphi) + z_S \cdot sin(\varphi)$$
+- Bei Biegeelementen die nicht ermüdungskritisch sind
+- Bei Lastfällen, die auf die Ermüdung keinen Einfluss haben
+- Örtliche Instabilität oder Kippen darf nicht kritisch sein
+- Werkstoff muss Fließvermögen besitzen, meistens gegeben, aber nicht bei CFK
+- Verformungen müssen unterkritisch sein
 
-$$z_H = z_S \cdot cos(\varphi) - y_S \cdot sin(\varphi)$$
-
-![](/src/bilder/leichtbau_image_17.png)
-<figcaption>Spannungsverlauf in einem L-Träger</figcaption>
-
-## Gekrümmte Biegeträger
-
-Es treten drei Effekte auf
-
-- Spannungsüberhöhung am inneren Rand
-- Abminderung des WIederstandsmoments durch Ausweichen der Flansche
-- Es sntstehen zusätzliche sekundäre Spannungen $\sigma_{tr}$ senkrecht zur Biegespannung
-
-![](/src/bilder/leichtbau_image_18.png)
-<figcaption>Ergänzung zur Biegeträger Skizze 4.17 im Skript</figcaption>
-
-Bis hier *Video 7, 10 min*
 
