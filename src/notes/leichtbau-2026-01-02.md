@@ -2,7 +2,7 @@
 course: Leichtbau 1
 type: Vorlesung
 by: Maged Sorour
-date: 2026-01-08 # (YYYY-MM-DD)
+date: 2026-01-02 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
