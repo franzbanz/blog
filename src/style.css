@@ -25,6 +25,7 @@
   --large: 23px;
 }
 
+
 body {
   padding: 8px;
   margin: 0px;
@@ -196,12 +197,13 @@ button:disabled:hover{
   }
   background-color: var(--red);
   border-bottom: 2px var(--black) solid;
+	border-left: 2px var(--black) solid;
+	border-right: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
   li:hover{
     background-color: var(--red_dark);
   }
 }.middle_section{
-  border-right: 2px var(--black) solid;
   border-left: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
 }.exam_subsection{
@@ -255,7 +257,6 @@ button:disabled:hover{
   background-color: var(--gray_dark);
 }.right_section{
   border-bottom: 2px var(--black) solid;
-  border-left: 2px var(--black) solid;
   border-right: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
 }
@@ -311,6 +312,8 @@ article{
 		border-collapse: collapse;
 		padding: 4px;
 		place-items: center;
+		table-layout: fixed;
+		width: 100%;
 	}
 }
 
