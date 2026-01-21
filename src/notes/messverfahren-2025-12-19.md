@@ -8,14 +8,8 @@ layout: note
 includesMath: true
 ---
 
-## Stationäre Methoden
-
-*Es muss nur ein einziges Foto ausgewertet werden*\
-*Es müssen aber über einen längeren Zeitraum die Versuchsbedingungen aufrecht erhalten werden*
-
-![](/src/bilder/messverfahren_image_31.png)
-<figcaption>Aufschrieb den ich gefunden habe und der hier reinpassen würde</figcaption>
-
 Siehe vorherige Vorlesung über Wärmeflussmessung einer überströmten Wand [Ozi 85]
 Keine aufgezeichnete Vorlesung über weitere Stationäre Methoden hochgeladen
+
+Es wurde in der Vorlesung wohl schon die halbunendliche Wand Methode angefangen zu besprechen, siehe nächste Vorlesung für kompletten Mitschrieb dieses Themas
 
