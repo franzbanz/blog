@@ -21,5 +21,7 @@ Keine Kuppkungen in der A- Matrix, keine Kupplungen zwischen B- und D- Matrix (*
 ## Das Spannungs-Dehnungs-Diagramm
 
 ![](/src/bilder/leichtbau_image_24.png)
-<figcaption>(Siehe auch [Vorlesungsmitschrieb](https://franzkoehler.com/src/notes/leichtbau-2026-01-08/) vom 8. Januar)</figcaption>
+<figcaption>Mitschrieb</figcaption>
+
+(Siehe auch [Vorlesungsmitschrieb](https://franzkoehler.com/src/notes/leichtbau-2026-01-08/) vom 8. Januar)
 
