@@ -5,6 +5,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/schedule.js");
   eleventyConfig.addPassthroughCopy("src/pdfs");
   eleventyConfig.addPassthroughCopy("src/bilder");
+  eleventyConfig.addPassthroughCopy("src/font");
   eleventyConfig.addPassthroughCopy("src/impressum.md");
 
   eleventyConfig.addFilter("currentDate", function() {

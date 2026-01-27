@@ -25,6 +25,18 @@
   --large: 23px;
 }
 
+@font-face {
+  font-family: "victorMono";
+  src: url("/src/fonts/VictorMono-Medium.woff");
+  font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+  font-family: "victorMono";
+  src: url("/src/fonts/VictorMono-MediumItalic.woff");
+  font-weight: 500;
+  font-style: italic;
+}
 
 body {
   padding: 8px;
@@ -32,7 +44,8 @@ body {
   min-width: 200px;
   background-color: var(--gray);
   color: var(--black);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "VictorMono", monospace;
+  font-weight: 500;
   font-size: 18px;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
