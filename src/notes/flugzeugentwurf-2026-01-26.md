@@ -22,7 +22,8 @@ includesMath: true
 
 ### Aerodynamische Beiwerte
 
-// Skizze von Folie 12 abzeichnen
+![](/src/bilder/flugzeugentwurf_image_8.png)
+<figcaption>Aufteilung des Wiederstandes</figcaption>
 
 - Der Nullwiederstand eines Flugzeugs im Unterschall besteht zu rund 80% aus **Reibsungswiederstand** und zu rund 20% aus Formwiederstand
 - Das Verhältnis Reibungswiederstand zu Formwiederstand kann für eine Flugzeugart als konstanz betrachtet werden
