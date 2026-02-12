@@ -8,10 +8,8 @@ layout: note
 includesMath: true
 ---
 
-// Skizze von Folie 35 abzeichnen
-
-
-// Mitschrieb 1
+![](/src/bilder/flugzeugentwurf_image_8-1.png)
+<figcaption>Zusammensetzung der Flugzeuggesamtmasse</figcaption>
 
 Diagramm von **Folie 37** sollten wir für die Klausur zeichnen und erklären können
 
@@ -38,4 +36,3 @@ Diagramm von **Folie 37** sollten wir für die Klausur zeichnen und erklären k�
 1. Der Anflug beginnt ab der Hindernishöhe von 15m, die Anfluggeschwindigkeit $V_{An}$ beträgt $1,3 V_S$
 2. Das Ausschweben erfolgt analog zum Übergangsbogen beim Start, die Aufsetzgeschwindigkeit beträgt dabei $1,15 V_S$
 3. Analog zur Startrollphase rollt das Flugzeig zunächst je nach Reaktion des Piloten 1-3 Sekunden ungebremst
-
