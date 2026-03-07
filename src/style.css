@@ -360,6 +360,7 @@ img{
     border-top: 2px var(--black) solid;
   }.right_section{
     grid-column: span 30;
+    border-left: 2px var(--black) solid;
   }
 }
 
