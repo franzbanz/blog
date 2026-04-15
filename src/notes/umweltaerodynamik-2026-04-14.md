@@ -1,6 +1,6 @@
 ---
 course: Umweltaerodynamik
-type: Analytik
+type: Vorlesung
 by: Bernd Peters
 date: 2026-04-14 # (YYYY-MM-DD)
 tags: notes
