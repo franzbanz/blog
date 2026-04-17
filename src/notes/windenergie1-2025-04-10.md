@@ -8,7 +8,7 @@ layout: note
 includesMath: true
 ---
 
-# Einführung
+## Einführung
 
 "Dunkelflaute" vom 10. Dezember 2024 ließe sich mit größerer Nabenhöhe der Windkraftwerke reduzieren\
 China größte Energieproduktion über Windkraft - 500 GW\
