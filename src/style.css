@@ -208,6 +208,8 @@ button:disabled:hover{
   h2{
     background-color: var(--red_light);
   }
+  margin-left: 8px;
+  margin-right: 8px;
   background-color: var(--red);
   border-bottom: 2px var(--black) solid;
 	border-left: 2px var(--black) solid;
@@ -217,6 +219,7 @@ button:disabled:hover{
     background-color: var(--red_dark);
   }
 }.middle_section{
+  border-right: 2px var(--black) solid;
   border-left: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);
 }.exam_subsection{
@@ -269,6 +272,7 @@ button:disabled:hover{
   }
   background-color: var(--gray_dark);
 }.right_section{
+  border-left: 2px var(--black) solid;
   border-bottom: 2px var(--black) solid;
   border-right: 2px var(--black) solid;
   box-shadow: 4px 4px var(--gray_dark);

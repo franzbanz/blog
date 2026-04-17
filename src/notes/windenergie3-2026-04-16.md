@@ -1,6 +1,6 @@
 ---
 course: Windenergie 3
-type: Chapter 2: Wind Field Modeling
+type: Wind Field Modeling
 by: Po Wen Cheng
 date: 2026-04-16 # (YYYY-MM-DD)
 tags: notes
