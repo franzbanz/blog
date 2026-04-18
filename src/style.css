@@ -349,12 +349,15 @@ img{
   }
   .middle_section{
     grid-column: span 15;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 		border-bottom: none;
   }.lecture_section{
+    margin-left: 0px;
+    margin-right: 0px;
     grid-column: span 15;
     border-right: 2px var(--black) solid;
-    margin-bottom: 16px;
+    border-left: none;
+    margin-bottom: 8px;
   }.upcoming_subsection{
     grid-column: 16/31;
     border-top: 2px var(--black) solid;
@@ -390,7 +393,7 @@ img{
     grid-column: span 30;
   }.lecture_section{
     border: 2px var(--black) solid;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }.middle_section{
     border-right: 2px var(--black) solid;
   }
