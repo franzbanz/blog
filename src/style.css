@@ -352,11 +352,11 @@ img{
     margin-bottom: 8px;
 		border-bottom: none;
   }.lecture_section{
-    margin-left: 0px;
+    margin-left: 8px;
     margin-right: 0px;
     grid-column: span 15;
     border-right: 2px var(--black) solid;
-    border-left: none;
+    border-left: 2px var(--black) solid;
     margin-bottom: 8px;
   }.upcoming_subsection{
     grid-column: 16/31;
@@ -391,6 +391,7 @@ img{
   
   .lecture_section, .schedule_subsection, .middle_section, .exam_subsection, .coolstuff_subsection, .upcoming_subsection {
     grid-column: span 30;
+    margin-left: 0px;
   }.lecture_section{
     border: 2px var(--black) solid;
     margin-bottom: 8px;
