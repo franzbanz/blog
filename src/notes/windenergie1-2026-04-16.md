@@ -2,13 +2,11 @@
 course: Windenergie 1
 type: Wind 1
 by: Po Wen Cheng
-date: 2025-04-17 # (YYYY-MM-DD)
+date: 2026-04-16 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
 ---
-
-# Windenergienutzung
 
 ## Globale Winde
 
