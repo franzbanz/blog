@@ -1,93 +1,113 @@
 ---
 course: Windenergie 3
-type: Wind Field Modeling
+type: Design Methodology
 by: Po Wen Cheng
-date: 2026-04-16 # (YYYY-MM-DD)
+date: 2026-04-09 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: false
 ---
 
-## Questions at the beginning
+## What is Design?
 
-What is the main source of noise from a wind turbine?
-- Aerodynamic noise (e.g. from blade tips, tip vortices, trailing edge, leading edge)
+- *A plan or drawing produced to show the **look** and **function** or workings of a building, germent, or other object befor it is made.*
+- *The **art** or **action** of conceiving of and producing a plan or drawing of something before it is made*
 
-Ideally the onshore and offshore wind turbine should have
-- Offshore (higher wind speeds, less turbulence)
-    - Rotor diameter: lower
-    - Generator power: higher
-- Onshore (high wind shear, need higher towers)
-    - Rotor diameter: higher
-    - Generator power: lower
+New designs: bladeless wind turbines, diffuser augmented wind turbine, reciprocating airfoils,...
 
-What is the most common generator design concept for wind turbines?
-- Doubly Fed Induction Generator (additional circuit which is connected to a converter from AC to DC because of the variable speed wind turbine. Adapt speed of the wind turbine to have optimal tip speed)
-- **Not** Permanent Magnet Generator, which is less common, but has a higher efficiency than DFIG
-- **Not** Induction Generator, which is not used much today
+- There is not much wind to be harvested at the ground level
+- There is no way to beat Betz law by using diffusor (the effective rotor area is the area of the diffusor)
+- Vibration is the main source of fatigue for wind turbines (or any structure)
 
-Compared to horizontal axis wind turbines, vertical axis wind turbine has
-- Lower center of gravity
-- Higher fluctuating inflow velocity
-- Lower sound pressure level because of lower tip speed ratio
+## The Structured Design Process
 
-What are the lead casas we should consider when designing a wind turbine?
-- Turbulence
-- Extreme wind speed
-- 50 year wind high
-- Lightning protection#
+1. Market research
+   - Which is the market that we want to sell to? (geography, technical requirements, customer basis,...)
+   - How big is the market?
+   - Who are the most important players?
+   - What are the underlying economics of the market?
+   - What is the margin of profit of the customer?
+2. Product requirements / specifications
+   - External and operating conditions (IEC wind class, turbulence intensity, water depth, corrosion,...)
+   - Main turbine parameters
+3. Conceptual design
+   - First estimate of the key dimensions of the wind turbine
+   - Build up a wind turbine model for the dynamic simulation to determine the system loads
+   - First aerodynamic design of rotor blade to determine the power curve
+   - First drawing of the main components
+   - Task: FMEA (Failure Mode and Effects Analysis)
+4. Preliminary design
+5. Detailed design
+6. Product check and validation
+   - Factory tests
+   - Reliability tests
+   - Vibration / climate chamber tests
+   - Component fitting tests
+   - ...
 
-Rank the wind field model in terms of complexity:
-1. Extreme Operating Gust Model (easiest, its deterministic)
-2. Kaimal Spectral Model (How much energy is in the wind field and how is it distributed among different frequencies)
-3. Mann Model (Based on spectral tensor, not just one power spectrum, but many)
+## Design Criteria and Requirements
 
-Where is the spectral gap?
-- Time scale at which there is not much energy concentrated, about 10 mins to 1 hr
-- Macro-meterological scale more relevant for the weather, seasons, etc...
-- Micro-meterological scale relevant for this lecture, most relevant for turbulence, hence wind turbine fatigue
+### Noise
 
-Typical exponent for power wind shear model
-- Onshore wind: ??
-- Offshore wind: ??
-- Onshore with forest: 0.4
+- Has mechanical and aerodynamic causes
+- Relevant for onshore especially in connection with discomfort
+- Underwater noise can affect marine mammals, especially during the installation phase
+- A high tip speed ratio could be an option for offshore wind turbines, such as 2-blade rotors, if noise not relevant
 
-The mean wind speed is 10 m/s, the turbulence intensity is 10%, the characteristic turbulence intensity is
-- Cannot be determined, because $\sigma$ is not given (Standardabweichung)
+$$
+\text{Tip speed: } \omega \cdot R
+$$
 
-Which is the wind speed seen by a fixed observer?
-- ??
+Noise is proportional to tip speed increase to the 5th power\
+Current tip speeds approx. 70-80 m/s, anything above that would induce compressible air flow
 
-## Deterministic Wind Models
+**Because of this, larger turbines have slower angluar rotation (same tip speed), but more torque**
 
-Means *pre-determined* - Wind field is clearly defined with, e.g.
+### Capacity Factor
 
-- Mean wind speed and direction
-- Wind profile over the height, tower shadow, inflow angle, etc.
-- Deterministic wind gusts
-- "Mexican Hat" not a realistic gust form, but if wind turbine can survive it, it can survive any real gust forms
+$$
+\text{specific power} = \frac{\text{Rated Power}}{\text{Rotor Area}}
+$$
 
-## Stochastic Wind Models
+High capacity factor - steadier power output to the grid and more efficient use of the electrical infrastructure
 
-Turbulence description
+The cost optimum depends on the accuracy of the cost modeling. In this case, the const optimum is a function of the mean wind speed and the specific power
 
-- For one point in space (temporal structure, i.e. variation in time)
-- For many points in space (temporal and spacial structure, variation in time and space)
-- In time domain - frequency domain
+*If you have many fish per square meter, you don't need a big net to meet demand*\
+*If you have less fish per square meter, you need a much bigger net (increase the rotor diameter)*
+With increasing rotor diameters, the cost of operation etc. rises, so there is an optimum in between
 
-Characteristic turbulence intensity for load simulations = mean turbulence + one standard deviation (more conservative)
+For low wind speed sites, the cost optimum is at a lower specific power
 
-### Common spectral models
+For high wind speed sites, the optimum moves to higher specific power
 
-- Von Kaman Spectrum
-    - Derivation from turbulence in wind tunnel, still usefull for wind energy applications
-- Kaimal Spectrum
-    - Empirical basis
-    - Use of exponential coherence model required
-    - Most widely used today
-- Mann Spectrum
-    - It takes into account the influence of the vertical shear on the turbulence
+### External Conditions
 
-## Partial Gust, *Rotational Sampling*
+- AEP-Target for a given regime (e.g. IEC Wind class, turbulence class, extreme wind speed)
+- Grid requirements on power quality and faults response (higher harmonics, flicker, Fault-Ride-Trough etc...)
+- Operating conditions
+- Lighning, fire, birds protection
 
-Skipped in this lecture
+### Operation Capabilities
+
+Large fluctuations of the power output requires interventions from the grid opreator to balance the demand and supply
+
+### Cost
+
+- Cost of energy: LCOE
+- Cost shall consider the wind turbine cost: Balance of plant, installation, decommissioning
+- Trade.off between the component cost and the total system cost
+- LCOE of renewable energies is driven by the CapEx, while OpEx is significantly lower than fossil fuel power plants (because of the fuel costs)
+
+## Design Options
+
+### Vertical Axis vs Horizontal Axis
+
+- Aerodynamics of HAWT are much simpler than of VAWT, easier to predict, less fluctuating loads
+- Synergies: offshore and onshore wind turbines are basically the same, which makes a different design (VAWT) much more expensive to research, produce, ...
+
+### Two Blades vs Three Blades
+
+- Two blades have higher tip speeds and thus louder noise - so only viable for offshore
+- Good thing: Two blades can be installed both at the same time with the nacelle. Cheaper to build
+- Again: Synergies: Different designs for offshore and onshore are more expensive, because everything has to be developed twice
