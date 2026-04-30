@@ -48,4 +48,4 @@ Wirbel haben Index $j$, Pistolesi-Punkte haben Index $i$
 
 Beispiel Rechnung eines Rechteckflügels in nächster Vorlesung
 
-Bis 1:13:49 geschaut
+

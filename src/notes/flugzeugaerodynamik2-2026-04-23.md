@@ -8,5 +8,6 @@ layout: note
 includesMath: true
 ---
 
+// Übungsaufgabe Skizze
 
 
