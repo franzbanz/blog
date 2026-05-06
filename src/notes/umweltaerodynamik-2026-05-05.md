@@ -37,3 +37,5 @@ In Bodennähe bilden sich die: (**Folie 51**)
 - Hadley-Zelle (30° - Äquator)
 
 //Skizze 1 hier einfügen
+
+In der nächsten Vorlesung: *Atmosphärische Turbulenz* in *Unterlagen_Vorlesung_6*
