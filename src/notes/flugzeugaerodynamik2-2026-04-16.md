@@ -12,11 +12,16 @@ Beispielhafte Lösungen der Erweiterten Tragllinientheorie auf **Folie 42**:\
 Pfeilung verringert im Unterschall den Auftriebsbeiwert\
 Abreißerhalten bei Rückgepfeilten Flügeln kritisch, bei vorgepfeilten Flügeln gut
 
+![](/src/bilder/flugzeugaerodynamik2_image_10.png)
+<figcaption>Abreißverhalten eines Flügels</figcaption>
+
 1. Eine Pfeilung $|\beta| \neq 0$ reduziert den mittleren Auftriebsbeiwert $c_A$
 2. Eine Vorpfeilung $\beta < 0$ führt zu einer relativen $c_a$-Überhöhung im Bereich der Flügelwurzel und zu einer Reduktion im Außenbereich
 3. Eine Rückpfeilung $\beta > 0$ führt zu einem $c_a$-Einbruch im Bereich der Flügelwurzel und zu einer Überhöhung im Außenbereich
 
-// Skizzen zum Effekt von Grenzschichtzäunen (In der Aufzeichnung ab ca. 25. Minute)
+
+![](/src/bilder/flugzeugaerodynamik2_image_9.png)
+<figcaption>Einfluss eines Grenzschichtzauns auf die $C_a$-Verteilung</figcaption>
 
 ## Das Wirbelleiterverfahren
 
@@ -26,9 +31,9 @@ Vorteile:
 - Nachlauf und Nachlaufaufrollung kann diskretisiert werden
 - Beliebige Flugzeugkonfigurationen mit zugehörigem Nachlauf können modelliert werden
 
-Wirbelsegmente auf $t/4$-Linie, Hinter jedem Punkt ist die Zirkulationsstärke Konstant (*Hufeisenwirbel*, siehe Skizze)
+Wirbelsegmente auf $t/4$-Linie, Hinter jedem Punkt ist die Zirkulationsstärke Konstant (*Hufeisenwirbel*, siehe Diagramm **Folie 50**)
 
-// Skizze Folie 50 rechts abzeichnen (Wirbel die nach hinten gehen liegen eigentlich aufeinander, nur für die Zeichnung mit Lücke) Kompensieren sich gegenseitig, nur die Wirbelstärke (Differenz) bleibt
+Zu **Folie 50** (Wirbel die nach hinten gehen liegen eigentlich aufeinander, nur für die Zeichnung mit Lücke) Kompensieren sich gegenseitig, nur die Wirbelstärke (Differenz) bleibt
 
 $A$ - Linker Eckpunkt des Hufeisenwirbels\
 $B$ - Rechter Eckpunkt des Hufeisenwirbels

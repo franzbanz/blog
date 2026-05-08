@@ -19,7 +19,7 @@ Together, these two velocity form the inflow velocity $C$
 Schmitz: $\frac{\alpha_3}{\alpha_1} = \frac{1}{3}$\
 Betz: $\frac{v_3}{v_1} = \frac{1}{3}$
 
-\\ Skizze 1, also see **Slide 8**
+see **Slide 8**
 
 At the outer part of the rotor, you dont need to consider the tangential induction, because Dominating velocity component at the tips is $\Omega_r$
 

@@ -25,6 +25,9 @@ Mögliche Visualisierungsmethoden
 - Farbe tritt mit geringem Überdruck aus der Modelloberfläche aus (Wandbohrungen)
 - Farbe wird auf die Modelloberfläche aufgetragen (Wandspuren)
 
+![](/src/bilder/stroemungsmesstechnik_image_1.png)
+<figcaption>Strömungsmessungsversuche - Zum unteren Versuch: Die Profilgrenzschicht an der Hinterkante der des Leitrads verläuft in Richtung Nabe</figcaption>
+
 ### Visualisierung im Ringgitter Wasserkanal
 
 - Sekundärströmungen aufgrund des radialen Druckgradienten sind zusätzlich erfassbar

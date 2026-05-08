@@ -34,13 +34,12 @@ Nachts dreht sich der Prozess um
 
 ### Ablandiger Wind
 
-//Folie 5 abschreiben// ()
-
-Generell gilt: Hochdruckgebiete: Luft steigt auf, Tiefdruckgebiete Luft sinkt ab
+Generell gilt: Hochdruckgebiete: Luft steigt auf, Tiefdruckgebiete Luft sinkt ab\
+Siehe auch **Folie 17**
 
 ## Corioliskraft
 
-// Folie 6
+Siehe **Folie 18**
 
 Zentrifugalkraft und Coreoliskraft wirken bei Tiefdruckgebieten in die gleiche Richtung (Folie 10)
 
@@ -51,7 +50,3 @@ Typische Werte für Horizontale Druckgradienten
 - Schwachwindiges Wetter: ca. 1 hPa / 100 km
 - Sturmwetterlage: ca. 10 hPa /100 km
 - Für Stuggi: $U_{geo} = 7 m/s$
-
-## Einfluss der Reibung
-
-// Folie 2

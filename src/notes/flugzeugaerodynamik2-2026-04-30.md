@@ -21,7 +21,11 @@ Seitenkantebablösung bei Flügel kleiner Streckung bereits an der vorderen Seit
 
 Schematische Darstellung der Umströmung eines angestellten schlanken Deltaflügels mit scharfer Vorderkante auf **Folie 96**
 
-//Skizze von Folie 103
+![](/src/bilder/flugzeugaerodynamik2_image_7.png)
+<figcaption>Aufplatzen des Primärwirbels über einem stark angestellten Deltaflügel</figcaption>
+
+Bild entnommen von [hier](https://katalog.bibliothek.kit.edu/bib/1062386)
+
 $c_{a_{max}}$ wird begrenzt durch Zusammenbrechen des Primärwirbels, der mit zunehmendem $\alpha$ auf Höhe des Flügels zusammenbricht und keinen nichtlinearen Zusatzauftrieb mehr erzeugen kann
 
 Messungen zeigen, dass mit abnehmender Streckung

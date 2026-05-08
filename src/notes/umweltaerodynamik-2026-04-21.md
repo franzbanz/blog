@@ -16,7 +16,8 @@ Vorstellung des Wassers in Schichten, die oberste bewegt sich einfach mit der Wi
 Die nächste Schicht wird von der oberen Schicht mitgerissen, jedoch langsamer, weil sie von den unteren Schichten abgebremst wird
 Jede Schicht wird daher einer anderen Coreoliskraft ausgesetzt. Der Eisberg bewegt sich in eine Richtung gemittelt aus den Richtungen aller Wasserschichten
 
-// Hier Ekman Spirale Bild
+![](/src/bilder/umweltaerodynamik_image_3.png)
+<figcaption>Ekman-Spirale</figcaption>
 
 Je näher am Boden desto langsamer ist die Strömung desto geringer ist die v (?) Komponente
 

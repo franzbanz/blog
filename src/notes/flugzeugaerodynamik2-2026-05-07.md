@@ -10,7 +10,8 @@ includesMath: true
 
 ## Der Gepfeilte Flügel
 
-// skizze 1
+![](/src/bilder/flugzeugaerodynamik2_image_3.png)
+<figcaption>Mitschrieb 1</figcaption>
 
 1. Reduktion des Druckwiederstands (insbesondere im Überschall relevant), Erhöhung $A/W$
 2. Verschiebung des transsonischen Wiederstandsanstiegs zu höheren Flugmachzahlen $Ma_{\infty}$
@@ -26,7 +27,8 @@ $U_{\infty n}$ entscheidet über Wahl der Berechnungsmethode
 
 Flugmachzahl kann also bei gepfeilten Flügeln weiter erhöht werden, ohne Verdichtungsstöße hervorzurufen
 
-//Skizze 2
+![](/src/bilder/flugzeugaerodynamik2_image_4.png)
+<figcaption>Mitschrieb 2</figcaption>
 
 Kein Staupunkt mehr bei gepfeiltem Flügel, weil dort ja $Ma_t$ wirkt, es bildet sich also stattdessen eine *Anlegelinie*\
 An der Vorderkante verläuft die Stromlinie tangential zur Vorderkante\
@@ -38,7 +40,11 @@ Entlang Anliegelinie entwickelt sich eine Grenzschicht\
 $\rightarrow$ laminar-turbulenter Umschlag\
 $\rightarrow$ macht Strömung am Flügel turbulent
 
-//Skizze 3
+![](/src/bilder/flugzeugaerodynamik2_image_5.png)
+<figcaption>Ebene Strömung</figcaption>
+
+![](/src/bilder/flugzeugaerodynamik2_image_6.png)
+<figcaption>Quasi-2D Strömung</figcaption>
 
 ## Prinzip der Unabhängigkeit
 

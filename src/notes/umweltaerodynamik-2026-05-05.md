@@ -36,6 +36,7 @@ In Bodennähe bilden sich die: (**Folie 51**)
   - Andere Rotation kommt durch Verteilung von H und T Gebieten: Im Tiefdruckgebiet steigt die Luft immer auf, im Hochdruckgebiet sinkt die Luft immer ab (Diagramm **Folie 52**)
 - Hadley-Zelle (30° - Äquator)
 
-//Skizze 1 hier einfügen
+![](/src/bilder/umweltaerodynamik_image_1.png)
+<figcaption>Luftbewegungen um Tiefdruckgebiete / Hochdruckgebiete</figcaption>
 
 In der nächsten Vorlesung: *Atmosphärische Turbulenz* in *Unterlagen_Vorlesung_6*

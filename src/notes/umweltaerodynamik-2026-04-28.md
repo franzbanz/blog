@@ -23,7 +23,8 @@ Die trockenadiabatische Temperaturänderung, die ein Luftpaket beim Auf- bzw. Ab
    - Luftpaket kehrt wieder in seine Ausgangslage zurück
    - Turbulenz wird gedämpft
 
-//Skizze Folie 39 eintragen
+![](/src/bilder/umweltaerodynamik_image_2.png)
+<figcaption>Trockenadiabatische Temperaturänderung eines auf- bzw. absteigenden Luftpakets, *nach Peter Hupfer, Wilhelm Kuttler*</figcaption>
 
 Im Winter in Stuttgart zum Beispiel: Feinstaubwarnungen, weil stabile Schichtung, wenig Austausch in der Atmosphäre, Schadstoffe bleiben am Boden
 

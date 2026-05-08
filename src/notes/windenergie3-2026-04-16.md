@@ -5,7 +5,7 @@ by: Po Wen Cheng
 date: 2026-04-09 # (YYYY-MM-DD)
 tags: notes
 layout: note
-includesMath: false
+includesMath: true
 ---
 
 ## What is Design?
@@ -54,9 +54,7 @@ New designs: bladeless wind turbines, diffuser augmented wind turbine, reciproca
 - Underwater noise can affect marine mammals, especially during the installation phase
 - A high tip speed ratio could be an option for offshore wind turbines, such as 2-blade rotors, if noise not relevant
 
-$$
-\text{Tip speed: } \omega \cdot R
-$$
+Tip speed: $v = \omega \cdot R$
 
 Noise is proportional to tip speed increase to the 5th power\
 Current tip speeds approx. 70-80 m/s, anything above that would induce compressible air flow
@@ -65,9 +63,7 @@ Current tip speeds approx. 70-80 m/s, anything above that would induce compressi
 
 ### Capacity Factor
 
-$$
-\text{specific power} = \frac{\text{Rated Power}}{\text{Rotor Area}}
-$$
+Specific power: $P = \frac{\text{Rated Power}}{\text{Rotor Area}}$
 
 High capacity factor - steadier power output to the grid and more efficient use of the electrical infrastructure
 
