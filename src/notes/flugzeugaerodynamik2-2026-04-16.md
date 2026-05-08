@@ -23,7 +23,7 @@ Abreißerhalten bei Rückgepfeilten Flügeln kritisch, bei vorgepfeilten Flügel
 ![](/src/bilder/flugzeugaerodynamik2_image_9.png)
 <figcaption>Einfluss eines Grenzschichtzauns auf die $C_a$-Verteilung</figcaption>
 
-## Das Wirbelleiterverfahren
+### Das Wirbelleiterverfahren
 
 Vorteile:
 
@@ -52,5 +52,3 @@ Alles ab der Hinterkante: Freie Wirbel
 Wirbel haben Index $j$, Pistolesi-Punkte haben Index $i$
 
 Beispiel Rechnung eines Rechteckflügels in nächster Vorlesung
-
-
