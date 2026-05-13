@@ -34,7 +34,8 @@ includesMath: true
 
 ## Basics of Fatigue
 
-// Skizze 1
+![](/src/bilder/windenergie3_image_1.png)
+<figcaption>Converting real analogue signal into usable stress cycles for linear damage accumulation</figcaption>
 
 If you are below a certain stress intensity, there is no crack growth. Above, the crack will grow linearly\
 (See *Paris-Erdogan Crack Growth Law* on **Slide 9**)

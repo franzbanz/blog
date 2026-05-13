@@ -55,7 +55,8 @@ $$
 f_E = \frac{f_P}{\left( 1-\frac{\overrightarrow{v} \cdot \overrightarrow{e}_S}{c} \right)}
 $$
 
-//Mitschrieb 1
+![](/src/bilder/stroemungsmesstechnik_image_2.png)
+<figcaption>Mitschrieb LDV</figcaption>
 
 - Frequenz des Laserlichts mit einer Wellenlänge von 500nm: $F_0 = 6\cdot10^{14}$ Hz
 - Lichtgeschwindigkeit $c$ ist eine Konstante
