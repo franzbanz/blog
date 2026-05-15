@@ -12,7 +12,8 @@ includesMath: true
 
 Auch: *Laser-Doppler Anemometrie*
 
-// Diagramm von **Folie 4**
+![](/src/bilder/stroemungsmesstechnik_image_4.png)
+<figcaption>Diagramm Folie 4</figcaption>
 
 ### Physikalische Grundlagen des Lasers
 
@@ -25,9 +26,10 @@ Auch: *Laser-Doppler Anemometrie*
 
 ### Prinzipieller Aufbau eines Lasers
 
-// Skizze von **Folie 12** ([Von Tatoute - Eigenes Werk, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=577575))
+![](/src/bilder/stroemungsmesstechnik_image_3.png)
+<figcaption>Aufbau einer Gasentladungsröhre: 1: Gain Medium, 2: Laser pumping energy, 3: High reflector, 4: Output Coupler, 5: Laser beam</figcaption>
 
-Gasentladungsröhre
+([Von Tatoute - Eigenes Werk, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=577575))
 
 Laserlicht wird über Spiegel und Planspiegel in das Laseraktive Material zurückgeschickt, Abstand zwischen Spiegeln muss ein vielfaches der Halben Wellenlänge des Laserlichts sein, um eine stehende Welle zu erhalten (Kohärenz)
 
@@ -41,7 +43,8 @@ Bei der LDV sind Streuteilchen im Fluid zugleich Sender und Empfänger von licht
 1. Das Streuteilchen wirkt als bewegter Empfänger in Bezug auf die vom Laser abgestrahlte Welle
 2. Das Streuteilchen wirkt als bewegter Sender des Streulichts, welches vom stationären Empfänger detektiert wird
 
-Diagramm zum Versuchsaufbau auf **Folie 19**
+![](/src/bilder/stroemungsmesstechnik_image_5.png)
+<figcaption>Versuchsaufbau</figcaption>
 
 Erster Dopplereffekt: Bewegter Empfänger (Partikel) sieht eine andere Frequenz als der ruhende Sender:
 

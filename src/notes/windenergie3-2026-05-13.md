@@ -1,6 +1,6 @@
 ---
 course: Windenergie 3
-type: Fatigue
+type: Fatigue 1
 by: Po Wen Cheng
 date: 2026-05-13 # (YYYY-MM-DD)
 tags: notes

@@ -10,29 +10,26 @@ includesMath: true
 
 ## Zähigkeitsspannungen / Laminare Schubspannungen
 
-**Folie 57**
+- Zwischen 2 sehr langen parallelen ebenen Platten (Abstand $h$, Plattenfläche jeweils $A$) befindet sich das zu untersuchende Fluid
+- Durch die Kraft $F$ bewegt sich die obere Platte mit einer konstanten Geschwindigkeit $U$
+- Aufgrund von Adhäsion haftet das Fluid an beiden Platten
+- Zwischen den Platten bildet sich eine Schichtenströmung mit linearem Verlauf der Strömungsgeschwindigkeit aus: $u(y) = U \cdot \frac{y}{h}$
+- Experimentell lässt sich zeigen, dass die zur Bewegung der oberen Platte erforderliche Kraft $F \propto A \cdot \frac{U}{h}$ ist
+- Für die Schubspannung $\tau = \frac{F}{A}$ gitlzt $\tau \propto \frac{U}{h}$
+- Für $\frac{U}{h}$ kann im allgemeinen Fall auch $\frac{du}{dy}$ gesetzt werden $\rightarrow \tau \propto \frac{du}{dy}$
+- Proportionalitätsfaktor $\mu$ (Zähigkeit / dynamische Viskosität) zwischen $\tau$ und $\frac{du}{dy}$ hängt von der Natur der Flüssigkeit ab
 
-- Zwischen 2 sehr langen parallelen ebenen Platten (Abstand h, Plattenfläche jeweils A) befindet sich das zu untersuchende Fluid (Couette Strömung)
-• durch die Kraft F bewegt sich die obere Platte mit einer konstanten Geschwindigkeit U
-• aufgrund von Adhäsion haftet das Fluid an beiden Platten (d.h. die der bewegten Platte direkt
-benachbarten Fluidteilchen bewegen sich mit der Geschwindigkeit U, die der ruhenden Platte
-direkt benachbarten Fluidteilchen stehen still)
-• zwischen den Platten bildet sich eine Schichtenströmung mit linearem Verlauf der
-Strömungsgeschwindigkeit aus: u(y) = U ∙ y/h
-• experimentell lässt sich zeigen, dass die zur Bewegung der oberen Platte erforderliche Kraft F
-proportional zu A • U/h ist → F ~ A∙U/h
-• für die Schubspannung τ = F/A erhält man folglich: τ ~ U/h
-• für U/h kann im allgemeinen Fall auch du/dy gesetzt werden
-→ τ ~ du/dy
-• Proportionalitätsfaktor zwischen τ und du/dy hängt von der Natur der Flüssigkeit ab und wird mit
-μ...Zähigkeit / dynamische Viskosität bezeichnet (Beispiel: μ ist klein für Wasser oder Alkohol
-und groß für Öl oder Honig)
-→ somit erhält man für die laminare Schubspannung:
-bzw. für den allgemeinen Fall (v ≠ 0):
-dy
-du
-μτ xy 
-[5]
+Somit erhält man für die laminare Schubspannung
+
+$$
+\tau_{xy} = \mu \cdot \frac{du}{dy}
+$$
+
+bzw. für den allgemeinen Fall ($v \neq 0$):
+
+$$
+\tau_{xy} = \mu \cdot \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)
+$$
 
 ### Inkonsistenz in den Folien
 
