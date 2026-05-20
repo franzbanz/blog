@@ -63,11 +63,11 @@ $$
 
 - Frequenz des Laserlichts mit einer Wellenlänge von 500nm: $F_0 = 6\cdot10^{14}$ Hz
 - Lichtgeschwindigkeit $c$ ist eine Konstante
-- Der Winkel $\Theta_B$ ist durch den Versuchsaufbau vorgegeben
+- Der Winkel $\theta_B$ ist durch den Versuchsaufbau vorgegeben
 - Frequenzänderunge $\Delta f_E$ ist der Geschwindigkeitskomponente senkrecht zur Laserachse direkt proportional
 - Die Größenordnung der Frequenzänderung ist gegenüber der Frequenz des Laserlichts extrem klein
 - Um sie messbar zu machen, wendet man das Überlagerungsprinzip elektromagnetischer Wellen an
 
 $$
-v_{\perp} = f_D \frac{\lambda_0}{2 sin\frac{\Theta}{2}}
+v_{\perp} = f_D \frac{\lambda_0}{2 sin\frac{\theta}{2}}
 $$
