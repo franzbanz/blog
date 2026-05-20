@@ -18,7 +18,8 @@ Intensität $I$ des Streulichts eines sphärischen Teilchens als Funktion des Ra
 Miesche Theorie: Das Streulicht ist nach vorne am intensivsten, nach hinten am schwächsten\
 Empfänger muss im Versuch also richtig ausgerichtet sein, um das Streulicht messen zu können
 
-// Skizze von **Folie 6**
+![](/src/bilder/stroemungsmesstechnik_image_7.png)
+<figcaption>Miesche Theorie</figcaption>
 
 Es gibt auch LDV nach der Zweistrahlmethode in Rückstreuung (Siehe **Folie 7**), hier ist jedoch ein stärkerer Laser nötig
 
@@ -40,7 +41,8 @@ $$
 c = \frac{d}{2 sin(\frac{\theta}{2})}
 $$
 
-// Mitschrieb 1
+![](/src/bilder/stroemungsmesstechnik_image_6.png)
+<figcaption>Intensitätsverteilung des Laserstrahls entspricht einer Glockenkurve</figcaption>
 
 Interferenzstreifenmethode um die Teilchengeschwindigkeit herzuleiten liefert den gleichen Zusammenhang wie die Herleitung über den Dopplereffekt
 
