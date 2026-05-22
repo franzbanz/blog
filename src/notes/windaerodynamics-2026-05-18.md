@@ -92,3 +92,12 @@ $$
 
 ![](/src/bilder/windaerodynamics_image_1.png)
 <figcaption>Flow separation mechanisms in the boundary layer</figcaption>
+
+Trailing edge separation
+
+- Adverse pressure gradient starts downstream of the point of maximum thickness (or further upstream when increasing AoA)
+- Shallow flow separation starts from the TE, moght stay localized over AoA range depending on airfoil
+- With increasing AoA, separation moves forward towards the point of maximum thickness and recirculation becomes thicker
+- On thick airfoils, separation typically sets in already at relatively low angles of attack, particulatly in tripped / fully turbulent conditions
+
+Leading Edge separation
