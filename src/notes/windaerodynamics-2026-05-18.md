@@ -93,11 +93,62 @@ $$
 ![](/src/bilder/windaerodynamics_image_1.png)
 <figcaption>Flow separation mechanisms in the boundary layer</figcaption>
 
-Trailing edge separation
+### Trailing edge separation
 
-- Adverse pressure gradient starts downstream of the point of maximum thickness (or further upstream when increasing AoA)
+- Adverse pressure gradient starts downstream of the point of maximum thickness (or further upstream when increasing Angle of Attack or *AoA*)
 - Shallow flow separation starts from the TE, moght stay localized over AoA range depending on airfoil
 - With increasing AoA, separation moves forward towards the point of maximum thickness and recirculation becomes thicker
 - On thick airfoils, separation typically sets in already at relatively low angles of attack, particulatly in tripped / fully turbulent conditions
 
-Leading Edge separation
+### Leading Edge separation
+
+- Progressive upstream extension of TE separation, separation line jumps forwarf from the point of maximum thickness to the LE, the larger the LE thickness, the higher the AoA for LE separation
+- Thin airfoils have small LE radii - high streamline curvature at the LE
+- Wind turbine airfoils are typically more prone to negative LE stall - it can occur in standstill or in storm control operation
+
+### Stall cells
+
+- Non-uniform separation lines observed in wind tunnel experiments and simulations (Diagram on **Slide 4**)
+- Shape depends on: Airfoil shape, aspect ratio of the wing, reynolds number, AoA
+
+## Transition mechanisms on wind turbine blades
+
+Laminar Boundary layer (Diagram on **Slide 1**)
+
+- ordered flow in almost wall-parallel layers
+- almost no wall-normal momentum exchange
+- small wall shear stress
+- small drag
+
+Turbulent boundary layer (Diagram on **Slide 1**)
+
+- chaotic motion
+- eddies of different sizes and orientation
+- significant wall-normal momentum exchange
+- large wall shear stress
+- large drag
+
+Cross-flow in the inner blade region may lead to cross-flow transition\
+Quasi 2D flow in the outer blade:
+
+- *Natural transition* when the blades are clean (**Slide 2** onwards)
+- *Laminar separation bubbles* at low Reynolds numbers (**Slide 5** onwards)
+- *Bypass transition* in case of dirty or eroded blades (**Slide 7**)
+
+## Aerodynamic polars
+
+- Lift polar: $C_l$ vs $\alpha$
+  - zero lift angle, at which the airfoil creates no lift
+  - $C_{l, max}$ is the maximum lift before stall
+  - soft stall: separation moves gradually towards the LE when increasing the AoA
+  - hard stall: turbulent separation jumpes quickly to the LE then increasing the AoA
+- Drag polar: $C_d$ vs $\alpha$
+  - laminar drag bucket shows particularly small drag values, de to a significant portion of laminar flow
+  - at zero lift, drag is at a minimum, as pressure drag is at a minimum there
+  - outside the laminar bucket and in stalled regimes, pressure drag strongly increases
+  // Diagram on Slide 1
+- Moment polar: $C_m$ vs $\alpha$
+  - reference point is $c/4$
+  - negative $C_m$ value means airplane nose is pointing down
+  - in the linear regime, $C_m \propto \alpha$
+  - in stall, $C_m$ increases because more lift is generated in the rear of the airfoil
