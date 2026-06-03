@@ -2,7 +2,7 @@
 course: Windenergie 1
 type: Wind 2
 by: Po Wen Cheng
-date: 2025-04-24 # (YYYY-MM-DD)
+date: 2026-04-30 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: true
