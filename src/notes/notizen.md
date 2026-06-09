@@ -10,7 +10,9 @@ includesMath: false
 
 ## Noch zu tun
 
-- Vorlesung wind turbine aerodynamics
+- vorlesungen umweltaerdynamik nacharbeiten
+- windkanalversuch vorbereiten
+- windenergie 3 vorlesungen *TODO* nacharbeiten
 
 ## Windenergie Versuch
 
