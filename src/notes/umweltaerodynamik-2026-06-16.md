@@ -16,3 +16,7 @@ includesMath: true
 
 ## Umströmung von starren Strukturen unter dem Einfluss des mittleren Windes
 
+Ablösung der Grenzschicht nur bei positivem Druckgradienten (Wenn dieser zu groß wird)\
+Kennzeichnend sind Rückströmungen
+
+
