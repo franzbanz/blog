@@ -16,8 +16,8 @@ Einsetzen von Gleichung 1 und 2 liefert die Bestimmungsgleichung für die kritis
 
 $\delta$: *relative dicke*
 
-Gescherter Flügel: $\delta = const.$ (Bei Variation von $\Beta$)\
-Schiebender Flügel: $\delta_n = const.$ (Bei Variation von $\Beta$)
+Gescherter Flügel: $\delta = const.$ (Bei Variation von $\beta$)\
+Schiebender Flügel: $\delta_n = const.$ (Bei Variation von $\beta$)
 
 $\rightarrow$   $\delta$ ersetzen durch $\delta_n \cdot cos(\beta)$ 
 
