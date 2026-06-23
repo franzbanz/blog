@@ -20,7 +20,8 @@ includesMath: true
 
 ## Anwendung der Particle Image Velocimetry
 
-// skizze 1 Fehlereinflüsse durch das Messergebnis
+![](/src/bilder/stroemungsmesstechnik_image_10.png)
+<figcaption>Fehlereinflüsse durch das Messergebnis</figcaption>
 
 - Auffinden fehlerhafter Vektoren anhand geeigneter Kriterien
   - Signal-Rausch-Verhältnis
