@@ -17,6 +17,12 @@ includesMath: true
 - How can you reduce the loading on the rotor?
   - decrease induction factor
 - Explain Campbell Diagramm
+- Where can you find damping contributions in an offshore wind turbine?
+  - aerodynamic from the wind (mainly)
+  - hydrodynamic from the water
+  - seabed damping from the soil
+- The first natural frequency of a rotation blade is higher because
+  - of the centrifugal stiffening effect (because of the tension on the blade)
 
 ## Introduction
 
