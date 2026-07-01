@@ -15,7 +15,7 @@ includesMath: true
 - Aufnahme zweier kurz aufeinander golgender Partikelbilder
 - Korrelation der Bilder
 - Besitmmung des Geschwindigkeitsfeldes anhand der Partikelverschiebung von einem zum nächsten Bild
-- Lokaler Geschwindigkeitsvektor $\Overrightarrow{v} = \frac{\Delta s}{\Delta t}$
+- Lokaler Geschwindigkeitsvektor $\overrightarrow{v} = \frac{\Delta s}{\Delta t}$
 - Wird über cross correlation herausgefunden
 
 ## Anwendung der Particle Image Velocimetry

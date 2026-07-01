@@ -30,14 +30,31 @@ includesMath: true
 - should be simulated for all relevant loadcases
 - is needed for every system configuration
 
-beendet bei 47:12
+### Modal Analysis
+
+1. Model the wind turbine using geometrical and structural data
+2. Perform modal analysis with FE program
+3. Determine the eigenfrequencies and eigenmodes (eigen vectors)
+4. Eigen vectors and eigenfrequencies are used together with the turbine geometry and airfoil data etc. for the load simulation
+
+This allows the equation of motion to be decoupled
 
 ## Simulation Tools
 
-
+- full CFD-FEM FSI methods
+  - very good for understanding phenomena that cannot be easily captured with simple simulation tools
+  - for example: damping plates
+- state-of-the-art aeros-servo-hydro-elastic coupled analysis
+  - openFAST, which will be used in the excercise
+  - not very good at complex extreme phenomena, like for example a tornardo
+  - industry standards: Bladed, SIMPACK, Flex5
+- coupled / decoupled, reduced nonlinear coupled methods / frequency domain methods
+  - pre-design optimization
 
 ## Model Reduction Technique
 
 
 
 ## Simplified Blade Model
+
+bei 1:05:00 stehen geblieben
