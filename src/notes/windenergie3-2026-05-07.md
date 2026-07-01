@@ -22,6 +22,8 @@ includesMath: true
 - Where do you see an excitation problem for the system, mark it on the Campbell diagram.
   - (See slides of [**previous lecture**](https://franzkoehler.com/src/notes/windenergie3-2026-05-06/))
   - (See [here](https://lightningchart.com/blog/campbell-diagram-in-c-sharp/))
+- The transformation matrix in a modal reduction consists of
+  - eigenvectors
 
 ## Dynamic Simulation for Wind Turbines
 
@@ -51,10 +53,37 @@ This allows the equation of motion to be decoupled
 - coupled / decoupled, reduced nonlinear coupled methods / frequency domain methods
   - pre-design optimization
 
+Example: FAST
+
+- 6 degree of freedom in foundation
+- 3 in each rotor blade
+- 4 in tower
+- more in nacelle, rotor, generator and drive train
+- 24-28 degrees of freedom in total
+
 ## Model Reduction Technique
 
+*Can I reduce the number of degrees of freedom?*
 
+= capturing the vibrational behavior of structures with many degrees of freedom, if only first eigenfrequencies are of interest
+
+Goal: Transform matrix with relevant information from the initial equation
+
+How: **Modal Reduction** (Just one type of **Model** Reduction!)
+
+*Lets only take the first 10 eigenmodes into account*
+
+- In commonly used tools for the simulation of wind turbines, modal reduction is used to calculate the system dynamics
+- Initial consideration: Calculation of eigenmodes and frequencies of conservative systems relatively unproblematic
+- Determine conservative auxillary system with symmetric matrices for the calculation of natural frequencies and vectors $\varphi$ of the entire system
+- Use the first few eigenmodes
+
+Very fast dynamic simulations of wind turbines possible!
 
 ## Simplified Blade Model
 
-bei 1:05:00 stehen geblieben
+1. the blade is made of rigid bodies
+2. the hinge spring represents the flexibility of the blade
+3. the hinge is located at an offset position
+4. the degrees of freedom are uncoupled
+5. the aerodynamic forces are not considered here
