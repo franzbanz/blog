@@ -10,20 +10,19 @@ includesMath: false
 
 ## Noch zu tun
 
-- vorlesungen umweltaerdynamik nacharbeiten
-- windkanalversuch vorbereiten
-- windenergie 3 vorlesungen *TODO* nacharbeiten
-
-## Windenergie Versuch
-
-- Teilnahme ist Prüfungsvoraussetzung
-- Gruppenarbeit bis 6 Personen
-- Anmeldung möglich bis zum **31.05.2026**
-- Messdaten der jeweiligen Versuchsgruppen am **19.06.2026** hochladen
-- Ein Bericht je Gruppe
-- Endabgabe am **05.07.2026**
-- Versuch findet im IAG, **Pfaffenwaldring 21** statt
-- Keine Benotung
+- [ ] umweltaero 23. juni
+- [ ] flugzeugaero 11. juni
+- [ ] messtechnik 24. juni
+- [ ] messtechnik 17. juni
+- [ ] messtechnik teil 8 nacharbeiten
+- [ ] digitaler produktentwurf 18. juni
+- [ ] digitaler produktentwurf 7. mai
+- [ ] digitaler produktentwurf 23. april
+- [x] windenergie 3 dynamics 2 vorlesung
+- [ ] windenergie 3 fatigue 2 vorlesung
+- [ ] windenergie 3 offshore 1 vorlesung
+- [ ] windenergie 3 offshore 2 vorlesung
+- [ ] windenergie 3 validation vorlesung
 
 ### Hintergrund Böenwindkanal
 
