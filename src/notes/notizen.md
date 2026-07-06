@@ -19,8 +19,8 @@ includesMath: false
 - [ ] digitaler produktentwurf 7. mai
 - [ ] digitaler produktentwurf 23. april
 - [x] windenergie 3 dynamics 2 vorlesung
-- [ ] windenergie 3 fatigue 2 vorlesung
-- [ ] windenergie 3 offshore 1 vorlesung
+- [x] windenergie 3 fatigue 2 vorlesung
+- [x] windenergie 3 offshore 1 vorlesung
 - [ ] windenergie 3 offshore 2 vorlesung
 - [ ] windenergie 3 validation vorlesung
 
