@@ -37,8 +37,33 @@ See **Slide 13**
 - Added mass can be formulated as an additional term in the mass matrrix, which is considered in both rigid and flexible structures
 - Application in different cases on **Slide 16**
 
-This lecture is not complete: [Hydrodynamics Part E](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilobjplugindispatchgui&cmdNode=pe:p7&cmdClass=ilobjopencastgui&cmd=showEpisode&ref_id=4447186&id=3ade88fb-6469-4204-bd9d-74ec5046fd61/7603474d-0274-4f55-b889-2f917e7ec7eb) still missing
-
 ## Hydrodynamic Loads on Larger Structures
 
+Methods of achieving stability
+
+- Hydrostatic forces
+  - Semi-Sub (Floating Jacket)
+- Ballast (mass)
+  - Spar
+- Tension moorings
+  - Tension Leg Platform TLP - has the least motion (very good)
+
+Typically, a combination of these three will be used with one being most dominant
+
+Hydrodynamic loads on larger substructures can not be ignored (Diffraction starts playing a role)
+
+- Wave excitation forces: the platform is restrained from oscillating and there are waves: Froude-Kriloff force + diffraction force
+- Radiation forces: assume still water, platform is forced to oscillate with wave excitation rfequencies: added mass + radiation damping
+
 ## Dynamics of Floating Offshore Wind Turbines
+
+- Rotational degrees of freedom are
+  - Pitch (tower fore aft movement) (critical)
+  - Roll
+  - Yaw (critical)
+- Translational degrees of freedom are
+  - Surge (in direction of waves) (critical)
+  - Sway (along the wavefronts)
+  - Heave (upwards along the structure)
+
+Non-linear viscous forces are important for slim structures / elements (e.g. tripod, jacket) and for extreme waves especially in shallow waters. For larger structures / elements (e.g. monopiles) or small waves, linear inertia forces dominate
