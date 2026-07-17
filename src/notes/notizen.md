@@ -21,10 +21,10 @@ includesMath: false
 - [x] windenergie 3 dynamics 2 vorlesung
 - [x] windenergie 3 fatigue 2 vorlesung
 - [x] windenergie 3 offshore 1 vorlesung
-- [ ] windenergie 3 offshore 2 vorlesung
-- [ ] windenergie 3 validation vorlesung
+- [x] windenergie 3 offshore 2 vorlesung
+- [x] windenergie 3 validation vorlesung
 
-### Hintergrund Böenwindkanal
+## Böenwindkanal
 
 - Maximalgeschwindigkeit 17 m/s
 - Laufraddurchmesser 5,6 m
@@ -51,3 +51,17 @@ includesMath: false
 ### Protokoll
 
 Siehe restliche Folien im [Ilias Kurs](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=xi:na&cmdClass=ilobjfoldergui&ref_id=4518628&item_ref_id=0)
+
+
+## Digitaler Produktentwurf Klausurinfos
+
+- V31.01
+- 28.07.26 von 9:00 bis 10:00 Uhr
+
+- Es gibt single Choice, drei Antwortmöglichkeiten, eine richtige
+- Reihenfolge der Aufgaben zufällig auf jeder Klausur
+- *Wie füge ich in der Regel 1 die Platform F1 an das Fahrzeug an?*
+- Drei Beispielaufgaben auf Foto:
+  - Antwort **1**
+  - Antwort **1**
+  - Antwort **3**
