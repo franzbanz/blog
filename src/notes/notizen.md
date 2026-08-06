@@ -16,11 +16,9 @@ includesMath: false
 - [ ] messtechnik 17. juni
 - [ ] messtechnik teil 8 nacharbeiten
 - [ ] aerodynamics and acoustics ab blade add-ons
-- [x] windenergie 3 dynamics 2 vorlesung
-- [x] windenergie 3 fatigue 2 vorlesung
-- [x] windenergie 3 offshore 1 vorlesung
-- [x] windenergie 3 offshore 2 vorlesung
-- [x] windenergie 3 validation vorlesung
+- [ ] windenergie 3 Fragen - Rotor Aerodynamics 2
+- [ ] windenergie 3 Fragen - Rotor Aerodynamics 1
+- [ ] windenergie 3 Fragen - Wind modeling
 
 ## Böenwindkanal
 
