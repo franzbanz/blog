@@ -15,9 +15,7 @@ includesMath: false
 - [ ] messtechnik 24. juni
 - [ ] messtechnik 17. juni
 - [ ] messtechnik teil 8 nacharbeiten
-- [ ] digitaler produktentwurf 18. juni
-- [ ] digitaler produktentwurf 7. mai
-- [ ] digitaler produktentwurf 23. april
+- [ ] aerodynamics and acoustics ab blade add-ons
 - [x] windenergie 3 dynamics 2 vorlesung
 - [x] windenergie 3 fatigue 2 vorlesung
 - [x] windenergie 3 offshore 1 vorlesung

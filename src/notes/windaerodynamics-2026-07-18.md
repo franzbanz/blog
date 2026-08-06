@@ -25,6 +25,8 @@ Further requirements (not aerodynamic)
 - Not everything that is aerodynamically good can be produced at reasonable cost
   - Simplification of geometry while maintaining aero-performance
 
+### Airfoild across the blade length
+
 Airfoils in the **inner blade** region are dominated by structural properties - high rel. thickness, drag is aerodynamically less important than lift\
 **Flatback** airfoils can reduce the risk of flow separation: At the base of the trailing edge a negative pressure remains, less adverse pressure gradient needed from the point of maximum thickness to the trailing edge. The remaining negative pressure at the trailing edge is recovered in the airfoils wake
 
@@ -50,3 +52,7 @@ Reynolds number decreases to about 3 to 5 m at the **outer blade region**
 - Maximum lift less important
 - High aerodynamic efficiency very important
 - Minimum sensitivity against surface pollution
+
+## Blade add-ons
+
+y
