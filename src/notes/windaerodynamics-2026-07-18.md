@@ -55,4 +55,14 @@ Reynolds number decreases to about 3 to 5 m at the **outer blade region**
 
 ## Blade add-ons
 
-y
+| Add-On | Where | Why |
+|--------|-------|-----|
+| Boundary layer fence | Inboard | Prevent root-prone separation pockets from contaminating outer regions of the blade |
+| Gurney flap | Root region, extension of the trailing edge towards pressure side | Augment sectional lift by increasing effective airfoil camber |
+| Spoilers | Inboard, pressure side, 50%-70% chord | Increase lift and torque contribution from inboard blade section |
+| Trailing edge serrations | 70%-100% of rotor radius, extension of trailing edge | Attenuate trailing edge noise, outward motion towards serration edge, inward motion towards serration root - trailing vortices induce more drag, increase lift |
+| Vortex Generators | Inner thrird of the rotor | Prevent airfoil flow separation, reduce unsteady loads and increase AEP, higher velocities near the airfoil, lower velocities higher up |
+| Winglets | Outboard (tip) | Reduce tip vortex induced drag and increase energy output by potentially 1%-2% |
+
+![](/src/bilder/windaerodynamics_image_2.png)
+<figcaption>Airfoil with and without spoiler</figcaption>
