@@ -1,6 +1,6 @@
 ---
 course: Wind Turbine Aerodynamics
-type: Lecture
+type: 3 - Blade Add-ons
 by: Pascal Weihing
 date: 2026-07-18 # (YYYY-MM-DD)
 tags: notes

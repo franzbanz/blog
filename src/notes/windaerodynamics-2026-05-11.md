@@ -1,6 +1,6 @@
 ---
 course: Wind Turbine Aerodynamics
-type: Lecture
+type: 1 - Introduction
 by: Galih Bangga
 date: 2026-05-11 # (YYYY-MM-DD)
 tags: notes

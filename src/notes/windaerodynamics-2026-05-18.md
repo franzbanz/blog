@@ -1,6 +1,6 @@
 ---
 course: Wind Turbine Aerodynamics
-type: Lecture
+type: 2 - Airfoil Aerodynamics
 by: Pascal Weihing
 date: 2026-05-18 # (YYYY-MM-DD)
 tags: notes
