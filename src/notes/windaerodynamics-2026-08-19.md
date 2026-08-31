@@ -131,7 +131,16 @@ $$
     - due to flow around the tiüs, induction factor is nonconstant over the rotor plane
     - prandtl tip loss factor: ratio between local axial induction factor at the blade and azimuthally averaged axial induction
 
-## Actuator Line Method
+## Actuator Line Method (state of the art for near and far wake)
+
++ almost no effort in creating the meshes
++ saves grid points compared to blade resolved somulations
++ faster convergence compared to geometrically resolved approach
++ saving for computational time
+- dependency on forces on (2D) airfoil polars
+- unsteady aerodynamic effects are naturally not taken into account
+- additional modeling of tower and nacelle needed
+- force projection via smearing kernel introduces uncertainties
 
 Rather than representing the whole rotor, effect of the blades on the flow is modeled by a momentum source term $_v$ that is injected along a rotating line. The calculation steps are:
 
