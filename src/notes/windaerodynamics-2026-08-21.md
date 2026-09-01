@@ -1,7 +1,7 @@
 ---
 course: Wind Turbine Aerodynamics
 type: 8 - Noise Emission 1
-by: Pascal Weihing
+by: Cordula Hornung
 date: 2026-08-21 # (YYYY-MM-DD)
 tags: notes
 layout: note
