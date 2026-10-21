@@ -5,7 +5,7 @@ by: Sebastian Spring
 date: 2026-10-14 # (YYYY-MM-DD)
 tags: notes
 layout: note
-includesMath: false
+includesMath: true
 ---
 
 ## Course Organisation
