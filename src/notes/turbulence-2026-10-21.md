@@ -10,7 +10,7 @@ includesMath: true
 
 ### Kolmogorov's hypotheses
 
-argumentation for why turbulence models are needed: complete resolving at kolmogorov scales (smallest scales of turbulence) is extremly expensive (can be calculated using rule of thumb equation found on **slide ??**)
+argumentation for why turbulence models are needed: complete resolving at kolmogorov scales (smallest scales of turbulence) is extremly expensive (can be calculated using rule of thumb equation found on **L2 slide ??**)
 
 Local Isotropy: At sufficiently high $Re$, ther small-scale motions $\ell << L$ are statiistically isotropic\
 First similarity hypothesis: The statistics of the small scales are uniquely determined by $\nu$ and $\varepsilon$\

@@ -37,7 +37,7 @@ Some kind of teamwork required - not clear yet
 
 ## The Energy Cascade
 
-**\\ skizze folie 25**\
+**\\ skizze L1 slide 25**\
 energy transfer to smaller scales at rate $\varepsilon$\
 viscosity is determining the size of the smallest structures $\ell$ inside the turbulence\
 direct numerical simulation: no model: cover the full lifespan of the eddies (grid needs to be smaller than smallest structure) - very very expensive computationally
