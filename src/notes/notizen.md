@@ -2,62 +2,63 @@
 course: Organisation
 type: Notizen
 by: Franzo Banzo
-date: 2026-05-22 # (YYYY-MM-DD)
+date: 2026-10-28 # (YYYY-MM-DD)
 tags: notes
 layout: note
 includesMath: false
 ---
 
-## Noch zu tun
+## Aircraft Design
 
-- [ ] umweltaero 23. juni
-- [ ] flugzeugaero 11. juni
-- [ ] messtechnik 24. juni
-- [ ] messtechnik 17. juni
-- [ ] messtechnik teil 8 nacharbeiten
-- [ ] aerodynamics and acoustics ab blade add-ons
-- [ ] windenergie 3 Fragen - Rotor Aerodynamics 2
-- [ ] windenergie 3 Fragen - Rotor Aerodynamics 1
-- [ ] windenergie 3 Fragen - Wind modeling
+- Two engine Aircraft
+- Batteries under the wings (as counter weight to upwards bendingA)
+- Keep it as close as possible to the reference
+- turboprop for better efficiency
+- Fuselage mounted tail
 
-## Böenwindkanal
+Weekly meeting monday second block (short)
+Another weekly meeting on wednesday 13:00 (potentially longer)
 
-- Maximalgeschwindigkeit 17 m/s
-- Laufraddurchmesser 5,6 m
-- Gesamtlänge 21,1 m
+### what to do
 
-### Versuchsaufbau
+- literature and research: engines, batteries, current technologies (Phillip)
+- mass estimation: find calibration values (Max, Franz)
+- fuselage sizing / shape, 2/3 seats, space for luggage and batteries (Aurora)
+- (aircraft configuration) (Everyone kinda)
+- sizing diagram (Franz)
 
-- Genaue Infos im Skript auf Ilias
-- Kleinerer **Test**, also vorher lernen
-- Ziel: Dimensionslose Kennzahlen $c_p, c_m$ bestimmen
-
-### Auwertung
-
-1. Datenimport (Keine Vorgabe, Python empfohlen)
-2. Darstellung der Messwerte
-3. Auswahl des relevanten Zeitbereichs
-4. Sonnvolle Mittelung (Keine Vorgabe, aber sinnvoll wählen)
-5. Berechnung der Winkelbeschleunigung
-6. Darstellung der Werte für unterschiedliche Intervalle
-7. Durchführung weiterer Berechnungsschritte
-8. Interpretation der Ergebnisse
-9. Nachvollziehbare Dokumentation von Durchführung, Ausewertung und Interpretation
-
-### Protokoll
-
-Siehe restliche Folien im [Ilias Kurs](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=xi:na&cmdClass=ilobjfoldergui&ref_id=4518628&item_ref_id=0)
+### next meeting
 
 
-## Digitaler Produktentwurf Klausurinfos
+- present engine / battery research
+  - engine power
+  - engine mass
+  - battery energy density (cell / packs)
+- present sizing diagram code
+- design requirements document
+- upload any findings
 
-- V31.01
-- 28.07.26 von 9:00 bis 10:00 Uhr
+### Masters Thesis at SWE
 
-- Es gibt single Choice, drei Antwortmöglichkeiten, eine richtige
-- Reihenfolge der Aufgaben zufällig auf jeder Klausur
-- *Wie füge ich in der Regel 1 die Platform F1 an das Fahrzeug an?*
-- Drei Beispielaufgaben auf Foto:
-  - Antwort **1**
-  - Antwort **1**
-  - Antwort **3**
+- floating wind aerodynamics
+- prooject focuses on mooring lines
+- chances for publication in journals
+- reduce wake interaction by moving the floating wind turbines in the park by dynamically changing the length of the mooring lines
+- problem: loads on mooring lines could be too high with optimal layout - so it needs to be taken into account
+- fatigue loads need many cases (10^6 simulations)
+- solution: train surrogate model on previous simulations to get approximations fast inside optimization loop
+- data set is needed (already done)
+
+scope for master's thesis:
+
+- approx errors largest when mooring lines change length / position
+- develop a GNN to help the model learn faster
+- integrate surrogate model into layout optimization routine - reach final step of project
+- two options: take something opensource or do something from the institute or on your own
+- second idea start in march
+- first idea start in january (latest)
+
+timeline, exprectations
+IEA task 49 (international agency) 
+
+no hiwi funding
